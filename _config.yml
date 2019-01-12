@@ -1,0 +1,44 @@
+# Site settings
+# variables accessed via {{ site.title }}, {{ site.email }}, and so on.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://mbmosman.github.io"
+title:   Mary Mosman
+tagline: Software Engineer & Instructor
+description: >- # this means to ignore newlines until "baseurl:"
+  I’ve worked as developer since the 90's, but teaching programming & web development
+  to others has become what I'm passionate about. I’ve taught people of all ages through 
+  formal college classes, corporate training, and less formal gatherings & meet-ups.  
+  Outside of tech, I have a love of languages and maps. While I long to travel more of 
+  the real world some day, I currently spend more time journeying through imaginary 
+  locations from books, games, and anime. My current project is the creation of my own 
+  imaginary world of Atmina.
+
+# Social
+twitter_username: mbmosman
+github_username:  mbmosman
+linkedin: mary-mosman
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# This will require each of these plugins automatically.
+plugins:
+  - jekyll-feed  
+  - jekyll-gist
+  - jekyll-paginate
+
+# Permalinks
+permalink: pretty
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
