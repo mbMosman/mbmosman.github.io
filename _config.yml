@@ -1,9 +1,11 @@
 # Site settings
-# variables accessed via {{ site.title }}, {{ site.email }}, and so on.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mbmosman.github.io"
-title:   Mary Mosman
-tagline: Software Engineer & Instructor
+permalink: pretty
+baseurl:   "" # the subpath of your site, e.g. /blog
+url:       "http://mbmosman.github.io"
+
+
+title:     Mary Mosman
+tagline:   Software Engineer & Instructor
 description: >- # this means to ignore newlines until "baseurl:"
   I’ve worked as developer since the 90's, but teaching programming & web development
   to others has become what I'm passionate about. I’ve taught people of all ages through 
@@ -21,6 +23,8 @@ linkedin: mary-mosman
 # Build settings
 markdown: kramdown
 theme: minima
+paginate_path: "/blog/page:num/"
+paginate: 1
 
 # This will require each of these plugins automatically.
 plugins:
@@ -28,17 +32,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
 
-# Permalinks
-permalink: pretty
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+
+

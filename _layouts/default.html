@@ -4,17 +4,7 @@
   {% include head.html %}
 
   <body>
-    <div class="page-header">
-      <header>
-        <h3 class="masthead-title">
-          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-          <small>{{ site.tagline }}</small>
-        </h3>
-      </header>
-      <nav>
-        {% include nav.html %}
-      </nav>
-    </div>
+    {% include header.html %}
 
     <main>
       {{ content }}

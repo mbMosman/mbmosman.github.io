@@ -1,0 +1,23 @@
+<div class="header-container">
+  <header>
+    <h1 class="site-title">
+    {% if page.title == "Home" %}
+      {{ site.title }} 
+    {% else %}
+      <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+    {% endif %}
+      <small>{{ site.tagline }}</small>
+    </h1>
+  </header>
+
+  {% if page.title != "Home" %}
+  <nav>
+    <ul>
+      <li>Blog</li>
+      <li>Books</li>
+      <li>Watching</li>
+      <li>World Building</li>
+    </ul>
+  </nav>
+  {% endif %}
+</div>

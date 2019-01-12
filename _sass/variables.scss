@@ -1,0 +1,35 @@
+$onyx: #3e323c;
+$bold-pink:  #E53972;
+$medium-pink: #DC7F9B;
+$rosy-brown: #ba8f95;
+$rocket-metallic: #897c80;
+$spanish-grey: #9E9397;
+$light: #D7D6D9;
+$dark: #1D171C;
+
+$root-font-family: 'Open Sans', Arial, sans-serif;
+$heading-font-family: 'Arima Madurai', cursive;
+$code-font-family: 'Roboto Mono', Menlo, Monaco, "Courier New", monospace;
+$jp-font-family: 'Noto Serif JP', serif;
+
+$root-font-size: 16px;
+$root-line-height: 1.5;
+
+$body-bg: $onyx;
+$body-font: $light;
+$alt-font: $dark;
+$heading: $medium-pink;
+$heading-faded: adjust-color( $heading, $saturation: -35% );
+
+$table-bg: $rocket-metallic;
+$table-head: adjust-color( $medium-pink, $saturation: -20% );
+$table-foot: adjust-color( $table-bg, $lightness: 10% );
+$table-font: $dark;
+$table-border: adjust-color( $table-bg, $lightness: -15% );
+
+$link-color: $medium-pink;
+
+$code-bg: $rocket-metallic;
+$code-color: $light;
+
+$highlight-bg: $spanish-grey;

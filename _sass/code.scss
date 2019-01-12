@@ -1,0 +1,86 @@
+table.rouge-table {
+  width: 100%;
+  font-size: 100%;
+  border: none;
+  margin-bottom: 0;
+}
+
+.rouge-table tbody tr {
+  border: none;
+}
+
+code,
+pre {
+  font-family: $code-font-family;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+code {
+  font-size: 85%;
+  color: $code-color;
+  border-radius: 3px;
+}
+
+.highlight pre {
+  margin: 0;
+}
+
+figure.highlight {
+  padding: .5rem;
+  border-radius: 5px;
+}
+
+
+// Gist via GitHub Pages
+figure, .gist {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+.gist {
+  color: #bfbfbf !important;
+  border-radius: 5px !important;
+}
+
+.gist .gist-file {
+  font-family: $code-font-family !important;
+  border: none !important;
+  border-radius: 5px !important;
+}
+
+.gist .markdown-body {
+  padding: 15px;
+}
+
+.gist pre {
+  padding: 0;
+}
+
+.gist .markdown-body .highlight pre, .gist .markdown-body pre {
+  background-color: #000 !important;
+}
+
+.gist .gist-file .gist-data {
+  background-color: #000;
+  font-size: .8rem !important;
+  line-height: 1.4;
+  border: none !important;
+  border-radius: 5px 5px 0 0 !important;
+}
+
+.gist code {
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.gist .gist-meta{
+  background-color: adjust-color( #000, $lightness: 10% ) !important;
+  color: inherit;
+  border-radius: 0 0 5px 5px !important;
+}
