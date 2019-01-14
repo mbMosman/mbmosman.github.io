@@ -9,7 +9,7 @@
 
 .post-title,
 .post-title a {
-  color: $heading;
+  color: $heading-color;
 }
 .page-title,
 .post-title {
@@ -68,18 +68,35 @@
 
 }
 
-// Pagination items can be `span`s or `a`s
+// Pagination items
 .pagination-item {
   display: inline-block;
   margin: 0 1rem;
   padding: .5rem;
-  color: $link-color;
+  color: $pink-grey;
   border-width: 1px 0;
   border-radius: 5px;
+
+  svg {
+    fill: $pink-grey;
+  }
 }
 
-// Only provide a hover state for linked pagination items
-a.pagination-item:hover {
-  background-color: $light;
+// Re-color & provide a hover state for linked pagination items
+a.pagination-item{
+  color: $link-color;
+
+  svg {
+    fill: $link-color;
+    transition: fill .2s linear;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  
+    svg {
+      fill: lighten($link-color, 10%);
+    }
+  }
 }
 

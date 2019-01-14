@@ -1,0 +1,95 @@
+---
+title: Home
+layout: page
+---
+
+
+
+<section id="about">
+  <figure class="text-center">
+    <img class="round" src="{% asset 'about.jpg' @path %}" alt="Mary Mosman" />
+    <figcaption>
+      <strong>Mary Mosman</strong>
+    </figcaption>
+  </figure>
+  <p class="text-center">
+    I'm a Software Engineer & Instructor, currently teaching at 
+    <a href="http://primeacademy.io">Prime Digital Academy</a> in 
+    Minneapolis, MN. Over the years, I’ve worked as a web developer at many companies 
+    throughout the Twin Cities, but teaching programming & web development to others 
+    is what I'm passionate about. I’ve taught people of all ages through formal college 
+    classes, corporate training, and less formal gatherings & meet-ups. 
+  </p>
+  <p class="text-center">Outside of tech, I have a love of languages and maps. While I 
+  long to travel the real world some day, for now I’m more likely to be journeying through 
+  imaginary places from books, games, and anime. I've also started working on building a 
+  world of my own which is called Atmina.
+  </p>
+</section>
+<section>
+  <h2>Learn More</h2>
+  <ul class="page-list">
+    <li class="page-list-item">
+      <a href="{{ 'blog' | relative_url }}" title="My Blog">
+        <h3>
+            {% include svg-icon.html icon="pencil" %}
+            My Blog 
+            {% include svg-icon.html icon="arrow-right" %}
+          </h3>
+      </a>
+      <p>Curious what I've been up to? Check out my blog!</p>
+    </li>
+    
+    <li class="page-list-item">
+      <a href="{{ 'books' | relative_url }}" title="Reading">
+        <h3>
+          {% include svg-icon.html icon="books" %}
+          Books 
+          {% include svg-icon.html icon="arrow-right" %}
+        </h3>
+        <p>
+          My goal is to read 100 books this year. Wonder what I'm reading? Check out my book list.
+        </p>
+      </a>
+    </li>
+      
+    <li class="page-list-item">
+      <a href="{{ 'watching' | relative_url }}" title="Reading">
+        <h3>
+            {% include svg-icon.html icon="video-camera" %}
+            Watch List 
+            {% include svg-icon.html icon="arrow-right" %}
+          </h3>
+        <p>
+          Generally speaking, it's going to be anime, though I do sometimes watch other things.  
+        </p>
+      </a>
+    </li>
+
+    <li class="page-list-item">
+        <a href="{{ 'watching' | relative_url }}" title="Reading">
+          <h3>
+              {% include svg-icon.html icon="dice" %}
+              Games
+              {% include svg-icon.html icon="arrow-right" %}
+            </h3>
+          <p>
+            Stuff about games that I am currently playing or have previously played. 
+          </p>
+        </a>
+      </li>
+
+      <li class="page-list-item">
+          <a href="{{ 'watching' | relative_url }}" title="Reading">
+            <h3>
+                {% include svg-icon.html icon="leaf" %}
+                World Building 
+                {% include svg-icon.html icon="arrow-right" %}
+              </h3>
+            <p>
+              Tag along on my world building adventure!  
+            </p>
+          </a>
+        </li>
+  </ul>
+</section>

@@ -11,7 +11,8 @@
     </title>
   
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Simonetta:regular,italic,black|Noto+Serif+JP|Open+Sans|Roboto+Mono" rel="stylesheet">
-    <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
-    <link rel="alternate" type="application/xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml">
+    {% asset style.css %}
+    <link href="{{ site.baseurl }}/feed.xml" type="application/rss+xml" rel="alternate" title="{{ site.name }} RSS Feed" />
+
   </head>
   

@@ -1,0 +1,64 @@
+{% if include.style == 'link' %}
+<div>
+  {% if include.book.status contains 'current' and include.book.goodreads %}
+  <a href="{{ include.book.goodreads }}" title="{{include.book.title}}" class="book-container" target="_blank">
+  {% else %}
+  <a href="{{ include.book.url }}" title="{{include.book.title}}" class="book-container">
+  {% endif %}
+    <div class="book-image small">{% if include.book.img %}<img src="{{include.book.img}}" alt="book cover" />{% endif %}</div>
+    <div class="book-info">
+      <h3>
+        {{ include.book.title }}
+        <small class="author">by {{ include.book.author.first }}&nbsp;{{ include.book.author.middle }}&nbsp{{ include.book.author.last }}</small>
+        {% include svg-icon.html icon="arrow-right" %}
+      </h3>
+      {% if include.book.series %}
+      <p class="series">
+        {{ include.book.series.name }}
+        {% if include.book.series.number %} #{{ include.book.series.number }}{% endif %}
+      </p>
+      {% endif %}
+      {% if include.book.read %}
+      <p class="status">    
+        {% assign last_read = include.book.read.first %}  
+        {% if last_read.start and last_read.end and last_read.start != last_read.end %}
+          Last read {{ last_read.start | date: "%B %e, %Y" }} to {{ last_read.end | date: "%B %e, %Y" }}.
+        {% elsif last_read.end %}
+          Last read on {{ last_read.end | date: "%B %e, %Y" }}.
+        {% else %}
+          Started on {{ last_read.start | date: "%B %e, %Y" }}.
+        {% endif %}
+      </p>
+      {% endif %}
+    </div>
+  </a>
+</div>
+{% else %}
+<div class="book-container">
+  <div class="book-image small">{% if include.book.img %}<img src="{{include.book.img}}" alt="book cover" />{% endif %}</div>
+  <div class="book-info">
+    <h3>
+      {{ include.book.title }}
+      <small class="author">by {{ include.book.author.first }}&nbsp;{{ include.book.author.middle }}&nbsp{{ include.book.author.last }}</small>
+    </h3>
+    {% if include.book.series %}
+    <p class="series">
+      {{ include.book.series.name }}
+      {% if include.book.series.number %} #{{ include.book.series.number }}{% endif %}
+    </p>
+    {% endif %}
+    {% if include.book.published %}
+    <p class="published">
+      Published: {{ include.book.published  | date: "%B %e, %Y" }}
+    </p>
+    {% endif %}
+    {% if include.book.goodreads %}
+    <p class="goodreads">
+      <a href="{{ include.book.goodreads }}" title="{{include.book.title}}" class="book-container" target="_blank">
+        View on Goodreads
+      </a>
+    </p>
+    {% endif %}  
+  </div>  
+</div>
+{% endif %}

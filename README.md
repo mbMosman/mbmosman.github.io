@@ -2,7 +2,7 @@
 
 This site is built using [Jekyll](http://jekyllrb.com).
 
-CSS Color Palette: https://coolors.co/3e323c-e4959e-b18d92-897c80-d7d6d9
+CSS Color Palette: https://coolors.co/3e323c-e53972-4ec9cc-e4959e-c6acaf
 
 ## Run local
 

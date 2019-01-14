@@ -1,0 +1,54 @@
+---
+title: Books
+layout: page
+---
+
+
+<section>
+  <h2>Current Reads</h2>
+
+  {% assign booklist = site.book | where_exp: 'item', "item.status contains 'current'"  %}
+  <ul class="book-list">
+  {% for item in booklist %}
+    <li class="book-list-item">
+      {% include book-info.html book=item style='link' %}
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+
+
+<section>
+  
+  <h2>Recent Reads</h2>
+
+  {% assign booklist = site.book | where: 'status', 'read' | sort: 'last_read' | reverse %}
+  <ul class="book-list">
+  {% for item in booklist  limit: 5 %}
+    <li class="book-list-item">
+      {% include book-info.html book=item style='link' %}
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+
+<section>
+    <h2>More...</h2>
+  
+    <nav class="books-nav">
+      <ul>
+        <li>
+          <a href="{% link books/byTitle.html %}">Books by Title</a>
+        </li>
+        <li>
+          <a href="{% link books/byAuthor.html %}">Books by Author</a>
+        </li>
+        <li>
+          <a href="{% link books/2019.html %}">2019</a>
+        </li>
+        <li>
+          <a href="{% link books/2018.html %}">2018</a>
+        </li>
+      </ul>
+    </nav>
+  </section>

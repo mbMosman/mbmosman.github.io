@@ -13,10 +13,21 @@
   {% if page.title != "Home" %}
   <nav>
     <ul>
-      <li>Blog</li>
-      <li>Books</li>
-      <li>Watching</li>
-      <li>World Building</li>
+      <li>
+        <a href="{{base_url}}\blog">{% include svg-icon.html icon="pencil" %} Blog</a>
+      </li>
+      <li>
+        <a href="{{base_url}}\books">{% include svg-icon.html icon="books" %} Books</a>
+      </li>
+      <li>
+        <a href="{{base_url}}\watch">{% include svg-icon.html icon="video-camera" %} Watch List</a>
+      </li>
+      <li>
+        <a href="{{base_url}}\games">{% include svg-icon.html icon="dice" %} Games</a>
+      </li>
+      <li>
+        <a href="{{base_url}}\atmina">{% include svg-icon.html icon="leaf" %} World Building</a>
+      </li>
     </ul>
   </nav>
   {% endif %}

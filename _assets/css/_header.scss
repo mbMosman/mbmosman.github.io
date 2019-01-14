@@ -1,0 +1,58 @@
+$header-base-color:  $bold-pink;
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid $dark;
+}
+
+h1.site-title {
+
+  color:$bold-pink;
+  font-size: $root-font-size * 2;
+
+  @media all and (max-width: 520px) {
+    font-size: $root-font-size * 1.5
+  }
+  
+
+  a {
+    color:$bold-pink;
+  }
+  font-family: 'Simonetta', cursive;
+  margin-top: 0;
+  
+  small {
+    color: adjust-color( $header-base-color, $saturation: -60% );
+    font-size: $root-font-size * 1.2;
+    font-style: italic;
+
+    @media all and (max-width: 520px) {
+      display: block;
+      font-size: $root-font-size
+    }
+  }
+}
+
+nav {
+  text-align: right;
+  li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: .5rem;
+  }
+
+  a { 
+    svg {
+      margin: -2px 4px 0 4px;
+      fill: $light;
+      transition: fill .2s linear;
+    }
+
+    &:hover svg {
+      fill: $link-color;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+---
+title: 2018 Reads
+layout: page
+---
+
+{% assign booklist = "" | split: "" %}
+
+{% for book in site.book %}
+  {% for date in book.read %}
+    {% assign end_year = date.end | date: "%Y" %}
+    {% if end_year == '2018' %}
+      {% assign booklist = booklist | push:book %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% assign sortedBooks = booklist | sort:"title" %}
+
+<section>
+  <ul class="book-list">
+  {% for item in sortedBooks %}
+    <li class="book-list-item">
+        <div class="book-container">
+            <div class="book-image small">{% if include.book.img %}<img src="{{include.book.img}}" alt="book cover" />{% endif %}</div>
+            <div class="book-info">
+              <h3>
+                {{ include.book.title }}
+                <small class="author">by {{ include.book.author.first }}&nbsp;{{ include.book.author.middle }}&nbsp{{ include.book.author.last }}</small>
+              </h3>
+              {% if include.book.published %}
+              <div class="published">
+                Published: {{ include.book.published  | date: "%B %e, %Y" }}
+              </div>
+              {% endif %}
+              {% if include.book.goodreads %}
+              <p>
+                <a href="{{ include.book.goodreads }}" title="{{include.book.title}}" class="book-container" target="_blank">
+                  View on Goodreads
+                </a>
+              </p>
+              {% endif %}  
+            </div>  
+          </div>
+    </li>
+  {% endfor %}
+  </ul>
+</section>

@@ -1,0 +1,17 @@
+---
+title: Books
+layout: page
+---
+
+<section>
+  <h2>All Books by Title</h2>
+
+  {% assign booklist = site.book | sort: 'title' %}
+  <ul class="book-list">
+  {% for item in booklist %}
+    <li class="book-list-item">
+      {% include book-info.html book=item style='link' %}
+    </li>
+  {% endfor %}
+  </ul>
+</section>

@@ -1,5 +1,5 @@
 /*! Dim2; http://bytefluent.com/devify/ */
-.highlight, .highlight pre, .highlight table { background: #000000 !important; color: #bfbfbf !important; }
+.highlight, .highlight pre, .highlight table { background: $code-bg !important; color: $code-font !important; }
 .highlight .hll { background-color: #ffffcc !important; }
 .highlight .c { color: #6ca6cd !important; } /* Comment */
 .highlight .err { color: #bfbfbf !important; } /* Error */

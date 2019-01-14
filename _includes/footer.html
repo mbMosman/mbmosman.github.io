@@ -1,6 +1,73 @@
-<div>
-  Can't get enough? Subscribe via <a href="/feed.xml">RSS</a>.
-</div>
+<ul class="footer-links">
+  {% if site.social.github %}
+    <li>
+      <a href="https://github.com/{{ site.social.github }}" rel="noreferrer noopener" target="_blank" title="GitHub">
+        {% include svg-icon.html icon="github" %}
+      </a>
+    </li>
+  {% endif %}
+  {% if site.social.linkedin %}
+    <li>
+      <a href="https://www.linkedin.com/in/{{ site.social.linkedin }}" rel="noreferrer noopener" target="_blank" title="LinkedIn">
+        {% include svg-icon.html icon="linkedin" %}
+      </a>
+    </li>
+  {% endif %}
+  {% if site.social.twitter %}
+    <li>
+      <a href="https://twitter.com/{{ site.social.twitter }}" rel="noreferrer noopener" target="_blank" title="Twitter">
+        {% include svg-icon.html icon="twitter" %}
+      </a>
+    </li>
+  {% endif %}
+  {% if site.social.stackoverflow %}
+    <li>
+      <a href="https://stackoverflow.com/users/{{ site.social.stackoverflow }}" rel="noreferrer noopener" target="_blank" title="Stack Overflow">
+        {% include svg-icon.html icon="stackoverflow" %}
+      </a>
+    </li>
+  {% endif %}
+  {% if site.social.youtube %}
+    <li>
+      <a href="https://www.youtube.com/user/{{ site.social.youtube }}" rel="noreferrer noopener" target="_blank" title="Youtube">
+        {% include svg-icon.html icon="youtube" %}
+      </a>
+    </li>
+  {% endif %}
+  {% if site.social.twitch %}
+    <li>
+      <a href="https://www.twitch.tv/{{ site.social.twitch }}" rel="noreferrer noopener" target="_blank" title="Twitch">
+        {% include svg-icon.html icon="twitch" %}
+      </a>
+    </li>
+  {% endif %}
+  {% if site.social.steam %}
+    <li>
+      <a href="https://steamcommunity.com/id/{{ site.social.steam }}" rel="noreferrer noopener" target="_blank" title="Steam">
+        {% include svg-icon.html icon="steam" %}
+      </a>
+    </li>
+  {% endif %}
+  {% if site.social.discord %}
+    <li>
+      <a href="https://discord.gg/{{ site.social.discord }}" rel="noreferrer noopener" target="_blank" title="Discord Server">
+        {% include svg-icon.html icon="discord" %}
+      </a>
+    </li>
+  {% endif %}
+  {% if site.social.email %}
+    <li>
+      <a href="mailto:{{ site.social.email }}" title="Email">
+        {% include svg-icon.html icon="email" %}
+      </a>
+    </li>
+  {% endif %}
+</ul>
+{% if site.rss_enabled == true %}
+<p>
+  Can't get enough? Subscribe!<a href="/feed.xml">{% include svg-icon.html icon="rss" %}</a>
+</p>
+{% endif %}
 <small>
-  &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+  &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> All rights reserved.
 </small>

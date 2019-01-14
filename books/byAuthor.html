@@ -1,0 +1,21 @@
+---
+title: Books by Author
+layout: page
+---
+
+
+{% assign author_list = site.book | group_by_exp: 'item', 
+    "item.author.last | append: ', ' | append: item.author.first | append: ' ' | append: item.author.middle" %} 
+{% assign author_list_sorted = author_list | sort: 'name' %} 
+{% for author in author_list_sorted %} 
+<section>
+  <h3>{{ author.name }}</h3>
+  <ul class="book-list">
+  {% for item in author.items %}
+    <li class="book-list-item">
+      {% include book-info.html book=item style='link' %}
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endfor %}

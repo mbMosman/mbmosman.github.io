@@ -1,38 +1,57 @@
 # Site settings
-permalink: pretty
 baseurl:   "" # the subpath of your site, e.g. /blog
 url:       "http://mbmosman.github.io"
 
-
+# Personal Info
 title:     Mary Mosman
 tagline:   Software Engineer & Instructor
-description: >- # this means to ignore newlines until "baseurl:"
-  I’ve worked as developer since the 90's, but teaching programming & web development
-  to others has become what I'm passionate about. I’ve taught people of all ages through 
-  formal college classes, corporate training, and less formal gatherings & meet-ups.  
-  Outside of tech, I have a love of languages and maps. While I long to travel more of 
-  the real world some day, I currently spend more time journeying through imaginary 
-  locations from books, games, and anime. My current project is the creation of my own 
-  imaginary world of Atmina.
+description: >- # this means to ignore newlines 
+  I’ve worked as a web developer at many companies throughout the Twin Cities, but teaching 
+  programming & web development to others has become what I'm passionate about. I’ve taught 
+  people of all ages through formal college classes, corporate training, and less formal 
+  gatherings & meet-ups. 
+
+
+# Blog settings
+paginate_path: blog/page/:num/
+permalink: pretty
+paginate: 1
+
+# Features
+rss_enabled: false
 
 # Social
-twitter_username: mbmosman
-github_username:  mbmosman
-linkedin: mary-mosman
+social:
+  github: mbmosman
+  linkedin: mary-mosman
+  twitter: mbmosman
+  steam: cuteChickiboo
 
-# Build settings
-markdown: kramdown
-theme: minima
-paginate_path: "/blog/page:num/"
-paginate: 1
 
 # This will require each of these plugins automatically.
 plugins:
   - jekyll-feed  
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-assets
 
+assets:
+  source_maps: false
+  sources:
+    - _assets/icons
 
+collections:
+  book:
+    output: true
+    permalink: /:collection/:name
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: book
+    values:
+      layout: "book"
 
 
 
