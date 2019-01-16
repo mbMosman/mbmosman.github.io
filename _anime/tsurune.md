@@ -12,9 +12,11 @@ music:
   - name:   Naru
     artist: Luck Life
     used:   opening theme
+    url:    https://www.youtube.com/watch?v=5TwQZsNf_MQ
   - name:   Orange-iro (オレンジ色)
     artist: ChouCho
     used:   closing theme
+    url:    https://www.youtube.com/watch?v=e8M3DDzYtGI
 episodes:   # episode/part number
   - name:    The Young Man on the Shooting Range
     jp_name: 少年は矢庭に (Shōnen wa Yaniwa ni)
