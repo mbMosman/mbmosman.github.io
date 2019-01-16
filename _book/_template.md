@@ -4,7 +4,7 @@ title:     # title
 series:    # if part of a series
   name:    # series name
   number:  # book number
-  page:    # if there's a page for this series link it here
+  url:     # if there's a page for this series reference it here
 author: 
   first:   # first name
   middle:  # middle name
