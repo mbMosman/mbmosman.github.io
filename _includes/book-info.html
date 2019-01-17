@@ -14,8 +14,8 @@
       </h3>
       {% if include.book.series %}
       <p class="series">
-        {{ include.book.series.name }}
-        {% if include.book.series.number %} #{{ include.book.series.number }}{% endif %}
+          {{ include.book.series.name }}
+          {% if include.book.series.number %} #{{ include.book.series.number }}{% endif %}
       </p>
       {% endif %}
       {% if include.book.read %}
@@ -42,9 +42,16 @@
       <small class="author">by {{ include.book.author.first }}&nbsp;{{ include.book.author.middle }}&nbsp{{ include.book.author.last }}</small>
     </h3>
     {% if include.book.series %}
-    <p class="series">
-      {{ include.book.series.name }}
-      {% if include.book.series.number %} #{{ include.book.series.number }}{% endif %}
+    <p class="series">        
+      {% if include.book.series.url %}
+        <a href="{{site.base_url}}{{ include.book.series.url }}">
+          {{ include.book.series.name }}
+        </a>
+        {% if include.book.series.number %} #{{ include.book.series.number }}{% endif %}    
+      {% else %}
+        {{ include.book.series.name }}
+        {% if include.book.series.number %} #{{ include.book.series.number }}{% endif %}
+      {% endif %}
     </p>
     {% endif %}
     {% if include.book.published %}

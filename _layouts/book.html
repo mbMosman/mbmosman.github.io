@@ -54,20 +54,26 @@ layout: default
   </section>
 
   {% if page.series %}
+  {% assign series_list = site.book | where_exp: 'item', "item.series.name == page.series.name"  %}
+  {% assign series_sorted = series_list | sort: 'series.number' %}
+  {% if series_sorted.size > 1 %}
   <section class="series">
     <h2>Related Books</h2>
-    {% assign series_list = site.book | where_exp: 'item', "item.series.name == page.series.name"  %}
-    {% assign series_sorted = series_list | sort: 'series.number' %}
+
     {% for item in series_sorted  %}
       {% if item.title != page.title %}
       <li class="series-item">
         <a href="{{ item.url }}">
-          {{item.title}}, {{item.series.name}} {% if item.series.number %}#{{ item.series.number }}{% endif %}
+          {{item.title}}, {{item.series.name}} 
+          {% if item.series.number %}
+            #{{ item.series.number }}
+          {% endif %}
         </a> 
       </li>
       {% endif %}
     {% endfor %}  
   </section>
+  {% endif %}
   {% endif %}
 
 </article>

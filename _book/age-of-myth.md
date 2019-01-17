@@ -10,7 +10,7 @@ author:
   last:    Sullivan
 published: 2016-06-28 
 goodreads: https://www.goodreads.com/book/show/32337902-age-of-swords
-img:       https://images.gr-assets.com/books/1481987017l/32337902.jpg
+img:       https://images.gr-assets.com/books/1507307691l/26863057.jpg
 status: read
 read:   # must order recent first
   - start: 2018-11-12 

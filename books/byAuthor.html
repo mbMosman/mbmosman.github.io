@@ -11,7 +11,8 @@ layout: page
 <section>
   <h3>{{ author.name }}</h3>
   <ul class="book-list">
-  {% for item in author.items %}
+  {% assign author_books_sorted = author.items | sort: 'name_full' %} 
+  {% for item in author_books_sorted %}
     <li class="book-list-item">
       {% include book-info.html book=item style='link' %}
     </li>
