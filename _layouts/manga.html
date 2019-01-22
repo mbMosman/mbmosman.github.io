@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+
+<article class="book-review">
+  <h1>Manga: {{ page.title }}</h1>
+  
+  <section class="book-info">
+    <h2>Series Info</h2>
+    <div class="book-container">
+      <div class="book-image small">
+        {% if page.img %}<img src="{{page.img}}" alt="book cover" />{% endif %}
+      </div>
+      <div class="book-info">
+        <h3 class="title">
+          {{ page.title }} ({{ page.jp_title }})
+        </h3>
+        <p class="author">
+          by {{ page.author }} ({{ page.jp_author }})
+        </p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>Volumes</h2>  
+    <ul class="book-list">
+    {% for volume in page.volumes %}
+    {% assign volume_name = page.title | append: ' #' | append: volume.number %}
+    <li class="book-list-item">
+      {% assign book_info = '' %}
+      {% for book in site.book %}
+        {% if book.name_full == volume_name %}
+          {% assign book_info = book %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      {% include book-info.html book=book_info style='link' %}
+    </li>
+    {% endfor %}
+    </ul>  
+  </section> 
+
+  <section class="review">
+    <h2>Review</h2>
+      {{ content }}
+  </section>
+
+</article>

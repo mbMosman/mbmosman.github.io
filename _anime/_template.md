@@ -10,17 +10,19 @@ online:     # where can it be watched online
   - service: # crunchyroll, prime, netflix, etc
 music:
   - name:   # name
-  - artist: # artist
-  - used:   # opening/closing season
+    artist: # artist
+    used:   # opening/closing season
 episodes:   # episode/part number
-  name:     # name of episode
-  number:   # number of episodes
-  season:   # if the show is broken into seasons, which is this part of
+  - name:     # name of episode
+    jp_name:  # name in japanese
+    number:   # number of episodes
+    season:   # if the show is broken into seasons, which is this part of
 status:     # current-first-time, current-new-season, rewatch, finished, not-finishing
 view-history:  # must order recent first
   - start: # YYYY-MM-DD 
     end:   # YYYY-MM-DD
-tags: # genre: shojo, shonen, action, slice-of-life, etc.
+manga: # anime: {% link _manga/name-of-document.md %}
+tags:  # genre: shojo, shonen, action, slice-of-life, etc.
   - shojo
   - slice-of-life
 ---

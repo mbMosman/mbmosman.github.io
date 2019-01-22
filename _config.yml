@@ -44,6 +44,12 @@ collections:
   book:
     output: true
     permalink: /:collection/:name
+  manga:
+    output: true
+    permalink: /:collection/:name
+  anime:
+    output: true
+    permalink: /:collection/:name
 
 defaults:
   -
@@ -52,6 +58,11 @@ defaults:
       type: book
     values:
       layout: "book"
-
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: manga
+    values:
+      layout: "manga"
 
 
