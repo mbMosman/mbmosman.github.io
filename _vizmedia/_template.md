@@ -6,8 +6,8 @@ studio:     # who made this
 director:   # director's name
 us_release: # YYYY-MM-DD 
 online:     # where can it be watched online
-  - url:    # url
-  - service: # crunchyroll, prime, netflix, etc
+  url:      # url
+  service:  # Crunchyroll, Amazon Prime, Netflix, etc
 music:
   - name:   # name
     artist: # artist
@@ -18,7 +18,7 @@ episodes:   # episode/part number
     number:   # number of episodes
     season:   # if the show is broken into seasons, which is this part of
 status:     # current-first-time, current-new-season, rewatch, finished, not-finishing
-view-history:  # must order recent first
+view_history:  # must order recent first
   - start: # YYYY-MM-DD 
     end:   # YYYY-MM-DD
 manga: # anime: {% link _manga/name-of-document.md %}

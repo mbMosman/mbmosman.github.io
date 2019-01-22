@@ -6,8 +6,8 @@ director:   Takuya Yamamura
 us_release: 2018-10-22 
 img:        https://img1.ak.crunchyroll.com/i/spire1/3f825fe329ff491605d9a9f5cb0fdb021540009872_full.jpg
 online:     # where can it be watched online
-  - url:     https://www.crunchyroll.com/tsurune
-  - service: crunchyroll
+  url:     https://www.crunchyroll.com/tsurune
+  service: crunchyroll
 music:
   - name:   Naru
     artist: Luck Life
@@ -57,11 +57,17 @@ episodes:   # episode/part number
   - name:    Irreplaceable
     jp_name: かけがえのない (Kakegaenonai)
     number:  13
-status:  current-new
-view-history:  # must order recent first
+status:  finished
+view_history:  # must order recent first
   - start: 2018-10-22 
-    end:   
+    end:   2019-01-21
 tags: # genre: shojo, shonen, action, slice-of-life, etc.
   - sports
   - slice-of-life
 ---
+
+This was a beautiful anime, so well done. I also appreciated that the story, wasn't overly dramatic as it can be in other sports anime. Some of the story feels cliche, but the surrounding story and characters make it easy to forgive. The relationships between the characters was as beautiful as the art. There are no complaints from me.
+
+I've always had a soft spot for archery, but I haven't been out more than a handful of times since college to shoot. I keep thinking it would be fun to do again, yet this always seems to get forgotten. Plus, it's not so much fun to practice all alone. I've never really looked for clubs in the area though, as I just assumed everything would all be geared for bow hunters. 
+
+Similar to my kendo adventures years agao, this anime inspired me to poke around and see if anyone is interested in this style of archery here in the Twin Cities. Lucky me! There is a club in the area, [Minnesota Kyudo Renmai](http://www.mnkyudo.org/) that practices in Northfield and Brooklyn Park. With my upcoming move further south, Northfield might not be so bad... I'll have to look into this a bit more and see if I can work my sad little arms up for it. 

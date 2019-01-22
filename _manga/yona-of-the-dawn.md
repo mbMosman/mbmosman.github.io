@@ -9,7 +9,7 @@ status:    on-going
 read:
   - start: 2016-08-18 
     end:   # YYYY-MM-DD
-anime: _anime/yona-of-the-dawn.html
+anime: /vizmedia/yona-of-the-dawn.html
 volumes: 
   - number: 1
     url:   /book/yona-of-the-dawn-01.html
@@ -46,7 +46,7 @@ tags:
   - favorite
 ---
 
-OK, so I'm just not going to make any excuses for this at all. This is my #1 favorite manga series. This is a bold say, because there are others that I adore, but this is really, hands down my favorite. So a fair question is why?
+OK, so I'm just not going to make hide anything here. This is currently my #1 favorite manga series. This is a bold say, because there are others that I adore, but this is really, hands down my favorite. So a fair question is why?
 
 Yona is a pretty awesome heroine. If you missed it, I was Yona for Halloween.
 

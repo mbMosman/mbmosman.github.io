@@ -1,0 +1,66 @@
+{% if include.style == 'link' %}
+<div>
+  <a href="{{ include.media.url }}" title="{{include.media.title}}" class="media-container">
+    <div class="media-image small">
+      {% if include.media.img %}<img src="{{include.media.img}}" alt="poster" />{% endif %}
+    </div>
+
+    <div class="media-info">
+        <h3 class="title">
+          {{ include.media.title }} 
+        </h3>
+        <p class="japanese-title">
+          {% if include.media.jp_title %}Japanese Title: {{include.media.jp_title}}{% endif %}
+        </p>
+        <p class="studio">
+          Producer: {{ include.media.studio }} {% if include.media.jp_studio %}({{page.jp_title}}){% endif %}
+        </p>
+        <p class="director">
+          Director: {{ include.media.director }} {% if include.media.jp_director %}({{page.jp_title}}){% endif %}
+        </p>
+        {% if include.media.status %}
+        <p class="status">  
+          {% if include.media.last_seen %} Last finished on {{ include.media.last_seen  | date: "%B %e, %Y" }}
+          {% else %}{{ include.media.status}}  
+          {% endif %}
+        </p>
+        {% endif %}
+      </div>
+  </a>
+</div>
+{% else %}
+<div class="media-container">
+    <div class="media-image small">
+      {% if include.media.img %}<img src="{{include.media.img}}" alt="poster" />{% endif %}
+    </div>
+    <div class="media-info">
+      <h3 class="title">
+        {{ include.media.title }} 
+      </h3>
+      <p class="japanese-title">
+        {% if include.media.jp_title %}Japanese Title: {{include.media.jp_title}}{% endif %}
+      </p>
+      <p class="studio">
+        Producer: {{ include.media.studio }} {% if include.media.jp_studio %}({{page.jp_title}}){% endif %}
+      </p>
+      <p class="director">
+        Director: {{ include.media.director }} {% if include.media.jp_director %}({{page.jp_title}}){% endif %}
+      </p>
+      {% if include.media.us_release %}
+      <p class="published">
+        Released: {{ include.media.us_release  | date: "%B %e, %Y" }}
+      </p>
+      {% endif %}
+      {% if include.media.status %}
+      <p class="status">  
+        Status: {{ include.media.status}}  
+      </p>
+      {% endif %}
+      {% if include.media.online %}
+      <p class="online">
+        <a href="{{include.media.online.url}}" target="_blank">Watch online at {{include.media.online.service}}</a>
+      </p>
+      {% endif %}
+    </div> 
+</div>
+{% endif %}

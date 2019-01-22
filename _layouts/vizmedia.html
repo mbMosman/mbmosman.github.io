@@ -1,0 +1,87 @@
+---
+layout: default
+---
+
+
+<article class="media-review">
+  <h1>
+    {% if page.jp_title %}Anime: {% endif %} 
+    {{ page.title }} 
+  </h1>
+  
+  <section class="media-info">
+    <h2>Basic Info</h2>
+    <div class="media-container">
+      <div class="media-image small">
+        {% if page.img %}<img src="{{page.img}}" alt="poster" />{% endif %}
+      </div>
+      <div class="media-info">
+        <h3 class="title">
+          {{ page.title }} 
+        </h3>
+        <p class="japanese-title">
+          {% if page.jp_title %}Japanese Title: {{page.jp_title}}{% endif %}
+        </p>
+        <p class="studio">
+          Producer: {{ page.studio }} {% if page.jp_studio %}({{page.jp_title}}){% endif %}
+        </p>
+        <p class="director">
+          Director: {{ page.director }} {% if page.jp_director %}({{page.jp_title}}){% endif %}
+        </p>
+        {% if page.online %}
+        <p class="online">
+          <a href="{{page.online.url}}" target="_blank">Watch online at {{page.online.service}}</a>
+        </p>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+
+  {% if page.music %}
+  <section>
+    <h2>Music</h2>  
+    <ul class="media-list">
+    {% for item in page.music %}
+    <li class="media-list-item">
+        <h3 class="title">
+          {{ item.name }} 
+        </h3>
+        <p class="author">
+          {{item.artist}}
+        </p>
+        <p class="used">
+          {% if item.url %}<a href={{item.url}} target="_blank">{{item.used}}</a>
+          {% else %}{{item.used}}
+          {% endif %}
+        </p>
+    </li>
+    {% endfor %}
+    </ul>  
+  </section> 
+  {% endif %}
+
+  {% if page.episodes %}
+  <section>
+    <h2>Episodes</h2>  
+    <ul class="media-list">
+    {% for episode in page.episodes %}
+    {% assign episode_name = episode.number | append: ' ' | append: episode.name %}
+    <li class="media-list-item">
+        <h3 class="title">
+            {{ episode_name }} 
+          </h3>
+          <p class="japanese-title">
+            {% if episode.jp_name %}Japanese Title: {{episode.jp_name}}{% endif %}
+          </p>
+    </li>
+    {% endfor %}
+    </ul>  
+  </section> 
+  {% endif %}
+
+  <section class="review">
+    <h2>Review</h2>
+      {{ content }}
+  </section>
+
+</article>

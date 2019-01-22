@@ -1,0 +1,58 @@
+---
+title: Watch List
+layout: page
+---
+
+
+<section>
+  <h2>Currently Watching</h2>
+
+  {% assign watchlist = site.vizmedia | where_exp: 'item', "item.status contains 'current'"  %}
+  {% if watchlist.size == 0 %}
+    <p>Nothing right now... Check back later!</p>
+  {% else %}
+  <ul class="media-list">
+  {% for item in watchlist %}
+    <li class="media-list-item">
+      {% include vizmedia-info.html media=item style='link' %}
+    </li>
+  {% endfor %}
+  </ul>
+  {% endif %}
+</section>
+
+
+<section>
+  
+  <h2>Recently Finished</h2>
+
+  {% assign watchlist = site.vizmedia | where: 'status', 'finished' | sort: 'last_seen' | reverse %}
+  <ul class="media-list">
+  {% for item in watchlist  limit: 5 %}
+    <li class="media-list-item">
+      {% include vizmedia-info.html media=item style='link' %}
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+
+<section>
+    <h2>More...</h2>
+  
+    <nav class="books-nav">
+      <ul>
+        <li>
+          <a href="{% link books/byTitle.html %}">Books by Title</a>
+        </li>
+        <li>
+          <a href="{% link books/byAuthor.html %}">Books by Author</a>
+        </li>
+        <li>
+          <a href="{% link books/2019.html %}">2019</a>
+        </li>
+        <li>
+          <a href="{% link books/2018.html %}">2018</a>
+        </li>
+      </ul>
+    </nav>
+  </section>

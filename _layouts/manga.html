@@ -19,6 +19,11 @@ layout: default
         <p class="author">
           by {{ page.author }} ({{ page.jp_author }})
         </p>
+        {% if page.anime %}
+        <p class="anime">
+          <a href={{page.anime}}>Anime Series</a>
+        </p>
+        {% endif %}
       </div>
     </div>
   </section>

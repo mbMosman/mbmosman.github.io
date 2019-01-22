@@ -47,7 +47,7 @@ collections:
   manga:
     output: true
     permalink: /:collection/:name
-  anime:
+  vizmedia:
     output: true
     permalink: /:collection/:name
 
@@ -64,5 +64,10 @@ defaults:
       type: manga
     values:
       layout: "manga"
-
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: vizmedia
+    values:
+      layout: "vizmedia"
 

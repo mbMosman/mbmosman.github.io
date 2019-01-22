@@ -4,15 +4,16 @@ jp_title:   暁のヨナ (Akatsuki no Yona)
 studio:     Pierrot
 director:   Kazuhiro Yoneda
 us_release: 2014-10-07
+img:        https://img1.ak.crunchyroll.com/i/spire1/a624f140a1c8be841889d3fcca597f5a1414524144_full.jpg
 online: # where can it be watched online
-  - url:     https://www.crunchyroll.com/yona-of-the-dawn/videos
-  - service: crunchyroll
+  url:     https://www.crunchyroll.com/yona-of-the-dawn/videos
+  service: Crunchyroll
 music:
   - name:   暁のヨナ (Akatsuki no Yona)
     artist: 梁邦彦 (Kunihiko Ryō)
     used:   1st opening theme
     url:    https://www.youtube.com/watch?v=pfgNlVdDnxs
-  - name:   夜 (Yoru, which means Night)
+  - name:   夜 (Yoru, Night)
     artist: vistlip
     used:   2nd ending theme
     url:    https://www.youtube.com/watch?v=wOdlLgi05Kg
@@ -121,8 +122,8 @@ episodes:   # episode/part number
     jp_name:  これから (Korekara)
     number:   24
     season:   1
-status:     # current-first-time, current-new-season, rewatch, finished, not-finishing
-view-history:  # must order recent first
+status:  finished 
+view_history:  # must order recent first
   - start: 2014-10-07 
     end:   2015-03-04
 manga: manga/yona-of-the-dawn
@@ -130,3 +131,11 @@ tags: # genre: shojo, shonen, action, slice-of-life, etc.
   - shojo
   - fantasy
 ---
+
+The anime is beautiful and well written and laid out. The manga series is ongoing and the first run of the anime only covers the first 8 volumes of the manga, leaving lots of room for another season (though nothing has yet been announced). The characters are all endearing in their own ways, even those you might not expect. It's become one of my all time favorites. 
+
+Still, I think it's important to get out there that this anime didn't sell me in the first episode... In fact Yona was *super* annoying in that episode going on about her hair and Su-Won. In fact she spends so much time worrying about these things she misses the ceremony announcing her upcoming 16th birthday entirely, and since she's a beloved, spoiled little princess no one really seems to care. Then on top of that there's the swooning over Su-Won... Argh! It was all just too much!
+
+However, the end of the first episode is pretty dramatic with the death of Yona's father at Su-Won's hand. Yona see's this and is taken out to the courtyard to also be killed, with Su-Won watching. Hak saves her, and the cliff hanger there is enough to pull me into the next episode. Yona isn't much of a heroine throughout her escape either, relying entirely on Hak to keep her going and alive, but she does begin to realize her own foolishness and at the end we get a glimpse of the Yona she will become. It's a long road, and not at all easy. One doesn't transform from a helpless, spoiled princess into an amazing heroine overnight. This journey of hers is well done and worthy of a bit of admiration I think. It would be all too easy I think, to continue on letting others protect and care for you.
+
+I will leave off here, so as to not be tempted into any more potential spoilers. But if you're put off by the beginning, give it 3 episodes before you give it up. Yona grows up pretty quickly, and well, there's Hak too...  The dragon warriors that you see with Yona in the opening/closing join the group slowly over the 24 anime episodes, and the story ends as the last of them, joins the group. I keep hoping that we'll get another run of the anime, but it hasn't happened yet, so I'm filling the void reading the manga. 

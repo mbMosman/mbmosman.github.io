@@ -54,26 +54,33 @@ layout: default
   </section>
 
   {% if page.series %}
-  {% assign series_list = site.book | where_exp: 'item', "item.series.name == page.series.name"  %}
-  {% assign series_sorted = series_list | sort: 'series.number' %}
-  {% if series_sorted.size > 1 %}
-  <section class="series">
+  {% if page.series.url %}
     <h2>Related Books</h2>
+    <p>
+      <a href="{{ page.series.url }}">{{page.series.name}}</a> 
+    </p>
+  {% else %}
+    {% assign series_list = site.book | where_exp: 'item', "item.series.name == page.series.name"  %}
+    {% assign series_sorted = series_list | sort: 'series.number' %}
+    {% if series_sorted.size > 1 %}
+    <section class="series">
+      <h2>Related Books</h2>
 
-    {% for item in series_sorted  %}
-      {% if item.title != page.title %}
-      <li class="series-item">
-        <a href="{{ item.url }}">
-          {{item.title}}, {{item.series.name}} 
-          {% if item.series.number %}
-            #{{ item.series.number }}
-          {% endif %}
-        </a> 
-      </li>
-      {% endif %}
-    {% endfor %}  
-  </section>
-  {% endif %}
+      {% for item in series_sorted  %}
+        {% if item.name_full != page.name_full %}
+        <li class="series-item">
+          <a href="{{ item.url }}">
+            {{item.title}}, {{item.series.name}} 
+            {% if item.series.number %}
+              #{{ item.series.number }}
+            {% endif %}
+          </a> 
+        </li>
+        {% endif %}
+      {% endfor %}  
+    </section>
+    {% endif %}
+    {% endif %}
   {% endif %}
 
 </article>
