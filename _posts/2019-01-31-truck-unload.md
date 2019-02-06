@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Unloading in the Cold, but not as Cold
+preview: The tale of our first day in the new house.  
+category: Move 2019
 ---
+
 
 True to her moving hero status, Miki returned this morning to help us unload the truck and get it returned on time. It was due back by 2:30. Miki came by at 9, enthusiastic and all set to go. She also brought some of the groceries and things that Martin had left at their place. Martin was able to back the truck up pretty close to the garage, and we were able to unload most of the stuff in there so that we weren't constantly opening and closing the door to the house, letting out the heat. It went relatively well overall, with the exception of the couch which might have induced a lot of well deserved swearing and cursing of IKEA furniture. Seriously that couch weighs far too much for it not to be a sleeper sofa. Anyhow Miki totally earned the *Sister of the Year* award by helping to get that out of the truck and into the upper part of our new split level house. 
 
@@ -15,6 +18,6 @@ This however made it seem more worthwhile to wash the sheets. They had been on f
 
 It was about 9 when I started to question why the washer was still going. It seemed like it was in the rinse cycle, so I marked it as strange that it took so long, but at least it should be done soon. After 20 more minutes, I went down to check again and it was still rinsing. At this point I'm frustrated, but assume it will start to spin once it drains again. So I stay and watch it since there's a clear lid and a light to show which part of the cycle it is on. For 15 more minutes I watch it rinse, start to spin, then rinse again. At this point I'm mad and cursing the washer. Why is it never getting to the spin and drain part? 
 
-I've stopped and restarted it. I've tried stopping it, cancelling the cycle and starting it on just the spin and drain cycle. Nothing I do seems to make any difference. Finally, I opened the lid and shuffled stuff around, thinking maybe it wouldn't be too wet and I could just toss it in the dryer. It was still quite soaked. That wouldn't work. One last try... At last! It must have been off balance, because this time it finished the spin cycle, allowing me to shove stuff in the dryer. Sadly though it was now almost 11PM. It took another hour before everything was dry and the bed made. Poor Martin had already gone to sleep on the living room floor, but he was happy enough to move when I woke him up. 
+I'd stopped and restarted it a few times, then I tried stopping it, cancelling the cycle and starting it on just the spin and drain cycle. Nothing I do seems to make any difference. Finally, I opened the lid and shuffled stuff around, thinking maybe it wouldn't be too wet and I could just toss it in the dryer. It was still quite soaked. That wouldn't work. One last try... At last! It must have been off balance, because this time it finished the spin cycle, allowing me to shove stuff in the dryer. Sadly though it was now almost 11PM. It took another hour before everything was dry and the bed made. Poor Martin had already gone to sleep on the living room floor, but he was happy enough to move when I woke him up. 
 
 Funny to think that the worst part of the move was the first load of wash...

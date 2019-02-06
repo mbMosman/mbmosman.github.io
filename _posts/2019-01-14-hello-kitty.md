@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello Kitty
+preview: Check out my latest model train, the Hello Kitty Shinkansen which arrived today straight from Japan!
 ---
 
 <strong>Woot! My Hello Kitty Shinkansen arrived from Japan today!!!</strong>

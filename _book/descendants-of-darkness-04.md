@@ -11,10 +11,10 @@ author:
 published: 2004-12-25 
 goodreads: https://www.goodreads.com/book/show/1600493.Descendants_of_Darkness_Volume_4
 img:       https://images.gr-assets.com/books/1348621703l/1600493.jpg
-status: currently-reading
+status:    read
 read:   # must order recent first
-  - start: 2019-02-03  
-    end:   #
+  - start: 2019-02-04 
+    end:   2019-02-04  
 tags:   # library, own-this, scifi, fantasy, historical-fiction
   - shojo
   - supernatural

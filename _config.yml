@@ -15,7 +15,7 @@ description: >- # this means to ignore newlines
 # Blog settings
 paginate_path: blog/page/:num/
 permalink: pretty
-paginate: 1
+paginate: 8
 
 # Features
 rss_enabled: false
