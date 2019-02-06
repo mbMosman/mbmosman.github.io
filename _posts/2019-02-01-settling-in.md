@@ -10,7 +10,7 @@ First thing this morning, we had a radon mitigation system installed this mornin
 
 Since we unloaded most stuff into the garage, today was spent moving stuff into the family room down stairs. This is serving as our storage area for everything while we rip up the upstairs floors. We got started on the carpet tear out this afternoon as well, but didn't get past the master bedroom. 
 
-{% asset 2019_02_01-GrossCarpet.jpg alt="Ripping up Master Bedroom Carpet" %}
+{% asset 2019_02_01-MB-GrossCarpet.jpg alt="Ripping up Master Bedroom Carpet" %}
 
 While the carpet itself is easy enough to pull up, roll up, and carry out, pulling up the tackboard takes more effort, and we won't say how many times I stuck myself on it. The carpet pad is unfortunately stapled in all over, so while you can tear it out easily and it's lighter than the carpet, you then have to pull up all the staples... Ugh! That took a bit until we worked out a good method. Martin grabbed the giant ice-scraper and basically rubbed them out. We also pulled off all the trim. That was a good amount of work for the day.
 
