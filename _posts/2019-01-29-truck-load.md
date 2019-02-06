@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Loading Up In the Cold
+category: Move 2019
 ---
 
 So it is our last day & night in the house, and it is __COLD__ outside. If you missed the news, the polar vortex is here just in time for our move. 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Settling In
-
+category: Move 2019
 ---
 
 Today was our first day to really settle in and get started with the work on the new place. 
@@ -10,6 +10,7 @@ First thing this morning, we had a radon mitigation system installed this mornin
 
 Since we unloaded most stuff into the garage, today was spent moving stuff into the family room down stairs. This is serving as our storage area for everything while we rip up the upstairs floors. We got started on the carpet tear out this afternoon as well, but didn't get past the master bedroom. 
 
+{% asset 2019_02_01-GrossCarpet.jpg alt="Ripping up Master Bedroom Carpet" %}
 
 While the carpet itself is easy enough to pull up, roll up, and carry out, pulling up the tackboard takes more effort, and we won't say how many times I stuck myself on it. The carpet pad is unfortunately stapled in all over, so while you can tear it out easily and it's lighter than the carpet, you then have to pull up all the staples... Ugh! That took a bit until we worked out a good method. Martin grabbed the giant ice-scraper and basically rubbed them out. We also pulled off all the trim. That was a good amount of work for the day.
 
@@ -17,3 +18,4 @@ The kitties are settling in nicely, though they were somewhat distressed by the 
 
 The flooring was delivered tonight, all 3500 lbs of it. There are 45 boxes of bamboo flooring sitting in the dining room now, acclimating to our lovely abode and waiting patiently to be installed. We were thinking it needed to sit for 2-3 days, but the delivery guy from the store suggested more like 2 weeks. I'm not sure I have that much patience, but we certainly have enough other work with the carpet & trim tear out and the painting to keep us busy while we wait a bit. 
 
+{% asset 2019_02_01-KyoFloorBoxes.jpg alt="Kyo on the Flooring Boxes" %}
