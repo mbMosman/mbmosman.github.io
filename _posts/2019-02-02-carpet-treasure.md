@@ -18,6 +18,7 @@ OK, so while I'd like to go out and check this all out, it's a frozen winter won
 
 > __When the snow melts, what does it become?__  
 > *It becomes spring, doesn't it? No matter how cold it is now, spring will come for sure. Amazing, isn't it? Snow always melts away. Always.*
+> ~ Fruits Basket, Natsuki Takaya
 
 Soon it will be treasure hunting time... Soon...
 
