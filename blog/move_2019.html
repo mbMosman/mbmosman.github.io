@@ -1,0 +1,21 @@
+---
+title: 2018 Reads
+layout: page
+---
+
+{% if related_posts != empty %}
+<aside class="related">
+  <h3>Related posts</h3>
+  <ul class="related-posts">
+    {% for post in related_posts limit:10 %}
+      {% if post.title != page.title %}
+      <li>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          {{ post.title }}
+          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
+        </a>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</aside>

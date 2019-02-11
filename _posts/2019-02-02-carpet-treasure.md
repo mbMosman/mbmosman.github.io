@@ -41,3 +41,5 @@ I wasn't surprised when I turned up more treasure. Had it just been me, I probab
 I was able to pull the carpet out of the room, but getting it down the stairs and out to the garage was a bit much to try alone. Once all the noise was done, Kyo decided that he was brave enough to inspect things.  The lovely rose colored carpet was from the first bedroom, which I forgot to photo before tearing it out. (Sorry Mom!)
 
 {% asset 2019_02_02-KyoCarpetRolls.jpg alt="Kyo Braves the Carpet Rolls" %}
+
+We also met Dave for lunch at Snuffy’s, then got all our extras from his truck. We were able to get that all unloaded much easier than it went in given both warmer weather and daylight. That get’s all our miscellaneous stuff back. So now we just need to get the stuff from the POD. That should come next Wednesday.
