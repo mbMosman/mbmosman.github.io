@@ -1,0 +1,21 @@
+{
+  "name": "mbmosman.github.io",
+  "version": "1.0.0",
+  "description": "This site is built using [Jekyll](http://jekyllrb.com).",
+  "main": "index.js",
+  "scripts": {
+    "local": "bundle exec jekyll serve --drafts",
+    "publish": "./deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbMosman/mbmosman.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbMosman/mbmosman.github.io/issues"
+  },
+  "homepage": "https://github.com/mbMosman/mbmosman.github.io#readme"
+}
