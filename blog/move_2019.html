@@ -1,21 +1,47 @@
 ---
-title: 2018 Reads
+title: Move 2019
 layout: page
+permalink: move_2019/
+summary: >- 
+  It's been quite an adventure for us. We've been wanting to do this for some time, but made a rather 
+  impulsive decision to actually __do it__ in October 2018. We worked with an awesome realator, 
+  <a href="https://shariseifert.com/">Shari Seifert</a> who helped us understand what we'd need to do 
+  to get our house on the market, and then worked with us to get it sold. We got offers right away and it was
+  sold in a few days, at more than our asking price. Woot! Then we had the adventure of finding a new place. While
+  there were some ups and downs along the home buying adventure, we ended up in what was *my* favorite place from 
+  the start. Now here we are! It's been an incredible experience overall, and we're super excited to be in what I like to 
+  call our __forever home__.
 ---
 
-{% if related_posts != empty %}
-<aside class="related">
-  <h3>Related posts</h3>
-  <ul class="related-posts">
-    {% for post in related_posts limit:10 %}
-      {% if post.title != page.title %}
-      <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
-        </a>
-      </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-</aside>
+<p>
+  In January 2019 Martin and I sold our old home in St. Paul and moved into a new house in Burnsville. 
+</p>
+{% asset newHouse.jpg alt="Our new house" %}
+<p>
+  {{ page.summary | markdownify }}
+</p>
+
+<p>You can read more about our move and see pictures in the posts below.</p>
+
+
+{% assign related_posts = site.related_posts %}
+{% for category in site.categories %}
+  {% if category[0] == 'Move_2019' %}
+    {% assign related_posts = category[1] %}
+  {% endif %}
+{% endfor %}
+
+
+<h2>Read More About Our Move!</h2>
+<ul class="related-posts">
+  {% for post in related_posts %}
+    {% if post.title != page.title %}
+    <li>
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+        <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
+      </a>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
