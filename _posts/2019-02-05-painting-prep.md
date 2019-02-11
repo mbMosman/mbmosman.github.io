@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Painting Prep
-category: Move 2019
+category: Move_2019
 ---
 
 While we've been waiting on the new floor's to acclimate, we've started pulling down trim and priming the walls. We got the Master Bedroom finished up yesterday, and Martin finished pulling out the trim from the offices and primed the hallway today.

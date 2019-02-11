@@ -2,7 +2,7 @@
 layout: post
 title: Closing Day
 preview: All about our infamous move in the middle of the polar vortex...
-category: Move 2019
+category: Move_2019
 ---
 
 Well, I had a feeling that sleeping on a 2 inch matress pad on the floor after a day of moving heavy objects was going to be pretty damn miserable, and guess what, I was right! My only comfort in this is knowing that with the lovely sub-zero temperatures outside, it would have been even worse to have kept the matress and then had to load it onto the truck this morning. There is just no way that would have happened.

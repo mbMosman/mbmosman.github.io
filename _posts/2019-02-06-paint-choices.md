@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Moving Updates
-category: Move 2019
+category: Move_2019
 ---
 
 I've been back at work the last few days, but Martin's still been busy working on the house. We got the trim pulled out of the Master Bedroom and got it primed on Monday, and Martin pulled the trim from the other rooms and did the hallway on Tuesday & Wednesday. We also decided on some paint choices for the upstairs:

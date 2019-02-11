@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Carpet Treasures
-category: Move 2019
+category: Move_2019
 ---
 
 Martin went to pick up his computer from his dad's place this morning, so that we could get at least get the wireless internet going and his computer up to keep track of our finances. While he was gone, I figured I'd get all the carpet pulled out of the other two bedrooms (our soon to be offices) to surprise him when he got back. Good to have goals, right?

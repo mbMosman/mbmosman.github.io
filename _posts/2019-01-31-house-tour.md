@@ -2,7 +2,7 @@
 layout: post
 title: New House Tour
 preview: A quick picture walkthrough of our new house, or at least the parts of it that  I remembered to take pictures of.  
-category: Move 2019
+category: Move_2019
 ---
 
 

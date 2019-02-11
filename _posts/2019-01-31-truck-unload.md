@@ -2,7 +2,7 @@
 layout: post
 title: Unloading in the Cold, That's Not as Cold
 preview: The tale of our first day in the new house.  
-category: Move 2019
+category: Move_2019
 ---
 
 True to her moving hero status, Miki returned this morning to help us unload the truck. Miki came by at 9, enthusiastic and all set to go. She also brought some of the groceries and things that Martin had left at their place. Martin was able to back the truck up pretty close to the garage, and we were able to unload most of the stuff into the garage so that we weren't letting all the heat out of the house. It went relatively well overall.

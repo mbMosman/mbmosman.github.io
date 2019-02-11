@@ -1,7 +1,7 @@
 ---
 layout: post
 title: House Updates
-category: Move 2019
+category: Move_2019
 ---
 
 I've been sick the last few days, so we didn't get as much work done this weekend as planned. Martin's still been hard at work, and I've tried to pitch in where I could, though I'll admit he's easily out-worked me. We had expected our POD to be delivered last Wed, but they had to reschedule for Monday. This was a total bummer,as we have things in there we need to get some of the work done.
