@@ -1,7 +1,7 @@
 ---
 output: false # Don't show this template
 title:     # title
-series:    # if part of a series
+series:    # if part of a series, remove if not used or you'll get an error
   name:    # series name
   number:  # book number
   url:     # if there's a page for this series reference it here

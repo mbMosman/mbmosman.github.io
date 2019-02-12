@@ -10,11 +10,11 @@ author:
   last:    Kusanagi
 published: 2018-02-05 
 goodreads: https://www.goodreads.com/book/show/40637165-yona-of-the-dawn-vol-16
-img:       hhttps://images.gr-assets.com/books/1539040214l/40637165.jpg
+img:       https://images.gr-assets.com/books/1539040214l/40637165.jpg
 status: read
 read:   # must order recent first
-  - start: 2018-02-09 
-    end:   2018-02-09
+  - start: 2019-02-09 
+    end:   2019-02-09
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - fantasy
   - favorite
