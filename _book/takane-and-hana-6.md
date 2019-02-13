@@ -17,7 +17,9 @@ read:   # must order recent first
     end:   2019-01-19 
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - shojo
+  - manga
   - comedy
+  - library
 ---
 
 Oh ho! This volume has a nice little twist on things... <spoiler>Takane has all his riches taken away and is shuffled into a low-end life. He doesn't tell Hana, just stops seeing her. When she hunts him down, he says some very cruel things.</spoiler>

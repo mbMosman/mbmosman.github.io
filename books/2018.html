@@ -14,7 +14,7 @@ layout: page
     {% endif %}
   {% endfor %}
 {% endfor %}
-{% assign sortedBooks = booklist | sort:"title" %}
+{% assign sortedBooks = booklist | sort:"name_full" %}
 
 <section>
   <ul class="book-list">

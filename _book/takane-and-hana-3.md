@@ -17,7 +17,9 @@ read:   # must order recent first
     end:   2018-07-19 
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - shojo
+  - manga
   - comedy
+  - library
 ---
 
 This series is just so funny and cute. It really makes me laugh out loud.

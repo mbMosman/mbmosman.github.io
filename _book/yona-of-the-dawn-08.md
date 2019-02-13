@@ -16,6 +16,8 @@ read:   # must order recent first
   - start: 2017-10-07 
     end:   2017-10-07
 tags: # library, own-this, scifi, fantasy, historical-fiction
+  - shojo
+  - manga
   - fantasy
   - favorite
   - own-this

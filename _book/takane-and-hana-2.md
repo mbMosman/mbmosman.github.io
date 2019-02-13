@@ -17,7 +17,9 @@ read:   # must order recent first
     end:   2018-06-12 
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - shojo
+  - manga
   - comedy
+  - library
 ---
 
 This manga literally has me laughing out loud. The characters and their interactions are so hilarious! I feel like I should not approve a HS student dating some 22 year old guy (which they keep reminding me of so I can't forget), but it is just so funny I have to keep reading.

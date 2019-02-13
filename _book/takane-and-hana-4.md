@@ -17,7 +17,9 @@ read:   # must order recent first
     end:   2018-09-02 
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - shojo
+  - manga
   - comedy
+  - library
 ---
 
 	Well, this wasn't the most exciting volume, but it was still a relaxing read. I felt a bit like the humor and antagonism between them was falling a little flat as they try to sort things out, or maybe it is just getting a little old. Still looking for the next, but something will have to happen soon to keep things interesting.

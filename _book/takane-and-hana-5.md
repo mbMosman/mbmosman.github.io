@@ -17,7 +17,9 @@ read:   # must order recent first
     end:   2018-11-08 
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - shojo
+  - manga
   - comedy
+  - library
 ---
 
 I’m really enjoying the story. It’s one of the few I’ve read that really makes me laugh out loud.

@@ -17,7 +17,9 @@ read:   # must order recent first
     end:   2018-05-02 
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - shojo
+  - manga
   - comedy
+  - library
 ---
 
 A bit snarky and humorous, I wasn't sure what I'd think about it from the summary, but gave it a go. The characters are refreshingly different and while it's a romance of sorts, for at least this first volume, it doesn't feel like one.
