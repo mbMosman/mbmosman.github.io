@@ -26,8 +26,10 @@ layout: default
         My last read was {{ last_read.start | date: "%B %e, %Y" }} to {{ last_read.end | date: "%B %e, %Y" }}.
       {% elsif last_read.end %}
         My last read was on {{ last_read.end | date: "%B %e, %Y" }}.
-      {% else %}
+      {% elsif last_read.start %}
         My latest read is unfinished, but I started on {{ last_read.start | date: "%B %e, %Y" }}.
+      {% else %}
+        This book is on my want to read list.
       {% endif %}
       </span>
     </p>

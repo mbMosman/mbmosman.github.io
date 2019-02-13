@@ -11,7 +11,6 @@ read:   # must order recent first
     end:   # YYYY-MM-DD
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - shojo
-  - library
 ---
 
 I started to read this as Mizuho Kusanagi, author of [Yona of the Dawn](/manga/yona-of-the-dawn.html), used to work for her, and wanted to see if or how it might have impacted her work. 

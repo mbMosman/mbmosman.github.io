@@ -8,10 +8,12 @@ Jekyll::Hooks.register :site, :post_read do |site|
       book.data['name_full'] = book.data['title']
     end
 
-    for read in book.data['read']
-      if read['end'] 
-        book.data['last_read'] = read['end']
-        break
+    if book.data['read']
+      for read in book.data['read']
+        if read['end'] 
+          book.data['last_read'] = read['end']
+          break
+        end
       end
     end
   end

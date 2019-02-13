@@ -43,6 +43,8 @@ volumes:
     url:   /book/yona-of-the-dawn-15.html
 tags: 
   - fantasy
+  - adventure
+  - shojo
   - favorite
 ---
 

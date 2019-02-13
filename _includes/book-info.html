@@ -18,18 +18,20 @@
           {% if include.book.series.number %} #{{ include.book.series.number }}{% endif %}
       </p>
       {% endif %}
-      {% if include.book.read %}
-      <p class="status">    
+      <p class="status"> 
+      {% if include.book.read %}   
         {% assign last_read = include.book.read.first %}  
         {% if last_read.start and last_read.end and last_read.start != last_read.end %}
           Last read {{ last_read.start | date: "%B %e, %Y" }} to {{ last_read.end | date: "%B %e, %Y" }}.
         {% elsif last_read.end %}
           Last read on {{ last_read.end | date: "%B %e, %Y" }}.
-        {% else %}
+        {% elsif last_read.start %}
           Started on {{ last_read.start | date: "%B %e, %Y" }}.
         {% endif %}
-      </p>
+      {% else %}
+        Want to Read
       {% endif %}
+    </p>
     </div>
   </a>
 </div>
