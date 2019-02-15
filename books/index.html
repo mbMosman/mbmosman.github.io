@@ -32,6 +32,8 @@ layout: page
   </ul>
 </section>
 
+
+{% assign yearPages = site.pages | where: "category", "Books For Year" | sort:"year" | reverse %}
 <section>
     <h2>More...</h2>
   
@@ -43,12 +45,11 @@ layout: page
         <li>
           <a href="{% link books/byAuthor.html %}">Books by Author</a>
         </li>
-        <li>
-          <a href="{% link books/2019.html %}">2019</a>
-        </li>
-        <li>
-          <a href="{% link books/2018.html %}">2018</a>
-        </li>
+        {% for page in yearPages %}
+          <li>
+            <a href="{{ page.name }}">{{ page.year }}</a>
+          </li>
+        {% endfor %}
       </ul>
     </nav>
   </section>

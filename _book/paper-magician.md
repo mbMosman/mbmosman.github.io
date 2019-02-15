@@ -15,6 +15,7 @@ status:    read
 read:   # must order recent first
   - start: 2015-12-04 
     end:   2015-12-04
+type: novel
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - fantasy
   - kindle

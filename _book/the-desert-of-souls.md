@@ -8,6 +8,7 @@ goodreads: https://www.goodreads.com/book/show/9359808-the-desert-of-souls
 img: https://images.gr-assets.com/books/1442692871l/9359808.jpg
 published: 2011-02-15
 status: read
+type: novel
 read: # must order recent first
   - start: 2019-01-19
     end:   2019-01-19

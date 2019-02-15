@@ -16,6 +16,7 @@ status: # current-first-read, reread, read, not-finishing
 read:   # must order recent first
   - start: # YYYY-MM-DD 
     end:   # YYYY-MM-DD
+type: # for goal count: manga, graphic_novel, novel, non-fiction, other
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - fantasy
   - library

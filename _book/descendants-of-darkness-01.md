@@ -15,6 +15,7 @@ status: want-to-read
 read:   # must order recent first
   - start: # YYYY-MM-DD 
     end:   # YYYY-MM-DD
+type: manga
 tags:   # library, own-this, scifi, fantasy, historical-fiction
   - shojo
   - supernatural

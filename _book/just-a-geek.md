@@ -10,6 +10,7 @@ status: read
 read:   # must order recent first
   - start: 2018-11-04 
     end:   2018-11-04
+type: non-fiction
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - biography
   - library

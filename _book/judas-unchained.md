@@ -11,6 +11,7 @@ status: currently-reading
 read: # must order recent first
   - start: 2019-02-09
     end: 
+type: novel
 tags: 
   - scifi
   - library

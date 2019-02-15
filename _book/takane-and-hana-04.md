@@ -15,6 +15,7 @@ status: read
 read:   # must order recent first
   - start: 2018-09-02  
     end:   2018-09-02 
+type: manga
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - shojo
   - manga

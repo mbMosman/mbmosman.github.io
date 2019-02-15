@@ -16,6 +16,7 @@ status:    read
 read:   # must order recent first
   - start: 2018-07-12 
     end:   2018-07-12
+type: graphic_novel
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - fantasy
   - horror

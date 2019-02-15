@@ -14,6 +14,7 @@ status:    read
 read:   # must order recent first
   - start: 2019-01-18 
     end:   2019-01-26
+type: novel
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - fantasy
   - library

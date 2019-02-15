@@ -11,6 +11,7 @@ status: read
 read: # must order recent first
   - start: 2019-01-05 
     end: 2019-01-06
+type: novel
 tags: 
   - scifi
   - historical-fiction

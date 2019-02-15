@@ -10,9 +10,11 @@ status: read
 read:   # must order recent first
   - start: 2018-11-04 
     end:   2018-11-06
+type: novel
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - fiction
   - historical-fiction
+  - classic
 ---
 
 OK, so books about war, particularly actual *in our world* events, are generally not my thing. I like to escape with my reading and not think about history, consequences, and the longer term fallout of these things. I am not really very historically knowledgeable, certainly not outside of what I had to know to make it through HS history class. Funny how little WW II was covered there. I didn't realize for example that Dresden was fire bombed.  So there was a bit to process here with this book that I probably should have been more aware of ahead of time. 
