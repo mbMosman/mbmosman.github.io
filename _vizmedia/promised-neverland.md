@@ -4,6 +4,7 @@ jp_title:   約束のネバーランド (Yakusoku no Neverland)
 studio:     Clover Works
 director:   Mamoru Kanabe
 us_release: 2019-01-11 
+img:        https://img1.ak.crunchyroll.com/i/spire2/07f56cb3c9220952600b0975a883b0f91546997210_full.jpg
 online:     # where can it be watched online
   url:      https://www.crunchyroll.com/the-promised-neverland
   service:  Crunchyroll
