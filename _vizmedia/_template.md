@@ -5,6 +5,7 @@ jp_title:   # title in Japanese
 studio:     # who made this
 director:   # director's name
 us_release: # YYYY-MM-DD 
+img:        # url to poster image 
 online:     # where can it be watched online
   url:      # url
   service:  # Crunchyroll, Amazon Prime, Netflix, etc
@@ -21,7 +22,7 @@ status:     # current-first-time, current-new-season, rewatch, finished, not-fin
 view_history:  # must order recent first
   - start: # YYYY-MM-DD 
     end:   # YYYY-MM-DD
-manga: # anime: {% link _manga/name-of-document.md %}
+manga: # anime: {% link manga/name-of-document.html %}
 tags:  # genre: shojo, shonen, action, slice-of-life, etc.
   - shojo
   - slice-of-life
