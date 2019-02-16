@@ -26,7 +26,7 @@ module Jekyll
               year = endDate.year.to_s
               if !yearPages.has_key?(year)
                 puts('creating page for ' + year)
-                yearPages[year] = BookYearPage.new(site, site.source, 'books', year) 
+                yearPages[year] = BookYearPage.new(site, site.source, File.join('books', year), year) 
                 site.pages << yearPages[year]
               end
               page = yearPages[year]
@@ -46,7 +46,7 @@ module Jekyll
       @site = site
       @base = base
       @dir  = dir
-      @name = year + ".html"
+      @name = "index.html"
       @layout = 'books_year'
       
       self.process(@name)
@@ -55,7 +55,6 @@ module Jekyll
       self.data['books'] = []
       self.data['year'] = year.to_i
       self.data['category'] = 'Books For Year'
-      self.data['permalink'] = "#{@dir}/#{@name}"
     end # initialize
   end # class
 
