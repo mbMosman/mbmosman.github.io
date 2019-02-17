@@ -22,7 +22,7 @@ status:     # current-first-time, current-new-season, rewatch, finished, not-fin
 view_history:  # must order recent first
   - start: # YYYY-MM-DD 
     end:   # YYYY-MM-DD
-manga: # anime: {% link manga/name-of-document.html %}
+manga: # {% link manga/name-of-document.html %}
 tags:  # genre: shojo, shonen, action, slice-of-life, etc.
   - shojo
   - slice-of-life
