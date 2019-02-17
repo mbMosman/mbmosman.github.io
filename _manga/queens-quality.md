@@ -7,7 +7,7 @@ goodreads: https://www.goodreads.com/series/173993-queen-s-quality
 img:       https://images.gr-assets.com/books/1493548362l/32919012.jpg
 status:    on-going
 read:
-  - start: # YYYY-MM-DD 
+  - start: 2018-07-19
     end:   # YYYY-MM-DD
 anime: # nope
 volumes: 
