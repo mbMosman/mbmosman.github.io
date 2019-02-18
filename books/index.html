@@ -17,6 +17,19 @@ layout: page
   </ul>
 </section>
 
+<section>
+    <h2>Next Up</h2>
+  
+    {% assign booklist = site.book | where_exp: 'item', "item.status contains 'to-read'"  %}
+    <ul class="book-list">
+    {% for item in booklist limit: 5%}
+      <li class="book-list-item">
+        {% include book-info.html book=item style='link' %}
+      </li>
+    {% endfor %}
+    </ul>
+  </section>
+
 
 <section>
   

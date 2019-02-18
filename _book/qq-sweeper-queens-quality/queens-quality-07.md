@@ -11,7 +11,7 @@ author:
 published: 2019-06-04
 goodreads: https://www.goodreads.com/book/show/42671679-queen-s-quality-vol-7
 img:       #
-status: to-read
+status:    waiting
 #read:   # must order recent first
 #  - start: # 2018-12-04 
 #    end:   # 2018-12-04

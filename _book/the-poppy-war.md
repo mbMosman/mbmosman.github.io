@@ -7,10 +7,10 @@ author:
 published: 2018-05-01 
 goodreads: https://www.goodreads.com/book/show/35068705-the-poppy-war
 img:       https://images.gr-assets.com/books/1515691735l/35068705.jpg
-status: current-first-read
-read:   # must order recent first
-  - start: 2019-02-11 
-    end:   # YYYY-MM-DD
+status: to-read
+#read:   # must order recent first
+#  - start: # 2018-12-04 
+#    end:   # 2018-12-04
 type: novel
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - fantasy
