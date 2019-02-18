@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Carpet Treasures
+preview: We found a hidden treasures & a treasure map under the carpet!  
 category: Move_2019
 ---
 

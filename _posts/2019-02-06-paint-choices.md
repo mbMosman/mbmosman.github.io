@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Moving Updates
+preview: We've got some paint colors picked out for the house!
 category: Move_2019
 ---
 

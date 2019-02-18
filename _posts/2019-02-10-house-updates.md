@@ -1,6 +1,7 @@
 ---
 layout: post
 title: House Updates
+preview: The floor tear out and wall patching continues.
 category: Move_2019
 ---
 

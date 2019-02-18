@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Painting Prep
+preview: While we wait for the floors to be ready, we're getting started on painting.
 category: Move_2019
 ---
 
-While we've been waiting on the new floor's to acclimate, we've started pulling down trim and priming the walls. We got the Master Bedroom finished up yesterday, and Martin finished pulling out the trim from the offices and primed the hallway today.
+While we've been waiting on the new floors to acclimate, we've started pulling down trim and priming the walls. We got the Master Bedroom finished up yesterday, and Martin finished pulling out the trim from the offices and primed the hallway today.
 
 {% asset 2019_02_06-MB-Primed.jpg alt="Master Bedroom Primed" %}
 {% asset 2019_02_07-Hall-Primed.jpg alt="Hall Primed" %}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Settling In
+preview: Today was our first day to really settle in and get started with the work on the new place. 
 category: Move_2019
 ---
 
