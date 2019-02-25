@@ -78,7 +78,7 @@ episodes:   # episode/part number
     jp_name:  團圓 (ダンエン)
     number:   13
     season:   1
-status:     current-new-season
+status:       to-watch 
 view_history:  # must order recent first
   - start: # YYYY-MM-DD 
     end:   # YYYY-MM-DD

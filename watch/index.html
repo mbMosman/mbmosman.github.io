@@ -21,6 +21,20 @@ layout: page
   {% endif %}
 </section>
 
+{% assign watchlist = site.vizmedia | where_exp: 'item', "item.status contains 'to-watch'"  %}
+{% if watchlist.size > 0 %}
+<section>
+  <h2>Next Up</h2>
+
+  <ul class="media-list">
+  {% for item in watchlist limit: 5%}
+    <li class="media-list-item">
+      {% include vizmedia-info.html media=item style='link' %}
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}
 
 <section>
   

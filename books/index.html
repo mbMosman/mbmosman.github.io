@@ -17,18 +17,20 @@ layout: page
   </ul>
 </section>
 
+{% assign booklist = site.book | where_exp: 'item', "item.status contains 'to-read'"  %}
+{% if booklist.size > 0 %}
 <section>
-    <h2>Next Up</h2>
-  
-    {% assign booklist = site.book | where_exp: 'item', "item.status contains 'to-read'"  %}
-    <ul class="book-list">
-    {% for item in booklist limit: 5%}
-      <li class="book-list-item">
-        {% include book-info.html book=item style='link' %}
-      </li>
-    {% endfor %}
-    </ul>
-  </section>
+  <h2>Next Up</h2>
+
+  <ul class="book-list">
+  {% for item in booklist limit: 5%}
+    <li class="book-list-item">
+      {% include book-info.html book=item style='link' %}
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}
 
 
 <section>

@@ -28,6 +28,10 @@ episodes:   # episode/part number
     number:   4
   - name:     301045
     number:   5
+  - name:     311045
+    number:   6
+  - name:     011145
+    number:   7
 status:     current-first-time
 view_history:  # must order recent first
   - start: 2019-02-09 
@@ -40,5 +44,5 @@ tags:  # genre: shojo, shonen, action, slice-of-life, etc.
 
 OK, so going into this blind, I was in for one hell of a surprise. Neverland, Peter Pan, cheery things, right? Nope, not so much... 
 
-These orphans are being farmed as food for demons. Yes, that's a wee spoiler, but you find out in the first episode, so it's not a huge one. The show is surprisingly catching, as I was hooked right away at the end of that first episode. It's the orphans against Mother as they plot their escape. 
+These orphans are being farmed as food for demons. Yes, that's a wee spoiler, but you find out in the first episode, so it's not a huge one. The show is surprisingly catching, as I was hooked right away at the end of that first episode. It's the orphans against Mother as they plot their escape with plot twists gallore. 
 
