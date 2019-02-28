@@ -9,19 +9,35 @@
         <h3 class="title">
           {{ include.media.title }} 
         </h3>
+        {% if include.media.jp_title %}
         <p class="japanese-title">
-          {% if include.media.jp_title %}Japanese Title: {{include.media.jp_title}}{% endif %}
+          Japanese Title: {{include.media.jp_title}}
         </p>
+        {% endif %}
+        {% if include.media.studio %}
         <p class="studio">
           Producer: {{ include.media.studio }} {% if include.media.jp_studio %}({{page.jp_title}}){% endif %}
         </p>
+        {% endif %}
+        {% if include.media.director %}
         <p class="director">
-          Director: {{ include.media.director }} {% if include.media.jp_director %}({{page.jp_title}}){% endif %}
+          Director: {{ include.media.director }} {% if include.media.jp_director %}({{page.jp_director}}){% endif %}
         </p>
+        {% endif %}
         {% if include.media.status %}
         <p class="status">  
-          {% if include.media.last_seen %} Last finished on {{ include.media.last_seen  | date: "%B %e, %Y" }}
-          {% else %}{{ include.media.status}}  
+          {% if include.media.status == 'current-new-season' %}
+            Watching the new season!
+          {% elsif include.media.status == 'current' or include.media.status == 'current-first-time' %}
+            This is a new show for me!
+          {% elsif include.media.status == 'current-rewatch' %}
+            Rewatching this.
+          {% elsif include.media.status == 'to-watch' or include.media.status == 'to-watch-new-season' %}
+            Excited to see this!
+          {% elsif include.media.status == 'to-watch-new-season' %}
+            Excited to see the new season!
+          {% elsif include.media.last_seen %} 
+            Last finished on {{ include.media.last_seen  | date: "%B %e, %Y" }}
           {% endif %}
         </p>
         {% endif %}

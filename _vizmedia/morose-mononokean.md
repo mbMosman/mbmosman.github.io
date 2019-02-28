@@ -78,10 +78,12 @@ episodes:   # episode/part number
     jp_name:  團圓 (ダンエン)
     number:   13
     season:   1
-status:       to-watch 
+status:       to-watch-new-season
 view_history:  # must order recent first
-  - start: # YYYY-MM-DD 
-    end:   # YYYY-MM-DD
+  - start: 2017-04-11 
+    end:   2017-05-19
+  - start: 2018-06-07 
+    end:   2018-08-19
 manga: manga/moroso-mononkean.html %}
 tags:  # genre: shojo, shonen, action, slice-of-life, etc.
   - supernatural
@@ -92,3 +94,5 @@ tags:  # genre: shojo, shonen, action, slice-of-life, etc.
 The first season of the anime was great. It lured me into reading the manga as I can't seem to get enough of these characters. 
 
 I'm so glad that there is now a 2nd season of the anime. I can't wait to see the story I've enjoyed from the managa animated and brought to life. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zQJDnx1fdC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

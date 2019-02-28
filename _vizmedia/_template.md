@@ -9,10 +9,10 @@ img:        # url to poster image
 online:     # where can it be watched online
   url:      # url
   service:  # Crunchyroll, Amazon Prime, Netflix, etc
-music:
-  - name:   # name
-    artist: # artist
-    used:   # opening/closing season
+#music:
+#  - name:   # name
+#    artist: # artist
+#    used:   # opening/closing season
 episodes:   # episode/part number
   - name:     # name of episode
     jp_name:  # name in japanese

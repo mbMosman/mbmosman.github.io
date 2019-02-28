@@ -5,7 +5,6 @@ layout: default
 
 <article class="media-review">
   <h1>
-    {% if page.jp_title %}Anime: {% endif %} 
     {{ page.title }} 
   </h1>
   
@@ -19,15 +18,21 @@ layout: default
         <h3 class="title">
           {{ page.title }} 
         </h3>
+        {% if page.jp_title %}
         <p class="japanese-title">
-          {% if page.jp_title %}Japanese Title: {{page.jp_title}}{% endif %}
+          Japanese Title: {{page.jp_title}}
         </p>
+        {% endif %}
+        {% if page.studio %}
         <p class="studio">
           Producer: {{ page.studio }} {% if page.jp_studio %}({{page.jp_title}}){% endif %}
         </p>
+        {% endif %}
+        {% if page.director %}
         <p class="director">
           Director: {{ page.director }} {% if page.jp_director %}({{page.jp_title}}){% endif %}
         </p>
+        {% endif %}
         {% if page.online %}
         <p class="online">
           <a href="{{page.online.url}}" target="_blank">Watch online at {{page.online.service}}</a>
@@ -37,7 +42,7 @@ layout: default
     </div>
   </section>
 
-  {% if page.music %}
+  {% if page.music and page.music.size > 0 %}
   <section>
     <h2>Music</h2>  
     <ul class="media-list">
@@ -65,7 +70,7 @@ layout: default
     <h2>Episodes</h2>  
     <ul class="media-list">
     {% for episode in page.episodes %}
-    {% assign episode_name = episode.number | append: ' ' | append: episode.name %}
+    {% assign episode_name = episode.number | append: ' - ' | append: episode.name %}
     <li class="media-list-item">
         <h3 class="title">
             {{ episode_name }} 
