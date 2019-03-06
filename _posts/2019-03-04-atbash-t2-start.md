@@ -3,7 +3,11 @@ layout: post
 title: Atbash Cohort on Campus
 ---
 
-My new Prime cohort started their on-campus time this morning! Despite the early start and having to leave an hour earlier, I was so excited to see them start!  Woot!  So excited to be working with you Atbash!
+My new Prime cohort started their on-campus time this morning! 
+
+{% asset 2019_03_03-AtbashStart.jpg alt="Atbash cohort first week." %}
+
+Despite the early start and having to leave an hour earlier, I was so excited to see them start!  Woot!  So excited to be working with you Atbash!
 
 To honor their fresh start I also dyed up my hair again last night. I had been planning to go with the Yona red/magenta again, but fate stepped in. I didn't have any more dye that color & the bleaching & toning left some purple tones in my hair to start. (I probably left the toner in longer than I should have.) So instead I opted to use the remaining *Smokey Amethyst* dye that I had from earlier last year, but didn't get my hair bleached light enough to actually use. I've been using a 30 developer for the 8-9 months, so it's become pretty consistently light under all that pink now. 
 
