@@ -5,7 +5,7 @@ title: Atbash Cohort on Campus
 
 My new Prime cohort started their on-campus time this morning! 
 
-{% asset 2019_03_03-AtbashStart.jpg alt="Atbash cohort first week." %}
+{% asset 2019_03_03-Atbash-Start.jpg alt="Atbash cohort first week." %}
 
 Despite the early start and having to leave an hour earlier, I was so excited to see them start!  Woot!  So excited to be working with you Atbash!
 
@@ -16,4 +16,7 @@ The first attempt at coloring it didn't take too well. It did dye the faded red 
 Whether it was the second go, the new dye, or just more time, it definitely came out more purple in the morning. And the pink/red has a bit more purple color to it as well. It kinda looks like there was a princess party in my hair, but it does look kinda cool. Honestly, I'm not sure I like the light purple tones with my complexion. I still think I should stick to warmer colors overall, but it's growing on me. I also still have 2 tubes of Lavender dye as well, so who knows what the future will hold.
 
 I'll try to get a new picture with the cohort this week and post it later. I tried to take a few selfies with the phone, but the lighting and camera don't do the hair color any justice. Mark is pretty awesome with our pictures... though I think my funky colors pose a little extra challenge for him too. 
+
+{% asset 2019_03_05-Mary-PurplePink.jpg alt="My new grey-violet and pink do." %}
+
 
