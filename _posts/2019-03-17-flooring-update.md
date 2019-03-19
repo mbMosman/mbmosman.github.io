@@ -1,15 +1,17 @@
 ---
 layout: post
-title: Weekend Flooring Update
+title: Living & Dining Room Floors 
 preview: Woot!!! I have living room, dining room & hallway floors!
 category: Move_2019
 ---
 
 Woot!!! We've got flooring in the main living areas now! The living room & dining room are finally rocking their new awesome dark flooring look. 
 
-{% asset 2019_03_10-MaryDeskShelf.jpg alt="Monitor shelf for my new desk." %}
+{% asset 2019_03_17-DiningRoomFloor.jpg alt="Dining Room with flooring done." %}
 
-{% asset 2019_03_10-MaryDeskShelf.jpg alt="Monitor shelf for my new desk." %}
+{% asset 2019_03_17-LivingRoomFloor.jpg alt="Living Room with flooring done." %}
+
+{% asset 2019_03_17-StairwayHallFloor.jpg alt="Stairway & Hall with flooring done." %}
 
 We got the remainder of the hallway & living room on Saturday and made it about halfway through the dining room. Then finished it all up on Sunday. The hallway was pretty slow going since we hand to face nail all but the first row we did. The last row too had to be stripped and fitted perfectly to all the doorways too. Fortunately the dining room went quickly up to the last bit around the air vent and wall. 
 
