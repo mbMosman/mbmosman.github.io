@@ -1,0 +1,68 @@
+{% if include.style == 'link' %}
+<div>
+  <a href="{{ include.game.url }}" title="{{include.game.title}}" class="game-container">
+    <div class="game-image small">
+      {% if include.game.img %}
+      {% asset {{include.game.img}} alt="{{include.game.title}}" %}
+      {% endif %}
+    </div>
+    <div class="game-info">
+      <h3>
+        {{ include.game.title }}
+        {% include svg-icon.html icon="arrow-right" %}
+      </h3>
+      <p class="status"> 
+      {% if include.game.status == 'current' %}   
+        Currently playing. 
+        {% if last_played %}
+          Last played on {{ last_played | date: "%B %e, %Y" }}.
+        {% endif %}
+      {% elsif include.game.status == 'finished' %}
+        Finished. No longer playing.
+      {% elsif include.game.status == 'casual' %}
+        Still occassionally play.
+      {% elsif include.game.status == 'wishlist' %}
+        Want to play.
+      {% endif %}
+      </p>
+    </div>
+  </a>
+</div>
+{% else %}
+<div class="game-container">
+  <div class="game-image small">
+    {% if include.game.img %}{% asset {{include.game.img}} alt="{{include.game.title}}" %}{% endif %}
+  </div>
+  <div class="game-info">
+    {% if include.game.published %}
+    <p class="published">
+      Published: {{ include.game.published  | date: "%B %e, %Y" }}
+    </p>
+    {% endif %}
+    {% if include.game.status %}
+    <p class="status"> 
+        {% if include.game.status == 'current' %}   
+          Currently playing. 
+          {% if last_played %}
+            Last played on {{ last_played | date: "%B %e, %Y" }}.
+          {% endif %}
+        {% elsif include.game.status == 'finished' %}
+          Finished. No longer playing.
+        {% elsif include.game.status == 'casual' %}
+          Occassionally play.
+        {% elsif include.game.status == 'wishlist' %}
+          Want to play.
+        {% endif %}
+    </p>
+    {% endif %}
+    {% if include.game.website %}
+    <p class="game-website">
+      For more information, visit the game's website: 
+      <a href="{{ include.game.website }}" title="{{include.game.title}}" target="_blank">
+        {{ include.game.website }}
+      </a>
+    </p>
+    {% endif %}  
+  </div>  
+</div>
+{% endif %}

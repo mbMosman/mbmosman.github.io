@@ -3,4 +3,31 @@ title: Games
 layout: page
 ---
 
-Coming Soon
+<section>
+  <h2>Recent Games</h2>
+
+  {% assign list = site.game | where_exp: 'item', "item.status contains 'current'"  %}
+  <ul class="game-list">
+  {% for item in list %}
+    <li class="game-list-item">
+      {% include game-info.html game=item style='link' %}
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+
+<section>
+  
+  <h2>Other Games in the Library</h2>
+
+  {% assign list = site.game | where_exp: 'item', "item.status != 'current'" | sort: 'last_played' | reverse %}
+  <ul class="game-list">
+  {% for item in list  limit: 5 %}
+    <li class="game-list-item">
+      {% include game-info.html game=item style='link' %}
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+
+

@@ -42,6 +42,10 @@ episodes:   # episode/part number
     jp_name:  黒の暴牛 (Kuro no Bōgyū)
     number:   6
     season:   1
+  - name:     The Other New Recruit
+    jp_name:  もう一人の新入団員 (Mō Hitori no Shin Nyūdan'in)
+    number:   6
+    season:   1
 status:     current-first-time
 view_history:  # must order recent first
   - start: 2018-04-21 

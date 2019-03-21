@@ -50,6 +50,9 @@ collections:
   vizmedia:
     output: true
     permalink: /:collection/:name
+  game:
+    output: true
+    permalink: /:collection/:name
 
 defaults:
   -
@@ -70,4 +73,10 @@ defaults:
       type: vizmedia
     values:
       layout: "vizmedia"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: game
+    values:
+      layout: "game"
 

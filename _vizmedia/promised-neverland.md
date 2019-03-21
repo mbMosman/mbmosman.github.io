@@ -32,6 +32,12 @@ episodes:   # episode/part number
     number:   6
   - name:     011145
     number:   7
+  - name:     021145
+    number:   8
+  - name:     031145
+    number:   9
+  - name:     130146
+    number:   10
 status:     current-first-time
 view_history:  # must order recent first
   - start: 2019-02-09 
