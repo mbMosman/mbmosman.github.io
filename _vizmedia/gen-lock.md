@@ -24,7 +24,7 @@ episodes: # episode/part number
   - name: Training Daze
     number:  4
     season:  1
-status:      current-first-time, current-new-season, rewatch, finished, not-finishing
+status:   current-first-time
 view_history:  # must order recent first
   - start: 2019-03-20
     end:   # YYYY-MM-DD

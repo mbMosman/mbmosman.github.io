@@ -2,10 +2,10 @@
 output: false # Don't show this template
 title:      Meiji Tokyo Renka
 jp_title:   明治東亰恋伽
-studio:     # who made this
-director:   # director's name
-us_release: # YYYY-MM-DD 
-img:        # url to poster image 
+studio:     TMS/V1 Studio
+director:   Akitaro Daichi
+us_release: 2019-01-29 
+img:        https://img1.ak.crunchyroll.com/i/spire4/ef6f1771e7b4e985bd65544121f3c1231546987212_thumb.jpg
 online:     # where can it be watched online
   url:      https://www.crunchyroll.com/meiji-tokyo-renka
   service:  Crunchyroll
