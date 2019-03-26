@@ -6,10 +6,10 @@ author:
 published: 2017-10-10 
 goodreads: https://www.goodreads.com/book/show/34068533-technically-wrong
 img: https://images.gr-assets.com/books/1499835998l/34068533.jpg
-status: current-first-read
+status: read
 read:   # must order recent first
   - start: 2019-03-17 
-    end:   # YYYY-MM-DD
+    end:   2019-03-20
 type: non-fiction
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - non-fiction
