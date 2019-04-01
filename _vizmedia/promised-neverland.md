@@ -38,10 +38,14 @@ episodes:   # episode/part number
     number:   9
   - name:     130146
     number:   10
-status:     current-first-time
+  - name:     140146
+    number:   11
+  - name:     150146
+    number:   12
+status:     finished
 view_history:  # must order recent first
   - start: 2019-02-09 
-    end:   # YYYY-MM-DD
+    end:   2019-03-28
 manga: # anime: {% link _manga/name-of-document.md %}
 tags:  # genre: shojo, shonen, action, slice-of-life, etc.
   - shonen
@@ -51,4 +55,6 @@ tags:  # genre: shojo, shonen, action, slice-of-life, etc.
 OK, so going into this blind, I was in for one hell of a surprise. Neverland, Peter Pan, cheery things, right? Nope, not so much... 
 
 These orphans are being farmed as food for demons. Yes, that's a wee spoiler, but you find out in the first episode, so it's not a huge one. The show is surprisingly catching, as I was hooked right away at the end of that first episode. It's the orphans against Mother as they plot their escape with plot twists gallore. 
+
+The first season ends on a mixed note, but avoids a total cliff hanger ending. I appreciate that. Rumor has it we will get another season next year. I don't think I love it enough to hop into the manga, but would watch more. There's definite potential for interesting happenings as the story moves forward. 
 

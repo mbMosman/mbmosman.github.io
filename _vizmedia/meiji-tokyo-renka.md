@@ -47,10 +47,13 @@ episodes:   # episode/part number
   - name:     Chat Noir Won't Look Back
     jp_name:  シャノワールは振り向かない (Shanowāru wa furimukanai)
     number:   11
+  - name:     Embraced by the Strawberry Moon
+    jp_name:  ストロベリームーンに抱かれて (Sutoroberīmūn ni idakarete)
+    number:   12
 status:       current-first-time
 view_history:  # must order recent first
   - start: 2019-03-06 
-    end:   # YYYY-MM-DD
+    end:   2019-03-30
 tags:  # genre: shojo, shonen, action, slice-of-life, etc.
   - shojo
   - romance
@@ -59,3 +62,5 @@ tags:  # genre: shojo, shonen, action, slice-of-life, etc.
 ---
 
 > On the night of a crimson full moon, high school girl Ayazuki Mei enters into a box. When she awakens, she's in Tokyo during the Meiji Period! The lost and confused Mei is taken to the Rokumeikan, a lavish ballroom full of powerful high officials. In this world, during the "Misty Hour" between sundown and sunup, "mononoke" appear. Those who can see them are called "Tamayori," and Mei herself possesses this power. As she navigates an unfamiliar life, romance begins to bloom between Mei and these men -- and the power of the tamayori will only strengthen their bonds.
+
+This was kinda cute, but not really a lot of depth here... granted I wasn't really expecting it either. It's a pretty typical protal, reverse-harem type anime with our heroine surrounded by all these guys that think she's the best thing ever. She learns a bit about herself, though it seems like a pretty win, and then it's done. 

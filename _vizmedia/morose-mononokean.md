@@ -78,13 +78,27 @@ episodes:   # episode/part number
     jp_name:  團圓 (ダンエン)
     number:   13
     season:   1
-status:       to-watch-new-season
+  - name:     The Limb Screen
+    jp_name:  肢簾 (エス)
+    number:   13
+    season:   2
+  - name:     The Tail
+    jp_name:  尾鳴 (オオ)
+    number:   14
+    season:   2
+  - name:     Greetings
+    jp_name:  行拶 (ギョウサツ)
+    number:   14
+    season:   2
+status:       current-new-season
 view_history:  # must order recent first
   - start: 2017-04-11 
     end:   2017-05-19
   - start: 2018-06-07 
     end:   2018-08-19
-manga: manga/moroso-mononkean.html %}
+  - start: 2018-03-30
+#    end:
+manga: manga/moroso-mononkean.html 
 tags:  # genre: shojo, shonen, action, slice-of-life, etc.
   - supernatural
   - fantasy
@@ -96,3 +110,5 @@ The first season of the anime was great. It lured me into reading the manga as I
 I'm so glad that there is now a 2nd season of the anime. I can't wait to see the story I've enjoyed from the managa animated and brought to life. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zQJDnx1fdC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Finally got another anime night in with Christy to kick-off season 2. We watched the first 3 episodes. It seemed a bit of a slow start to me, maybe because the pattern of the episodes is a little different. We aren't meeting a new Yokai each episode that needs help here. There are some new Underworld characters introduced, but where things are going isn't really clear yet.
