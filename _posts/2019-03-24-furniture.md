@@ -16,7 +16,7 @@ We came home Sunday and finished painting trim and got the floors cleaned up - n
 {% asset 2019_03_24-DR-withFurniture.jpg alt="Dining Room with furniture." %}
 {% asset 2019_03_24-LR-withFurniture.jpg alt="Living Room with furniture." %}
 
-I'm so excited to have a cozy living space again! 
+I'm so excited to have a cozy living space again! We also welcomed __*Rosie*__ the Roomba to our home to keep our pretty floors cleaned. Woot! You can see here hanging out up there behind Abby. They haven't become friends yet. She chimes and they all bolt.
 
 Martin has also been working on built-in drawers and cabinet space for our hallway closet. I don't have pictures yet, but he finished up the drawers this weekend and built the cabinet shells earlier in the week. He's working on painting and then a front-piece for it, but hopefully that will also be done this week.
 
