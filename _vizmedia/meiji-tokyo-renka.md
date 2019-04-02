@@ -50,7 +50,7 @@ episodes:   # episode/part number
   - name:     Embraced by the Strawberry Moon
     jp_name:  ストロベリームーンに抱かれて (Sutoroberīmūn ni idakarete)
     number:   12
-status:       current-first-time
+status:       finished
 view_history:  # must order recent first
   - start: 2019-03-06 
     end:   2019-03-30
