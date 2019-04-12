@@ -10,5 +10,5 @@ We called it a WFH (work from home) day for class. No need for any usafe travel 
 
 Today is also Martin's birthday, but our dinner plans got cancelled since no one wanted to get out and drive in all of this mess. It hailed on me as I was snow shoveling the driveway and I'm pretty sure I also heard the infamous __thunder snow__. Woot?
 
-{% asset 2019_04_11-DrivewayLeft.jpg alt="Down the street after the snow" %}
-{% asset 2019_04_11-DrivewayRight.jpg alt="Out front after the snow" %}
+{% asset 2019_04_11-drivewayLeft.jpg alt="Down the street after the snow" %}
+{% asset 2019_04_11-drivewayRight.jpg alt="Out front after the snow" %}
