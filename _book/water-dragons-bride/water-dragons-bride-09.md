@@ -11,10 +11,10 @@ author:
 published: 2019-04-02 
 goodreads: https://www.goodreads.com/book/show/40639174-the-water-dragon-s-bride-vol-9
 img:       https://images.gr-assets.com/books/1545498749l/40639174.jpg
-status:  waiting
-#read:   # must order recent first
-#  - start: 2019-04-02  
-#    end:   #2019-04-02 
+status:  read
+read:   # must order recent first
+  - start: 2019-04-05  
+    end:   2019-04-05 
 type: manga
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - shojo
