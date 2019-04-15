@@ -90,6 +90,18 @@ episodes:   # episode/part number
     jp_name:  行拶 (ギョウサツ)
     number:   14
     season:   2
+  - name:     The Mortar
+    jp_name:  臼舂 (ウスツク)
+    number:   15
+    season:   2
+  - name:     The Tiger
+    jp_name:  虎入 (コイ)
+    number:   16
+    season:   2
+  - name:     The Seedling
+    jp_name:  光芽 (ミツガ)
+    number:   17
+    season:   2
 status:       current-new-season
 view_history:  # must order recent first
   - start: 2017-04-11 
