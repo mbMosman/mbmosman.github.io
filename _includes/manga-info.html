@@ -1,0 +1,74 @@
+{% if include.style == 'link' %}
+<div>
+  <a href="{{ include.series.url }}" title="{{include.series.title}}" class="media-container">
+    <div class="media-image small">
+      {% if include.series.img %}<img src="{{include.series.img}}" alt="poster" />{% endif %}
+    </div>
+
+    <div class="media-info">
+        <h3 class="title">
+          {{ include.series.title }} 
+        </h3>
+        {% if include.series.jp_title %}
+        <p class="japanese-title">
+          Japanese Title: {{include.series.jp_title}}
+        </p>
+        {% endif %}
+        {% if include.series.author %}
+        <p class="author">
+          Author: {{ include.series.author }} {% if include.series.jp_author %}({{include.series.jp_author}}){% endif %}
+        </p>
+        {% endif %}
+        {% if include.series.status %}
+        <p class="status"> 
+          {% if include.series.status == 'finished' %}    
+            This series has ended.
+          {% else %}
+            This series is still on-going.
+          {% endif %}
+        </p>
+        {% endif %}
+      </div>
+  </a>
+</div>
+{% else %}
+<div class="media-container">
+    <div class="media-image small">
+      {% if include.series.img %}<img src="{{include.series.img}}" alt="poster" />{% endif %}
+    </div>
+    <div class="media-info">
+      <h3 class="title">
+        {{ include.series.title }} 
+      </h3>
+      <p class="japanese-title">
+        {% if include.series.jp_title %}Japanese Title: {{include.series.jp_title}}{% endif %}
+      </p>
+      <p class="author">
+        Author: {{ include.series.author }} {% if include.series.jp_author %}({{include.series.jp_author}}){% endif %}
+      </p>
+      {% if include.series.goodreads %}
+      <p class="goodreads">
+        <a href="{{ include.series.goodreads }}" title="{{include.series.title}}" target="_blank">
+          View on Goodreads
+        </a>
+      </p>
+      {% endif %}
+      {% if include.series.status %}
+      <p class="status"> 
+        {% if include.series.status == 'finished' %}    
+          This series has ended.
+        {% else %}
+          This series is still on-going.
+        {% endif %}
+      </p>
+      {% endif %}
+    </div> 
+    {% if include.series.anime %}
+    <p class="related">
+      <a href="{{ include.series.anime }}" title="{{include.series.title}}"  target="_blank">
+        Check out the related anime series!
+      </a>
+    </p>
+    {% endif %}
+</div>
+{% endif %}

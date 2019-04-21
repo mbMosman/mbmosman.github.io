@@ -4,7 +4,7 @@ jp_title:  暁のヨナ (あかつきのよな)
 author:    Mizuho Kusanagi
 jp_author: 草凪みずほ 
 goodreads: https://www.goodreads.com/series/85945-yona-of-the-dawn
-img:       https://images.gr-assets.com/books/1346177629l/8497641.jpg
+img:       https://images.gr-assets.com/books/1469276222l/27406734.jpg
 status:    on-going
 read:
   - start: 2016-08-18 

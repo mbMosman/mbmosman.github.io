@@ -1,0 +1,16 @@
+---
+title: Manga
+layout: page
+---
+
+
+{% assign manga_list = site.manga | sort: 'title' %} 
+{% for item in manga_list %} 
+<section>
+  <ul class="media-list">
+    <li class="media-list-item">
+      {% include manga-info.html series=item style='link' %}
+    </li>
+  </ul>
+</section>
+{% endfor %}
