@@ -1,5 +1,8 @@
 ---
 output: false # Don't show this template
+#### don't change or remove type ####
+type:   series
+#### change stuff below ####
 title:      # title
 jp_title:   # title in Japanese
 studio:     # who made this

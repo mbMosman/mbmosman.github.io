@@ -1,4 +1,7 @@
 ---
+#### don't change or remove type ####
+type:  series
+#### change stuff below ####
 title:      Bungo Stray Dogs
 jp_title:   文豪ストレイドッグス
 studio:     Bones
@@ -12,19 +15,6 @@ online:     # where can it be watched online
 #  - name:   # name
 #    artist: # artist
 #    used:   # opening/closing season
-episodes:   # episode/part number
-  - name:     Fortune Is Unpredictable and Mutable
-    jp_name:  人生万事塞翁が虎 (Jinsei Banji Saiō ga Tora)
-    number:   1
-    season:   1
-  - name:     A Certain Bomb
-    jp_name:  或る爆弾 (Aru Bakudan)
-    number:   2
-    season:   1
-  - name:     Yokohama Gangster Paradise
-    jp_name:  ヨコハマ ギャングスタア パラダヰス (Yokohama Gyangusuta Paradaisu)
-    number:   3
-    season:   1
 status:     current-first-time
 view_history:  # must order recent first
   - start: 2019-04-13 
@@ -34,3 +24,7 @@ tags:  # genre: shojo, shonen, action, slice-of-life, etc.
   - seinen
   - paranormal
 ---
+
+Supernatural dectective work takes center stage with some very interesting characters. It quickly sucked me in with the characters odd-ball nature and the gang of misfits theme. I'm jumping into this a little late, as they are into their 3rd season, but I can see why it would be popular. 
+
+I didn't realize this at first, but many of the characters and their powers are named after literary figures and their works. That's pretty sweet!

@@ -65,28 +65,52 @@ layout: default
   </section> 
   {% endif %}
 
-  {% if page.episodes %}
+  {% if page.content %}
+  <section class="review">
+    <h2>Overall Thoughts</h2>
+      {{ content }}
+  </section>
+  {% endif %}
+
+  {% assign episodes = site.vizmedia | where:"series", item.series | where: "type", "episode" | sort: "number" %} 
+  {% if episodes %}
   <section>
     <h2>Episodes</h2>  
+    <p>Beware! There may be <strong>spoilers</strong> in the content below!</p>
     <ul class="media-list">
-    {% for episode in page.episodes %}
+    {% for episode in episodes %}
     {% assign episode_name = episode.number | append: ' - ' | append: episode.name %}
     <li class="media-list-item">
-        <h3 class="title">
+        <div class="episode">
+          <h3 class="title">
             {{ episode_name }} 
           </h3>
           <p class="japanese-title">
             {% if episode.jp_name %}Japanese Title: {{episode.jp_name}}{% endif %}
           </p>
+          {% if episode.status %}
+          <p class="status">
+            Status: {{ episode.status }}
+          </p>
+          {% endif %}
+          {% if episode.view_history %}
+          <p class="status">
+            Last seen on: {{ episode.view_history.first.date | date: "%B %e, %Y" }}
+          </p>
+          {% endif %}
+          {% if episode.summary %}
+          <h4>Summary</h4>
+          <p>{{ episode.summary }}</p>
+          {% endif %}
+          {% if episode.content %}
+          <h4>Review</h4>
+          <p>{{ episode.content }}</p>
+          {% endif %}
+        </div>
     </li>
     {% endfor %}
     </ul>  
   </section> 
   {% endif %}
-
-  <section class="review">
-    <h2>Review</h2>
-      {{ content }}
-  </section>
 
 </article>
