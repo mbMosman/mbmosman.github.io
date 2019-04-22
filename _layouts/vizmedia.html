@@ -72,8 +72,8 @@ layout: default
   </section>
   {% endif %}
 
-  {% assign episodes = site.vizmedia | where:"series", item.series | where: "type", "episode" | sort: "number" %} 
-  {% if episodes %}
+  {% assign episodes = site.vizmedia | where_exp: "item", "item.series==page.title" | sort: "number" %} 
+  {% if episodes.size > 0 %}
   <section>
     <h2>Episodes</h2>  
     <p>Beware! There may be <strong>spoilers</strong> in the content below!</p>
