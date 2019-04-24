@@ -93,7 +93,7 @@ layout: default
             Status: {{ episode.status }}
           </p>
           {% endif %}
-          {% if episode.view_history %}
+          {% if episode.view_history.first %}
           <p class="status">
             Last seen on: {{ episode.view_history.first.date | date: "%B %e, %Y" }}
           </p>
@@ -102,9 +102,10 @@ layout: default
           <h4>Summary</h4>
           <p>{{ episode.summary }}</p>
           {% endif %}
-          {% if episode.content %}
+          {% assign review = post.content | strip_newlines %}
+          {% if review != '' %}
           <h4>Review</h4>
-          <p>{{ episode.content }}</p>
+          <p>{{ review }}</p>
           {% endif %}
         </div>
     </li>
