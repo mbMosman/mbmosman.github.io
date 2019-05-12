@@ -14,7 +14,9 @@ Saturday morning we put in the last bit of the wood floors in the entry way. Mar
 On Sunday we started to hang some of our pictures and stuff on the walls, though that took a few days (and still isn't all done) because some of is missing the hanging hardware. We hung some stuff of Martin's out in the living room and hallway, and we put my Snow Queen and Summer Queen in the dining room, though I'm not sure that I really like them together there...
 
 I also have all my anime stuff up in my office now too!  
-
+{% asset 2019-04-30-MaryOffice-animed1.jpg alt="Fruits Basket, Ruroni Kenshin, Rytlok, & Moogle!" %}
+{% asset 2019-04-30-MaryOffice-animed2.jpg alt="Samurai X." %}
+{% asset 2019-04-30-MaryOffice-animed3.jpg alt="Inuyasha." %}
 
 I'm a little delayed in doing the weekend update, so I can also add that the electrician came today and we now have lights in our offices as well as a ceiling fan in the bedroom and light in the closet. Woot! I can see my clothes!
 

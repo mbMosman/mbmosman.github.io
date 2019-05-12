@@ -4,7 +4,8 @@ studio:  Kalypso Media
 release: 2018-01-26 
 img:     railway-empire.jpg 
 url:     https://www.kalypsomedia.com/us/railway-empire
-status:  current
+status:  casual
+last_played: 2019-05-06
 tags:  # genre: mmo, action, rpg, strategy, computer, steam, ps4
   - computer
   - sim
