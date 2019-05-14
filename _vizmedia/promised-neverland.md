@@ -1,4 +1,5 @@
 ---
+type:   series
 title:      The Promised Neverland
 jp_title:   約束のネバーランド (Yakusoku no Neverland)
 studio:     Clover Works

@@ -1,4 +1,5 @@
 ---
+type:   series
 title:     The Morose Mononokean
 jp_title:  不機嫌なモノノケ庵 (ふきげんなモノノケあん)
 studio:     Pierrot Plus
@@ -80,36 +81,64 @@ episodes:   # episode/part number
     season:   1
   - name:     The Limb Screen
     jp_name:  肢簾 (エス)
-    number:   13
+    number:   1
     season:   2
   - name:     The Tail
     jp_name:  尾鳴 (オオ)
-    number:   14
+    number:   2
     season:   2
   - name:     Greetings
     jp_name:  行拶 (ギョウサツ)
-    number:   14
+    number:   3
     season:   2
   - name:     The Mortar
     jp_name:  臼舂 (ウスツク)
-    number:   15
+    number:   4
     season:   2
   - name:     The Tiger
     jp_name:  虎入 (コイ)
-    number:   16
+    number:   5
     season:   2
   - name:     The Seedling
     jp_name:  光芽 (ミツガ)
-    number:   17
+    number:   6
     season:   2
-status:       current-new-season
+  - name:     The Dabbler
+    jp_name:  横好 (ヨコスキ)
+    number:   7
+    season:   2
+  - name:     The Removal
+    jp_name:  脱羅 (ヌラ)
+    number:   8
+    season:   2
+  - name:     The Shadow
+    jp_name:  榮影 (エイエイ)
+    number:   9
+    season:   2
+  - name:     The Messenger
+    jp_name:  黒遣 (コッケン)
+    number:   10
+    season:   2
+  - name:     The Return
+    jp_name:  帰居 (キイ)
+    number:   11
+    season:   2
+  - name:     The Cobweb
+    jp_name:  上蜘 (ジヨウチ)
+    number:   12
+    season:   2
+  - name:     True Intentions
+    jp_name:  翻寧 (ホンネ)
+    number:   13
+    season:   2
+status:       finished
 view_history:  # must order recent first
-  - start: 2017-04-11 
-    end:   2017-05-19
+  - start: 2019-03-30
+    end:   2019-05-04
   - start: 2018-06-07 
     end:   2018-08-19
-  - start: 2018-03-30
-#    end:
+  - start: 2017-04-11 
+    end:   2017-05-19
 manga: manga/moroso-mononkean.html 
 tags:  # genre: shojo, shonen, action, slice-of-life, etc.
   - supernatural

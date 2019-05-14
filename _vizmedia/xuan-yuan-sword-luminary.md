@@ -1,4 +1,5 @@
 ---
+type:   series
 title:      Xuan Yuan Sword Luminary
 jp_title:   '軒轅剣 蒼き曜 (Ken En Ken: Aoki Kagayaki)'
 studio:     Studio Deen

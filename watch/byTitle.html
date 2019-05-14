@@ -6,7 +6,7 @@ layout: page
 <section>
   <h2>Full Watchlist by Title</h2>
 
-  {% assign watchlist = site.vizmedia | sort: 'title' %}
+  {% assign watchlist = site.vizmedia | where: 'type', 'series' | sort: 'title' %}
   <ul class="media-list">
   {% for item in watchlist %}
     <li class="media-list-item">

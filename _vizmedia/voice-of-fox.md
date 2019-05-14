@@ -1,4 +1,5 @@
 ---
+type:   series
 title:      Voice of Fox
 jp_title:   狐狸之声 (Kori no Koe)
 studio:     Yumeta

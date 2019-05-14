@@ -1,5 +1,5 @@
 ---
-output: false # Don't show this template
+type:   series
 title:      Meiji Tokyo Renka
 jp_title:   明治東亰恋伽
 studio:     TMS/V1 Studio

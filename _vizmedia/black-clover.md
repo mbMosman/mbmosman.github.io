@@ -1,4 +1,5 @@
 ---
+type:   series
 title:      Black Clover
 jp_title:   ブラッククローバ
 studio:     Pierrot

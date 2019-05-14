@@ -1,4 +1,5 @@
 ---
+type:   series
 title:      Free!
 jp_title:   # title in Japanese
 studio:     Kyoto Animation

@@ -1,4 +1,5 @@
 ---
+type:   series
 title:      Tsurune 
 jp_title:   ツルネ ―風舞高校弓道部― (Kazemai Koukou Kyuudoubu)
 studio:     Kyoto Animation, or KyoAni (京アニ)

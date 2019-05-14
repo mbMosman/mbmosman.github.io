@@ -1,4 +1,5 @@
 ---
+type:   series
 title:      gen:LOCK
 studio:     Rooster Teeth
 director:   Gray Haddock

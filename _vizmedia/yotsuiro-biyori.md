@@ -1,4 +1,5 @@
 ---
+type:   series
 title:      Yotsuiro Biyori
 jp_title:   鹿楓堂よついろ日和
 studio:     Zexcs

@@ -1,4 +1,5 @@
 ---
+type:   series
 title:      Thunderbolt Fantasy
 jp_title:   Thunderbolt Fantasy
 studio:     Pili 

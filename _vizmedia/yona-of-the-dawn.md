@@ -1,4 +1,5 @@
 ---
+type:   series
 title:      Yona of the Dawn
 jp_title:   暁のヨナ (Akatsuki no Yona)
 studio:     Pierrot
