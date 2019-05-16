@@ -9,8 +9,8 @@ author:
   first:   Natsuki 
   last:    Takaya
 published: 2016-07-26 
-goodreads: https://www.goodreads.com/book/show/28118570-fruits-basket-collector-s-edition-vol-2
-img:       https://images.gr-assets.com/books/1466085146l/28118570.jpg
+goodreads: https://www.goodreads.com/book/show/28219404-fruits-basket-collector-s-edition-vol-3
+img:       https://images.gr-assets.com/books/1465760715l/28219404.jpg
 status:    read
 read:   # must order recent first
   - start: 2019-05-13 

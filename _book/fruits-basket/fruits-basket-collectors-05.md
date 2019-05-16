@@ -8,12 +8,12 @@ series:    # if part of a series
 author: 
   first:   Natsuki 
   last:    Takaya
-published: 2016-08-28 
-goodreads: https://www.goodreads.com/book/show/28118570-fruits-basket-collector-s-edition-vol-2
-img:       https://images.gr-assets.com/books/1466085146l/28118570.jpg
+published: 2016-09-27
+goodreads: https://www.goodreads.com/book/show/28449232-fruits-basket-collector-s-edition-vol-5
+img:       https://images.gr-assets.com/books/1471286854l/28449232.jpg
 status:    current-first-read
 read:   # must order recent first
-  - start: 2019-05-15 
+  - start: 2019-05-16 
 #    end:   2019-04-27
 type: manga
 tags:   # library, own-this, scifi, fantasy, historical-fiction
