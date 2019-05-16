@@ -13,8 +13,8 @@ goodreads: https://www.goodreads.com/book/show/28118570-fruits-basket-collector-
 img:       https://images.gr-assets.com/books/1466085146l/28118570.jpg
 status:    read
 read:   # must order recent first
-  - start: 2019-04-21 
-    end:   # YYYY-MM-DD
+  - start: 2019-04-25 
+    end:   2019-04-27
 type: manga
 tags:   # library, own-this, scifi, fantasy, historical-fiction
   - shojo

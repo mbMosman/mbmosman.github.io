@@ -14,7 +14,7 @@ img:       https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books
 status:    read
 read:   # must order recent first
   - start: 2019-04-21 
-    end:   # YYYY-MM-DD
+    end:   2019-04-25
 type: manga
 tags:   # library, own-this, scifi, fantasy, historical-fiction
   - shojo
