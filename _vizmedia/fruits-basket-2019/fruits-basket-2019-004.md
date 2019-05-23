@@ -10,7 +10,7 @@ number:     4
 season:     1
 status:     watched
 view_history:  # must order recent first
-  - #date: 2019-04-13 
+  - date: 2019-05-09 
 summary:   >- # this means to ignore newlines
   In this episode, we meet Kagura Sohma who shows up at the house looking for Kyo. At first she seems quiet and shy, but then all her emotions burst out as she pummels him. She says that she's Kyo's fiancee, but Kyo doesn't go along saying that was under threatening cirumstances when they were kids. To prove her love Kagura insists on cooking dinner, but her feast is ruined when Kyo refuses to join and Kagura loses her temper, ruining more of Sigure's house. Kagura goes the the store to get more food, leaving her purse/money behind, but Tohru follows and buys the groceries. They talk on the way back and cook hamburgers together. While Kagura still sees her as a rival, they become friends. 
 ---
