@@ -102,8 +102,8 @@ layout: default
           <h4>Summary</h4>
           <p>{{ episode.summary }}</p>
           {% endif %}
-          {% assign review = post.content | strip_newlines %}
-          {% if review != '' %}
+          {% assign review = episode.content | strip_newlines %}
+          {% if review != "" %}
           <h4>Review</h4>
           <p>{{ review }}</p>
           {% endif %}
