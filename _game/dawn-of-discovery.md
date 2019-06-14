@@ -20,4 +20,4 @@ The campaign teaches you well, though it breaks once you achieve the goals of th
 
 It is 9 years old now, but it doesn't really feel it. I'm fine with the quality of the graphics and the game play is fun. The story of the campaign is a little cheesy, but that's fine too. There are no surprises when the creepy looking war advisor turns out to be spurring on a crusade not at the dying emperor's bidding but at the evil cardinal's, but the story serves it's purpose well enough - teaching you how to play the game.
 
-I don't expect this to be a game a remember fondly years down the road, but it is a lot of fun and I can see getting many good hours of enjoyment out of it. This is a pre-cursor to the later Anno games, but I haven't found them to be as enjoyable as this one for whatever reason.
+I don't expect this to be a game I remember fondly years down the road, but it is a lot of fun. I can see getting many good hours of enjoyment out of it. This is a pre-cursor to the later Anno games, but I haven't found them to be as enjoyable as this one for whatever reason.

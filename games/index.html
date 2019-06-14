@@ -20,7 +20,7 @@ layout: page
   
   <h2>Other Games in the Library</h2>
 
-  {% assign list = site.game | where_exp: 'item', "item.status != 'current'" | sort: 'last_played' | reverse %}
+  {% assign list = site.game | where_exp: 'item', "item.status contains 'casual'" | sort: 'last_played' | reverse %}
   <ul class="game-list">
   {% for item in list  limit: 5 %}
     <li class="game-list-item">

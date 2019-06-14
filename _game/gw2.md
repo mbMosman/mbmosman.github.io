@@ -5,7 +5,7 @@ studio:  ArenaNet
 release: 2012-08-28
 img:     gw2-logo.jpg
 website:     https://www.guildwars2.com/en/
-status:  current
+status:  casual
 last_played: 2019-03-05
 tags:  # genre: mmo, action, rpg, strategy, computer, steam, ps4
   - computer
@@ -19,3 +19,4 @@ It's now free to play the base GW2 game, but the expansion areas are still purch
 
 If you join and want to play together, friend me as the Sylvari Ranger, Myrsine.
 
+Status - Finished up the Living World Season 4 story, but haven't done achievements or been back on. Sadly loosing online friends and general interest...

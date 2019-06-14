@@ -12,7 +12,7 @@
         {% include svg-icon.html icon="arrow-right" %}
       </h3>
       <p class="status"> 
-      {% if include.game.status == 'current' %}   
+      {% if include.game.status contains 'current' %}   
         Currently playing. 
         {% if last_played %}
           Last played on {{ last_played | date: "%B %e, %Y" }}.
@@ -20,7 +20,7 @@
       {% elsif include.game.status == 'finished' %}
         Finished. No longer playing.
       {% elsif include.game.status == 'casual' %}
-        Still occassionally play.
+        Occassionally play.
       {% elsif include.game.status == 'wishlist' %}
         Want to play.
       {% endif %}
@@ -41,7 +41,7 @@
     {% endif %}
     {% if include.game.status %}
     <p class="status"> 
-        {% if include.game.status == 'current' %}   
+        {% if include.game.status contains 'current' %}   
           Currently playing. 
           {% if last_played %}
             Last played on {{ last_played | date: "%B %e, %Y" }}.

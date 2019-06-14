@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
-gem "jekyll"
+gem 'jekyll'
 gem "jekyll-paginate"
 gem "jekyll-feed"
-gem "jekyll-assets"
+gem 'jekyll-assets'
 gem "jekyll-gist"
 gem "sass"

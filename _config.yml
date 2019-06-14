@@ -39,6 +39,8 @@ assets:
   source_maps: false
   sources:
     - _assets/icons
+    - _assets/images
+    - _assets/css
 
 collections:
   book:
