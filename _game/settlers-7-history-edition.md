@@ -2,7 +2,7 @@
 title:   Settler's 7 - History Edition
 studio:  Blue Byte
 release: 2019-01-22 
-img:     settlers7.jpg
+img:     games/settlers7.jpg
 url:     https://www.ubisoft.com/en-au/game/the-settlers-history-collection/
 status:  current
 last_played: 2019-05-11

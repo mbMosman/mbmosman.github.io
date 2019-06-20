@@ -2,7 +2,7 @@
 title:   Railway Empire
 studio:  Kalypso Media
 release: 2018-01-26 
-img:     railway-empire.jpg 
+img:     games/railway-empire.jpg 
 url:     https://www.kalypsomedia.com/us/railway-empire
 status:  casual
 last_played: 2019-05-06

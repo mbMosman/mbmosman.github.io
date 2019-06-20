@@ -2,7 +2,7 @@
 title:   "Emperor: Rise of the Middle Kingdom"
 studio:  Impression Games
 release: 2002-09-09 
-img:     emperor.jpg 
+img:     games/emperor.jpg 
 url:     https://www.gog.com/game/emperor_rise_of_the_middle_kingdom
 status:  current-replay
 tags:  # genre: mmo, action, rpg, strategy, computer, steam, ps4

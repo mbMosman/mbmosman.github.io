@@ -2,7 +2,7 @@
 title:   Dawn of Discovery 
 studio:  Blue Byte
 release: 2009-06-23 
-img:     dawn-of-discovery.jpg 
+img:     games/dawn-of-discovery.jpg 
 url:     https://store.steampowered.com/sub/3047/
 status:  current
 last_played: 2019-05-11

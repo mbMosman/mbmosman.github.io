@@ -3,7 +3,7 @@ output: false # Don't show this template
 title:   Guild Wars 2
 studio:  ArenaNet
 release: 2012-08-28
-img:     gw2-logo.jpg
+img:     games/gw2-logo.jpg
 website:     https://www.guildwars2.com/en/
 status:  casual
 last_played: 2019-03-05
