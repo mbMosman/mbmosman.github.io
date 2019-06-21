@@ -35,6 +35,8 @@ volumes:
     url:    /book/morose-mononokean-11.html
   - number: 12
     url:    /book/morose-mononokean-12.html
+  - number: 13
+    url:    /book/morose-mononokean-13.html
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - fantasy
   - supernatural
