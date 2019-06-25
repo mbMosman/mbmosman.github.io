@@ -2,7 +2,7 @@
 layout: post
 title: Welcome Playfair 
 preview: My 5th cohort started at Prime today! Woot! Welcome Playfair! So excited to be on this journey with you!
-category: Prime
+categories: [Prime]
 ---
 
 My 5th cohort started at Prime today! Woot! Welcome Playfair! So excited to be on this journey with you!

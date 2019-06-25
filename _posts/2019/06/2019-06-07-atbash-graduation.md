@@ -2,12 +2,12 @@
 layout: post
 title: Atbash Graduation Day!!! 
 preview: My 4th cohort graduated from Prime today! Woot! They've been so amazing, and I'm going to miss seeing them so much. But I'm so excited to see where life takes them from here!
-category: Prime
+categories: [Prime]
 ---
 
 My 4th cohort graduated from Prime today! Woot! They've been so amazing, and I'm going to miss seeing them so much. But I'm so excited to see where life takes them from here!
 
-{% asset 2019/06/07/atbash.jpg alt="Atbash graduation pic" %}
+{% asset 2019/06/07/atbash-graduation.jpg alt="Atbash graduation pic" %}
 
 We had a lot of fun over the last 14 weeks, but today was super exciting! I got to slay a unicorn!!! In piñata form, but still... The unicorn is a formidable foe!
 
@@ -26,3 +26,5 @@ To get a rain of awesome custom Atbash confetti (with little rainbow 'Woot!'s an
 {% asset 2019/06/07/japaneseCandy.jpg alt="Japanese sweets." %}
 
 I'm going to miss having them in class so much!!!  Best wishes to you all Atbash! I know you'll do amazing things!
+
+Ooh ha ha!

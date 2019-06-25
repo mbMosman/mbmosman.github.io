@@ -9,8 +9,8 @@ author:
   first:   Kiri 
   last:    Wazawa
 published: #2018-12-21 
-goodreads: https://www.goodreads.com/book/show/43611550-12-fukigen-na-mononokean-12
-img:       https://images.gr-assets.com/books/1547864374l/43611550.jpg
+goodreads: #
+img:       # 
 status:    currently-reading
 read:   # must order recent first
   - start: 2019-06-20 
