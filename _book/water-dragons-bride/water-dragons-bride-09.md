@@ -25,3 +25,4 @@ tags: # library, own-this, scifi, fantasy, historical-fiction
   - own-this
 ---
 
+Like the last volume, this one is a little dark. 	I'm not sure yet how I feel about this darker side, though I know that without some challenges it is hard for a person to grow.

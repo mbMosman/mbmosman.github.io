@@ -12,8 +12,8 @@ goodreads: https://www.goodreads.com/book/show/33946221-the-girl-from-the-other-
 img:       https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505432522i/33946221._SX318_.jpg
 status:    read
 read:   # must order recent first
-  - start: 2019-06-31  
-    end:   2019-06-31 
+  - start: 2019-07-01  
+    end:   2019-07-01 
 type: manga
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - manga
