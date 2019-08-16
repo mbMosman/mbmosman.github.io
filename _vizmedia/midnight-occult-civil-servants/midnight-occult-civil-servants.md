@@ -37,7 +37,7 @@ episodes:   # episode/part number
     jp_name:  悪魔と喪失感 (Akuma to Sōshitsukan)
     number:   6
     season:   1
-status:     current-first-time, current-new-season, rewatch, finished, not-finishing
+status:     on-hold #current-first-time, current-new-season, rewatch, finished, not-finishing
 view_history:  # must order recent first
   - start:  2019-05-18 
     end:   # YYYY-MM-DD

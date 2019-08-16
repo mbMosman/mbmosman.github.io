@@ -24,7 +24,7 @@ music:
   - name:   光の記憶 (Memories of the Light) 
     artist: Angelo
     used:   2nd ending theme
-status:     current-first-time
+status:     on-hold #current-first-time
 view_history:  # must order recent first
   - start: 2019-05-11 
     end:   # YYYY-MM-DD

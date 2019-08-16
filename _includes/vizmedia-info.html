@@ -30,9 +30,11 @@
             Watching the new season!
           {% elsif include.media.status == 'current' or include.media.status == 'current-first-time' %}
             This is a new show for me!
+          {% elsif include.media.status == 'on-hold' %}
+            On hold - watching other things but will come back...
           {% elsif include.media.status == 'current-rewatch' %}
             Rewatching this.
-          {% elsif include.media.status == 'to-watch' or include.media.status == 'to-watch-new-season' %}
+          {% elsif include.media.status == 'to-watch' %}
             Excited to see this!
           {% elsif include.media.status == 'to-watch-new-season' %}
             Excited to see the new season!

@@ -37,10 +37,10 @@ music:
     used:   Season 2 ending theme
     url:    https://www.youtube.com/watch?v=rbfHY8mkhT8
 
-status:     current-rewatch
+status:     finished #current-rewatch
 view_history:  # must order recent first
   - start: 2019-05-03 
-#    end:   # YYYY-MM-DD
+    end:  2019-07-27
 manga: # {% link manga/name-of-document.html %}
 tags:  # genre: shojo, shonen, action, slice-of-life, etc.
   - shonen

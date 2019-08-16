@@ -15,7 +15,7 @@ online:     # where can it be watched online
 #  - name:   # name
 #    artist: # artist
 #    used:   # opening/closing season
-status:     current-first-time
+status:     on-hold #current-first-time
 view_history:  # must order recent first
   - start: 2019-04-13 
     end:   # YYYY-MM-DD

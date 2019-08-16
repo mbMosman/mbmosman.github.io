@@ -123,12 +123,10 @@ episodes:   # episode/part number
     jp_name:  これから (Korekara)
     number:   24
     season:   1
-status:  current-rewatch 
+status:  finished #current-rewatch 
 view_history:  # must order recent first
   - start: 2014-10-07 
     end:   2015-03-04
-  - start: 2018-10-28 
-    end:   # 
 manga: manga/yona-of-the-dawn
 tags: # genre: shojo, shonen, action, slice-of-life, etc.
   - shojo

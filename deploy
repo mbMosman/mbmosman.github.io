@@ -6,6 +6,9 @@ set -e
 
 echo "Started deploying"
 
+# Stash any changes
+git stash --include-untracked
+
 # Checkout master branch.
 git branch -D master
 git checkout -b master
@@ -26,6 +29,7 @@ git push -f -q origin master
 
 # Move back to previous branch.
 git checkout -
+git stash pop
 #yarn install --modules-folder ./_assets/yarn
 
 echo "Deployed Successfully!"

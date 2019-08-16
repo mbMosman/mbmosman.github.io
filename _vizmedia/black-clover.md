@@ -47,7 +47,7 @@ episodes:   # episode/part number
     jp_name:  もう一人の新入団員 (Mō Hitori no Shin Nyūdan'in)
     number:   6
     season:   1
-status:     current-first-time
+status:     on-hold #current-first-time
 view_history:  # must order recent first
   - start: 2018-04-21 
     end:   # YYYY-MM-DD
