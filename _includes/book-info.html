@@ -1,3 +1,4 @@
+{% assign author = include.book.author_full %} 
 {% if include.style == 'link' %}
 <div>
   {% if include.book.status contains 'current' and include.book.goodreads %}
@@ -9,7 +10,7 @@
     <div class="book-info">
       <h3>
         {{ include.book.title }}
-        <small class="author">by {{ include.book.author.first }}&nbsp;{{ include.book.author.middle }}&nbsp{{ include.book.author.last }}</small>
+        <small class="author">by {{ author }}</small>
         {% include svg-icon.html icon="arrow-right" %}
       </h3>
       {% if include.book.series %}
@@ -41,7 +42,7 @@
   <div class="book-info">
     <h3>
       {{ include.book.title }}
-      <small class="author">by {{ include.book.author.first }}&nbsp;{{ include.book.author.middle }}&nbsp{{ include.book.author.last }}</small>
+      <small class="author">by {{ author }}</small>
     </h3>
     {% if include.book.series %}
     <p class="series">        
