@@ -55,10 +55,10 @@ episodes:   # episode/part number
 #  - name:    You and I
 #    jp_name: 君と僕と (Kimi to Boku to)
 #    number:  12
-status:  current-first-time #finished
+status:  finished
 view_history:  # must order recent first
   - start: 2018-07-27
-    #end:   2019-01-21
+    end:   2019-08-18
 tags: # genre: shojo, shonen, action, slice-of-life, etc.
   - slice-of-life
   - shojo
