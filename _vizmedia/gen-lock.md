@@ -38,8 +38,10 @@ episodes: # episode/part number
   - name: Identity Crisis
     number:  8
     season:  1
-status:   finished
+status:   current-rewatch #finished
 view_history:  # must order recent first
+  - start: 2019-08-23
+    #end:   2019-03-23
   - start: 2019-03-20
     end:   2019-03-23
 tags:  # genre: shojo, shonen, action, slice-of-life, etc.
