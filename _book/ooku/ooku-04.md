@@ -8,7 +8,7 @@ series:    # if part of a series
 author: 
   first:   Fumi  
   last:    Yoshinaga
-published: 2010-04-20 
+published: 2010-08-17 
 goodreads: https://www.goodreads.com/book/show/7326748-oku
 img:       https://images.gr-assets.com/books/1347600650l/7326748.jpg
 status: read
