@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Playfair Grauation
+title: Playfair Graduation
 preview: My 5th Prime cohort graduated today. Woot!!! Congratulations Playfair! 
 category: Prime
 ---
