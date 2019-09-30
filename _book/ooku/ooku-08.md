@@ -23,3 +23,8 @@ tags: # library, own-this, scifi, fantasy, historical-fiction
   - romance
 ---
 
+Yoshimune officially declares her older daughter Ieshige, who has health issues that hinder her bodily control yet has a sound mind, as her heir much to the dismay of the court and lovely younger daughter Munetake. 
+
+We also see the end of Yoshimune's reign, and as she reflects with with her retainer, we see her learn how she got there. Something I suspected all along, and wonder if she did as well...
+
+In the end, we meet a half Dutch, half Japanese doctor who almost dies of the red-face pox, but does not! He agrees to go back to the capital to help aid research to find a cure. 
