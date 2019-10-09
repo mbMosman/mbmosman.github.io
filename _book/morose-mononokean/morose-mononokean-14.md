@@ -11,7 +11,7 @@ author:
 published: 2019-09-12 
 goodreads: https://www.goodreads.com/book/show/48192451-14-fukigen-na-mononokean-14
 img:       https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568673104l/48192451._SX318_.jpg 
-status:    currently-reading
+status:    read
 read:   # must order recent first
   - start: 2019-06-20 
     end:   2019-09-12 

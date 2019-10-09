@@ -37,7 +37,7 @@ music:
     used:   Season 2 ending theme
     url:    https://www.youtube.com/watch?v=rbfHY8mkhT8
 
-status:     finished #current-rewatch
+status:     on-hold #current-new-season
 view_history:  # must order recent first
   - start: 2019-05-03 
     end:  2019-07-27
