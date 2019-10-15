@@ -21,6 +21,7 @@ tags:  # genre: shojo, shonen, action, slice-of-life, etc.
   - shojo
   - slice-of-life
   - all-time-favorite
+  - 2019-favorite
 ---
 
 Yay! Fruits Basket lives again! I'm excited for this new version of the anime as it is meant to follow the full story from the manga (which the earlier Fruits Basket anime production did not). Woot! I can't wait to meet __*all*__ the characters this time!

@@ -62,7 +62,7 @@ view_history:  # must order recent first
 tags: # genre: shojo, shonen, action, slice-of-life, etc.
   - slice-of-life
   - shojo
-  - favorite-2019
+  - 2019-favorite
 ---
 
 This has been the new M&M anime night feature. It's too bad there are only 12 episodes, it'll be over all too soon!  
