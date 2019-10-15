@@ -4,9 +4,9 @@ type:   series
 #### change stuff below ####
 title:      Yuri on Ice
 jp_title:   ユーリ!!! on ICE
-studio:     # who made this
-director:   # director's name
-us_release: # YYYY-MM-DD 
+studio:     MAPPA
+director:   Sayo Yamamoto
+us_release: 2016-10-06 
 img:        vizmedia/yuri-on-ice.jpg 
 online:     # where can it be watched online
   url:      https://www.crunchyroll.com/yuri-on-ice
@@ -15,12 +15,7 @@ online:     # where can it be watched online
 #  - name:   # name
 #    artist: # artist
 #    used:   # opening/closing season
-episodes:   # episode/part number
-  - name:     # name of episode
-    jp_name:  # name in japanese
-    number:   # number of episodes
-    season:   # if the show is broken into seasons, which is this part of
-status:     # current-first-time, current-new-season, rewatch, finished, not-finishing
+status:     finished
 view_history:  # must order recent first
   - start: # YYYY-MM-DD 
     end:   # YYYY-MM-DD
