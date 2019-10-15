@@ -3,7 +3,11 @@
   <a href="{{ include.game.url }}" title="{{include.game.title}}" class="game-container">
     <div class="game-image small">
       {% if include.game.img %}
-      {% asset {{include.game.img}} alt="{{include.game.title}}" %}
+        {% if include.game.img contains 'http' %}
+          <img src="{{include.game.img}}" alt="{{include.game.title}}" />
+        {% else %}
+          {% asset {{include.game.img}} alt="{{include.game.title}}" %}
+        {% endif %}
       {% endif %}
     </div>
     <div class="game-info">

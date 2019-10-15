@@ -143,7 +143,7 @@ manga: manga/moroso-mononkean.html
 tags:  # genre: shojo, shonen, action, slice-of-life, etc.
   - supernatural
   - fantasy
-  - favorite
+  - favorite-2019
 ---
 
 The first season of the anime was great. It lured me into reading the manga as I can't seem to get enough of these characters. 

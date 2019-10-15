@@ -1,84 +1,59 @@
 {% if include.style == 'link' %}
-<div>
-  <a href="{{ include.media.url }}" title="{{include.media.title}}" class="media-container">
-    <div class="media-image small">
-      {% if include.media.img %}<img src="{{include.media.img}}" alt="poster" />{% endif %}
-    </div>
-
-    <div class="media-info">
-        <h3 class="title">
-          {{ include.media.title }} 
-        </h3>
-        {% if include.media.jp_title %}
-        <p class="japanese-title">
-          Japanese Title: {{include.media.jp_title}}
-        </p>
-        {% endif %}
-        {% if include.media.studio %}
-        <p class="studio">
-          Producer: {{ include.media.studio }} {% if include.media.jp_studio %}({{include.media.jp_title}}){% endif %}
-        </p>
-        {% endif %}
-        {% if include.media.director %}
-        <p class="director">
-          Director: {{ include.media.director }} {% if include.media.jp_director %}({{include.media.jp_director}}){% endif %}
-        </p>
-        {% endif %}
-        {% if include.media.status %}
-        <p class="status">  
-          {% if include.media.status == 'current-new-season' %}
-            Watching the new season!
-          {% elsif include.media.status == 'current' or include.media.status == 'current-first-time' %}
-            This is a new show for me!
-          {% elsif include.media.status == 'on-hold' %}
-            On hold - watching other things but will come back...
-          {% elsif include.media.status == 'current-rewatch' %}
-            Rewatching this.
-          {% elsif include.media.status == 'to-watch' %}
-            Excited to see this!
-          {% elsif include.media.status == 'to-watch-new-season' %}
-            Excited to see the new season!
-          {% elsif include.media.last_seen %} 
-            Last finished on {{ include.media.last_seen  | date: "%B %e, %Y" }}
-          {% endif %}
-        </p>
-        {% endif %}
-      </div>
-  </a>
-</div>
-{% else %}
+<a href="{{ include.media.url }}" title="{{include.media.title}}" >
+{% endif %}
 <div class="media-container">
-    <div class="media-image small">
-      {% if include.media.img %}<img src="{{include.media.img}}" alt="poster" />{% endif %}
-    </div>
-    <div class="media-info">
-      <h3 class="title">
-        {{ include.media.title }} 
-      </h3>
-      <p class="japanese-title">
-        {% if include.media.jp_title %}Japanese Title: {{include.media.jp_title}}{% endif %}
-      </p>
-      <p class="studio">
-        Producer: {{ include.media.studio }} {% if include.media.jp_studio %}({{page.jp_title}}){% endif %}
-      </p>
-      <p class="director">
-        Director: {{ include.media.director }} {% if include.media.jp_director %}({{page.jp_title}}){% endif %}
-      </p>
-      {% if include.media.us_release %}
-      <p class="published">
-        Released: {{ include.media.us_release  | date: "%B %e, %Y" }}
-      </p>
+  <div class="media-image small">
+    {% if include.media.img %}
+      {% if include.media.img contains 'http' %}
+        <img src="{{include.media.img}}" alt="poster" />
+      {% else %}
+        {% asset {{include.media.img}} alt="{{include.media.title}}" %}
       {% endif %}
-      {% if include.media.status %}
-      <p class="status">  
-        Status: {{ include.media.status}}  
-      </p>
+    {% endif %}
+  </div>
+
+  <div class="media-info">
+    <h3 class="title">
+      {{ include.media.title }} 
+    </h3>
+    {% if include.media.jp_title %}
+    <p class="japanese-title">
+      Japanese Title: {{include.media.jp_title}}
+    </p>
+    {% endif %}
+    {% if include.media.studio %}
+    <p class="studio">
+      Producer: {{ include.media.studio }} {% if include.media.jp_studio %}({{include.media.jp_title}}){% endif %}
+    </p>
+    {% endif %}
+    {% if include.media.director %}
+    <p class="director">
+      Director: {{ include.media.director }} {% if include.media.jp_director %}({{include.media.jp_director}}){% endif %}
+    </p>
+    {% endif %}
+    {% if include.media.status %}
+    <p class="status">  
+      {% if include.media.status == 'current-new-season' %}
+        Watching the new season!
+      {% elsif include.media.status == 'current' or include.media.status == 'current-first-time' %}
+        This is a new show for me!
+      {% elsif include.media.status == 'hold-new-season' %}
+        On hold - until a new season is released.
+      {% elsif include.media.status == 'on-hold' %}
+        On hold - watching other things but will come back...
+      {% elsif include.media.status == 'current-rewatch' %}
+        Rewatching this.
+      {% elsif include.media.status == 'to-watch' %}
+        Excited to see this!
+      {% elsif include.media.status == 'to-watch-new-season' %}
+        Excited to see the new season!
+      {% elsif include.media.last_seen %} 
+        Last finished on {{ include.media.last_seen  | date: "%B %e, %Y" }}
       {% endif %}
-      {% if include.media.online %}
-      <p class="online">
-        <a href="{{include.media.online.url}}" target="_blank">Watch online at {{include.media.online.service}}</a>
-      </p>
-      {% endif %}
-    </div> 
+    </p>
+    {% endif %}
+  </div>
 </div>
+{% if include.style == 'link' %}
+</a>
 {% endif %}

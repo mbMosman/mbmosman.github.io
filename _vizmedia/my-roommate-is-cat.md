@@ -57,11 +57,12 @@ episodes:   # episode/part number
 #    number:  12
 status:  finished
 view_history:  # must order recent first
-  - start: 2018-07-27
+  - start: 2019-07-27
     end:   2019-08-18
 tags: # genre: shojo, shonen, action, slice-of-life, etc.
   - slice-of-life
   - shojo
+  - favorite-2019
 ---
 
 This has been the new M&M anime night feature. It's too bad there are only 12 episodes, it'll be over all too soon!  

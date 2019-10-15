@@ -7,7 +7,7 @@ jp_title:   進撃の巨人 (Shingeki no Kyojin)
 studio:     Wit Studio
 director:   Tetsurō Araki 
 us_release: 2013-04-07 
-img:        https://img1.ak.crunchyroll.com/i/spire1/78916dd5588a8ff3cd244e5deca7aa781532559376_full.jpg 
+img:        vizmedia/attack-on-titan.jpg 
 online:     # where can it be watched online
   url:      https://www.crunchyroll.com/attack-on-titan
   service:  Crunchyroll
@@ -37,14 +37,16 @@ music:
     used:   Season 2 ending theme
     url:    https://www.youtube.com/watch?v=rbfHY8mkhT8
 
-status:     on-hold #current-new-season
+status:     hold-new-season
 view_history:  # must order recent first
   - start: 2019-05-03 
-    end:  2019-07-27
+    end:   2019-07-27
 manga: # {% link manga/name-of-document.html %}
 tags:  # genre: shojo, shonen, action, slice-of-life, etc.
   - shonen
   - action
+  - drama
+  - all-time-favorite
 ---
 
 I was just about to dive into the new season when Martin and I picked up anime night again and I decided to try this out on him. Seems like it is going well so far. Woot! 

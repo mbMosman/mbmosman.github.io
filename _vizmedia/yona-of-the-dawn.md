@@ -5,7 +5,7 @@ jp_title:   暁のヨナ (Akatsuki no Yona)
 studio:     Pierrot
 director:   Kazuhiro Yoneda
 us_release: 2014-10-07
-img:        https://img1.ak.crunchyroll.com/i/spire1/a624f140a1c8be841889d3fcca597f5a1414524144_full.jpg
+img:        vizmedia/yona-of-the-dawn.jpg
 online: # where can it be watched online
   url:     https://www.crunchyroll.com/yona-of-the-dawn/videos
   service: Crunchyroll
@@ -131,6 +131,8 @@ manga: manga/yona-of-the-dawn
 tags: # genre: shojo, shonen, action, slice-of-life, etc.
   - shojo
   - fantasy
+  - action
+  - all-time-favorite
 ---
 
 The anime is beautiful and well written and laid out. The manga series is ongoing and the first run of the anime only covers the first 8 volumes of the manga, leaving lots of room for another season (though nothing has yet been announced). The characters are all endearing in their own ways, even those you might not expect. It's become one of my all time favorites. 

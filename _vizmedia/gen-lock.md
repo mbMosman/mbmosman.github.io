@@ -47,6 +47,7 @@ view_history:  # must order recent first
 tags:  # genre: shojo, shonen, action, slice-of-life, etc.
   - mech
   - distopian-future
+  - favorite-2019
 ---
 
 OK, so first episodes in and I was sold. The animation is top notch and the story is well done too. We dive in quick with a good bit of character drama, action, and awesome plot setup. I'm looking forward to getting more of this. It will definitely get some rewatches as I share it out.

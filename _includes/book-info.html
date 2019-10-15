@@ -6,7 +6,15 @@
   {% else %}
   <a href="{{ include.book.url }}" title="{{include.book.title}}" class="book-container">
   {% endif %}
-    <div class="book-image small">{% if include.book.img %}<img src="{{include.book.img}}" alt="book cover" />{% endif %}</div>
+    <div class="book-image small">
+      {% if include.book.img %}
+      {% if include.book.img contains 'http' %}
+        <img src="{{include.book.img}}" alt="book cover" />
+      {% else %}
+        {% asset {{include.book.img}} alt="book cover" %}
+      {% endif %}
+    {% endif %}
+    </div>
     <div class="book-info">
       <h3>
         {{ include.book.title }}
@@ -38,7 +46,15 @@
 </div>
 {% else %}
 <div class="book-container">
-  <div class="book-image small">{% if include.book.img %}<img src="{{include.book.img}}" alt="book cover" />{% endif %}</div>
+  <div class="book-image small">
+    {% if include.book.img %}
+    {% if include.book.img contains 'http' %}
+      <img src="{{include.book.img}}" alt="book cover" />
+    {% else %}
+      {% asset {{include.book.img}} alt="book cover" %}
+    {% endif %}
+  {% endif %}
+  </div>
   <div class="book-info">
     <h3>
       {{ include.book.title }}
