@@ -4,9 +4,23 @@ layout: default
 
 <h1>{{page.title}}</h1>
 
+{% assign sorted = page.favorites | sort: 'sortable_title' %}
+{% if sorted.size > 0 %}
+<section>
+  <h2>This Year's Favorites</h2>
+  <ul class="media-list">
+  {% for item in sorted %}
+    <li class="media-list-item">
+      {% include vizmedia-info.html media=item style='link' %}
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
 {% assign sorted = page.vizmedia | sort:"title" %}
 <section>
-  <h2>Watch List</h2>
+  <h2>Full Watch List</h2>
   <ul class="book-list">
   {% for item in sorted %}
     <li class="book-list-item">

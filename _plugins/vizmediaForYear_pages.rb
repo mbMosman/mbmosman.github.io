@@ -33,6 +33,12 @@ module Jekyll
                 page = yearPages[year]
                 # Add item to page's `vizmedia` array
                 page.data['vizmedia'].push(item)
+
+                for tag in item.data['tags']
+                  if tag == year + '-favorite'
+                    page.data['favorites'].push(item)
+                  end
+                end
               end
               lastYear = year
             end
@@ -56,6 +62,7 @@ module Jekyll
       self.read_yaml(File.join(base, '_layouts'), "#{@layout}.html")
       self.data['title'] = "Watched in #{year.to_s}"
       self.data['vizmedia'] = []
+      self.data['favorites'] = []
       self.data['year'] = year.to_i
       self.data['category'] = 'Vizmedia For Year'
     end # initialize
