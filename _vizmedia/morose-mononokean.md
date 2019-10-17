@@ -139,17 +139,24 @@ view_history:  # must order recent first
     end:   2018-08-19
   - start: 2017-04-11 
     end:   2017-05-19
+  - start: 2016-07-12
+    end:   2016-09-22
 manga: manga/moroso-mononkean.html 
 tags:  # genre: shojo, shonen, action, slice-of-life, etc.
   - supernatural
   - fantasy
-  - favorite-2019
+  - 2016-favorite
+  - 2019-favorite
 ---
 
-The first season of the anime was great. It lured me into reading the manga as I can't seem to get enough of these characters. 
+The first season of the anime was great. I've seen it several times, as it's one that Christy and I would come back to (similar to Free) when we didn't know what else to watch. 
 
-I'm so glad that there is now a 2nd season of the anime. I can't wait to see the story I've enjoyed from the managa animated and brought to life. 
+The anime lured me into reading the manga, as I couldn't seem to get enough of these characters and their world. While the story in the first season introduces our characters and builds toward the 2nd, it feels pretty light and fluffy - what cute creature will they help this week - with only hints of things that might lurk deep under the surface. The story that continued in the manga, and now the 2nd season of the anime, dives more into the mysteries of the underworld and our main character's past. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zQJDnx1fdC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Finally got another anime night in with Christy to kick-off season 2. We watched the first 3 episodes. It seemed a bit of a slow start to me, maybe because the pattern of the episodes is a little different. We aren't meeting a new Yokai each episode that needs help here. There are some new Underworld characters introduced, but where things are going isn't really clear yet.
+It's exciting to see the story I've enjoyed from the managa animated and brought to life. However I feel like the second season got off to a bit of a slow start, maybe because the pattern of the episodes is so different. Instead of meeting and helping a new Yokai every episode or so, the story builds and lingers much more across episodes as the plot and mysteries deepen. It takes a while to really see where things are going, and the season ends without resolving a lot of questions.
+
+This manga is my only *simulpub* read that I'm constantly checking the net, waiting for the next chapter to be published. I'm sure that my knowledge of the story to come and my anxiousness to get there affects my thoughts here on the anime, but I appreciate that the anime story stays faithful to the original manga, rather than going off into miscellaneous filler plot. 
+
+
