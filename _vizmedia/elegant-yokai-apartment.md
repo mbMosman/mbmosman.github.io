@@ -20,10 +20,10 @@ episodes:   # episode/part number
     jp_name:  # name in japanese
     number:   # number of episodes
     season:   # if the show is broken into seasons, which is this part of
-status:     current-first-time
+status:     finished
 view_history:  # must order recent first
   - start: 2017-11-26 
-    end:   # YYYY-MM-DD
+    end:   2019-11-02
 manga: # {% link manga/name-of-document.html %}
 tags:  # genre: shojo, shonen, action, slice-of-life, etc.
   - shonen
@@ -33,3 +33,6 @@ tags:  # genre: shojo, shonen, action, slice-of-life, etc.
 
 > High school freshman Yūshi Inaba is forced to look for new place to live after his high school's dormitory burnt down. Having no parents and wanting to live independently from his uncle, he eventually finds a cheap apartment for 25,000 yen called Kotobuki-sō, only to find out that the place has human and supernatural creatures such as ghosts, yōkai, and mononoke living together. There, Yūshi's new daily life begins.
 
+Took me a while, and a restart, to get back into this and finish it, but I am so glad that I did. I picked this up again over a kinda rough patch with life and work and just a lot of stress over things I had no control over. It ended up being a calming, bright spot for me, and encouraged me to start encorporating some good practices, like meditation & gratitude, into my routine. 
+
+Anyhow it's a neat story to see Yushi grow over the course of the series and see his relationships with his friends, classmates, and fellow residents evolve and grow.
