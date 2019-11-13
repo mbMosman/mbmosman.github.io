@@ -4,17 +4,16 @@ layout: page
 ---
 
 
-{% assign author_list = site.book | group_by_exp: 'item', 
-    "item.author.last | append: ', ' | append: item.author.first | append: ' ' | append: item.author.middle" %} 
+{% assign author_list = site.book | group_by: 'author_last_first' %} 
 {% assign author_list_sorted = author_list | sort: 'name' %} 
-{% for author in author_list_sorted %} 
+{% for name in author_list_sorted %} 
 <section>
-  <h3>{{ author.name }}</h3>
+  <h3>{{ name.items.first.author_full }}</h3>
   <ul class="book-list">
-  {% assign author_books_sorted = author.items | sort: 'name_full' %} 
-  {% for item in author_books_sorted %}
+  {% assign author_books_sorted = name.items | sort: 'name_full' %} 
+  {% for book in author_books_sorted %}
     <li class="book-list-item">
-      {% include book-info.html book=item style='link' %}
+      {% include book-info.html book=book style='link' %}
     </li>
   {% endfor %}
   </ul>

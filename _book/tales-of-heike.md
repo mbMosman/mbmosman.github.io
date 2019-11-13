@@ -1,7 +1,7 @@
 ---
 title:     Tales of the Heike
 author: 
-  first:   Anonymous
+  last:    Anonymous
 published: 2006-06-27 
 goodreads: https://www.goodreads.com/book/show/186643.The_Tales_of_the_Heike
 img: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348779762l/186643.jpg

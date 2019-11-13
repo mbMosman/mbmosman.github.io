@@ -12,14 +12,18 @@ Jekyll::Hooks.register :site, :post_read do |site|
     # Set author_full
     if book.data['author']
       book.data['author_full'] = ''
+      book.data['author_last_first'] = ''
       if book.data['author']['first']
-        book.data['author_full'] = book.data['author']['first'] + ' ' 
+        book.data['author_full'] = book.data['author']['first']  
+        book.data['author_last_first'] = book.data['author']['first'] 
       end 
       if book.data['author']['middle']
-        book.data['author_full'] = book.data['author_full'] + book.data['author']['middle'] + ' '
+        book.data['author_full'] = book.data['author_full'] + ' ' + book.data['author']['middle']
+        book.data['author_last_first'] = book.data['author_last_first'] + ' ' + book.data['author']['middle']
       end 
       if book.data['author']['last']
-        book.data['author_full'] = book.data['author_full'] + book.data['author']['last']
+        book.data['author_full'] = book.data['author_full'] + ' ' + book.data['author']['last']
+        book.data['author_last_first'] = book.data['author']['last'] + ', ' + book.data['author_last_first'] 
       end
     end
 
