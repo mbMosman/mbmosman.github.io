@@ -11,9 +11,9 @@ author:
 published: 2015-08-04 
 goodreads: https://www.goodreads.com/book/show/19161852-the-fifth-season
 img:       https://images.gr-assets.com/books/1386803701l/19161852.jpg
-status:    current-first-read
+status:    to-read
 read:   # must order recent first
-  - start: 2018-02-02 
+  - start: # 2018-02-02 
     end:   # YYYY-MM-DD
 type: novel
 tags: # library, own-this, scifi, fantasy, historical-fiction
