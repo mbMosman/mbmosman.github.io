@@ -13,7 +13,7 @@ img:       https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books
 status: read
 read:   # must order recent first
   - start: 2019-08-08  
-    end:   2018-08-08 
+    end:   2019-08-08 
 type: manga
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - shonen-ai
