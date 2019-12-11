@@ -4,7 +4,7 @@ studio:  Blue Byte
 release: 2019-01-22 
 img:     games/settlers7.jpg
 url:     https://www.ubisoft.com/en-au/game/the-settlers-history-collection/
-status:  current
+status:  finished
 last_played: 2019-05-11
 tags:  # genre: mmo, action, rpg, strategy, computer, steam, ps4
   - strategy

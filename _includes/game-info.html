@@ -22,7 +22,7 @@
           Last played on {{ last_played | date: "%B %e, %Y" }}.
         {% endif %}
       {% elsif include.game.status == 'finished' %}
-        Finished. No longer playing.
+        No longer playing.
       {% elsif include.game.status == 'casual' %}
         Occassionally play.
       {% elsif include.game.status == 'wishlist' %}
