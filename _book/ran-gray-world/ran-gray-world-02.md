@@ -11,10 +11,10 @@ author:
 published: 2019-02-19 
 goodreads: https://www.goodreads.com/book/show/40639152-ran-and-the-gray-world-vol-2
 img:       books/ran-gray-world-02.jpg
-status: to-read
+status: read
 read:   # must order recent first
-  - start: #2019-02-07  
-    end:   #2019-08-07 
+  - start: 2019-11-15 
+    end:   2019-11-15 
 type: manga
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - seinen
@@ -23,5 +23,5 @@ tags: # library, own-this, scifi, fantasy, historical-fiction
   - library
 ---
 
-
+This volume follows well on the footsteps of the first, with more of Ran's antics. Here we get to know more of the characters a little better. We also get to see that Ran's got someone more her own age with feelings for her. Hopefully Hibi can be a better influence that playboy Otaro. 
 

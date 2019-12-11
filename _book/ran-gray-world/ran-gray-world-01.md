@@ -4,7 +4,7 @@ jp_title:  乱と灰色の世界
 series:    # if part of a series
   name:    Ran and the Gray World
   number:  1
-  url:     https://www.goodreads.com/series/97704-ran-and-the-gray-world
+  url:     /manga/ran-and-the-gray-world.html
 author: 
   first:   Aki 
   last:    Irie
