@@ -8,9 +8,9 @@ series:    # if part of a series
 author: 
   first:   Mizuho 
   last:    Kusanagi
-published: 2018-02-05 
+published: 2019-02-05 
 goodreads: https://www.goodreads.com/book/show/40637165-yona-of-the-dawn-vol-16
-img:       https://images.gr-assets.com/books/1539040214l/40637165.jpg
+img:       books/yona-of-the-dawn-16.jpg
 status: read
 read:   # must order recent first
   - start: 2019-02-09 
