@@ -10,9 +10,9 @@ author:
 published: 1995-07-09 
 goodreads: https://www.goodreads.com/book/show/119322.The_Golden_Compass
 img:       books/the-golden-compass.jpg
-status:    to-read
+status:    current-first-read
 read:   # must order recent first
-  - start: #2018-11-12 
+  - start: 2019-12-17
     end:   #2018-11-15
 type: novel
 tags: # library, own-this, scifi, fantasy, historical-fiction
