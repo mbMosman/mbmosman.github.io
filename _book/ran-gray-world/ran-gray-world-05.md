@@ -1,5 +1,4 @@
 ---
-output: false # Don't show this template
 title:     Ran and the Gray World
 jp_title:  乱と灰色の世界
 series:    # if part of a series
@@ -12,10 +11,10 @@ author:
 published: 2019-11-19 
 goodreads: https://www.goodreads.com/book/show/43909403-ran-and-the-gray-world-vol-5
 img:       books/ran-gray-world-05.jpg
-status: waiting
+status:    read
 read:   # must order recent first
-  - start: #2019-02-07  
-    end:   #2019-08-07 
+  - start: 2019-12-19  
+    end:   2019-12-19
 type: manga
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - seinen
@@ -23,6 +22,8 @@ tags: # library, own-this, scifi, fantasy, historical-fiction
   - fantasy
   - library
 ---
+
+Well, this volume was a little disappointing. It had some cute, sweet moments, but overall it felt like a lot of nothing happened. 
 
 
 
