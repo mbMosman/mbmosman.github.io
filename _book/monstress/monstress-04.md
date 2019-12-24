@@ -2,19 +2,19 @@
 title:     Monstress - Haven
 series:    # if part of a series, remove if not used or you'll get an error
   name:    Monstress
-  number:  3
+  number:  4
   url:     # if there's a page for this series reference it here
 author: 
   first:   Marjorie 
   middle:  M.
   last:    Liu
-published: 2018-09-11 
+published: 2019-10-01 
 goodreads: https://www.goodreads.com/book/show/37491890-monstress-vol-3
-img:       books/monstress-3.jpg
-status:    read
+img:       books/monstress-4.jpg
+status:    to-read
 read:   # must order recent first
-  - start: 2018-11-02 
-    end:   2018-11-02
+#  - start: 2018-11-02 
+#    end:   2018-11-02
 type: graphic_novel
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - fantasy
@@ -23,4 +23,3 @@ tags: # library, own-this, scifi, fantasy, historical-fiction
   - library
 ---
 
-I'm still loving this. The world is pretty awesome and so are the characters. It's definitely got some weirdness and a lot of gore and death, and while that is generally not my thing, I find this definitely worth the read.

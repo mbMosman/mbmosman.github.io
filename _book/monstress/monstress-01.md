@@ -10,7 +10,7 @@ author:
   last:    Liu
 published: 2016-07-19 
 goodreads: https://www.goodreads.com/book/show/29396738-monstress-vol-1
-img:       https://images.gr-assets.com/books/1471648131l/29396738.jpg
+img:       books/monstress-1.jpg
 status:    read
 read:   # must order recent first
   - start: 2018-06-13 
