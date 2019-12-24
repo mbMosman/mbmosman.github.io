@@ -1,5 +1,5 @@
 ---
-title:     Monstress - Haven
+title:     Monstress - The Chosen
 series:    # if part of a series, remove if not used or you'll get an error
   name:    Monstress
   number:  4
