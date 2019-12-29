@@ -13,8 +13,8 @@ goodreads: https://www.goodreads.com/book/show/37491890-monstress-vol-3
 img:       books/monstress-4.jpg
 status:    read
 read:   # must order recent first
-  - start: 2018-12-24 
-    end:   2018-12-24
+  - start: 2019-12-24 
+    end:   2019-12-24
 type: graphic_novel
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - fantasy
@@ -22,4 +22,4 @@ tags: # library, own-this, scifi, fantasy, historical-fiction
   - graphic-novel
   - library
 ---
-Things continue with Maika & the old god Zinn who's possessed her. She's reunited with her father, whom she seems to have little love for. The little fox Kippa managest to make it through quite the ordeal to be reunited with Nekomancer Ren and Maika. Seems she's coming into her own power. War seems to be coming, but Maika would like to see peace. What will the future hold?
+Things continue with Maika & the old god Zinn who's possessed her. She's reunited with her father, whom she seems to have little love for. The little fox Kippa manages to make it through quite the ordeal to be reunited with Nekomancer Ren and Maika. Seems she's coming into her own power. War seems to be coming, but Maika would like to see peace. What will the future hold?
