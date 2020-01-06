@@ -10,17 +10,18 @@ author:
   last:    Motomi
 published: 2019-06-04
 goodreads: https://www.goodreads.com/book/show/42671679-queen-s-quality-vol-7
-img:       #
-status:    waiting
-#read:   # must order recent first
-#  - start: # 2018-12-04 
-#    end:   # 2018-12-04
+img:       books/queens-quality-07.jpg
+status:    read
+read:   # must order recent first
+  - start:  2020-01-02 
+    end:    2020-01-05
 type: manga
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - shojo
   - manga
-  - horror
+  - fantasy
   - library
 ---
 
+It was a little hard to get back into the story as it's been quite a while since I read the last volume. However it seems that Kyutaro and Fumi's pasts are coming to light. Will that split them apart or bring them closer together?
 

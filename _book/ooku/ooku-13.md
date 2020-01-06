@@ -8,7 +8,7 @@ series:    # if part of a series
 author: 
   first:   Fumi  
   last:    Yoshinaga
-published: 2016-11-15 
+published: 2017-11-21 
 goodreads: https://www.goodreads.com/book/show/34466651-oku
 img:       books/ooku-13.jpg
 status: read
@@ -23,4 +23,4 @@ tags: # library, own-this, scifi, fantasy, historical-fiction
   - romance
 ---
 
-We see the entrance of another set of interesting characters here as the legacy of Harusads continues through the reign of her son, Ienari, and grandson, Ieyoshi. Iesada, Ieyoshi's abused daughter, is set to become the next shogun and with the help of Senior Counselor Masahiro & Senior Chamberlain Takiyama, I suspect they will be quite the formidable trio. I look forward to seeing what comes next. 
+We see the entrance of another set of interesting characters here as the legacy of Harusada continues through the reign of her son, Ienari, and grandson, Ieyoshi. Iesada, Ieyoshi's abused daughter, is set to become the next shogun and with the help of Senior Counselor Masahiro & Senior Chamberlain Takiyama, I suspect they will be quite the formidable trio. I look forward to seeing what comes next. 

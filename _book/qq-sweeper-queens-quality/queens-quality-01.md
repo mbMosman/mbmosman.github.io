@@ -19,7 +19,7 @@ type: manga
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - shojo
   - manga
-  - horror
+  - fantasy
   - library
 ---
 

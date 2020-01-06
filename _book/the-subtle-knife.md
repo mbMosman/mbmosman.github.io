@@ -7,7 +7,7 @@ series:    # if part of a series
 author: 
   first:   Philip 
   last:    Pullman
-published: 1995-07-09 
+published: 1997-07-22 
 goodreads: https://www.goodreads.com/book/show/41637836-the-subtle-knife
 img:       books/the-subtle-knife.jpg
 status:    read
