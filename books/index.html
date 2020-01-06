@@ -39,7 +39,7 @@ layout: page
 
   {% assign booklist = site.book | where: 'status', 'read' | sort: 'last_read' | reverse %}
   <ul class="book-list">
-  {% for item in booklist  limit: 5 %}
+  {% for item in booklist  limit: 7 %}
     <li class="book-list-item">
       {% include book-info.html book=item style='link' %}
     </li>

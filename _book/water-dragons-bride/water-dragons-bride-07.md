@@ -10,7 +10,7 @@ author:
   last:    Tōma
 published: 2018-10-02 
 goodreads: https://www.goodreads.com/book/show/38926422-the-water-dragon-s-bride-vol-7
-img:       https://images.gr-assets.com/books/1532764020l/38926422.jpg
+img:       books/water-dragons-bride-7.jpg
 status: read
 read:   # must order recent first
   - start: 2018-10-02  

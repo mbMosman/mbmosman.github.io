@@ -10,7 +10,7 @@ author:
   last:    Tōma
 published: 2019-01-01 
 goodreads: https://www.goodreads.com/book/show/40639141-the-water-dragon-s-bride-vol-8
-img:       https://images.gr-assets.com/books/1535883308l/40639141.jpg
+img:       books/water-dragons-bride-8.jpg
 status: read
 read:   # must order recent first
   - start: 2019-01-02  
