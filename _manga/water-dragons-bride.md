@@ -29,6 +29,10 @@ volumes:
     url:   /book/water-dragons-bride-08.html
   - number: 9
     url:   /book/water-dragons-bride-09.html
+  - number: 10
+    url:   /book/water-dragons-bride-10.html
+  - number: 11
+    url:   /book/water-dragons-bride-11.html
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - fantasy
   - romance

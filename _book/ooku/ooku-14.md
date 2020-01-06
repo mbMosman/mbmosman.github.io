@@ -13,8 +13,8 @@ goodreads: https://www.goodreads.com/book/show/38926393-oku
 img:       books/ooku-14.jpg
 status: read
 read:   # must order recent first
-  - start: 2019-01-05  
-    end:   2019-01-05 
+  - start: 2020-01-05  
+    end:   2020-01-05 
 type: manga
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - manga

@@ -23,10 +23,21 @@ volumes:
     url:   /book/takane-and-hana-05.html
   - number: 6
     url:   /book/takane-and-hana-06.html
+  - number: 7
+    url:   /book/takane-and-hana-07.html
+  - number: 8
+    url:   /book/takane-and-hana-08.html
+  - number: 9
+    url:   /book/takane-and-hana-09.html
+  - number: 10
+    url:   /book/takane-and-hana-10.html
+  - number: 11
+    url:   /book/takane-and-hana-11.html
   
 tags: 
   - shojo
   - comedy
+  - romance
 ---
 
 So, I can't recall how I ended up reading the first of these, but I did and it was pretty funny and cute. The main characters are from different worlds with the rich & well to do businessman Takane matched up with the very average HS girl Hana. They're basically tossing insults and such back and forth, stubbornly trying not to let the other score any wins, while of course finding they like each other more than they may want to admit. 

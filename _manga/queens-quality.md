@@ -25,6 +25,8 @@ volumes:
     url:   /book/queens-quality-06.html
   - number: 7
     url:   /book/queens-quality-07.html
+  - number: 8
+    url:   /book/queens-quality-08.html
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - fantasy
   - horror

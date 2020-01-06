@@ -19,6 +19,8 @@ volumes:
     url:   /book/ran-gray-world-03.html
   - number: 4
     url:   /book/ran-gray-world-04.html
+  - number: 5
+    url:   /book/ran-gray-world-05.html
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - seinen
   - manga
