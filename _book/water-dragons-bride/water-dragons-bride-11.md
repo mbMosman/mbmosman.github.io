@@ -8,13 +8,13 @@ series:    # if part of a series
 author: 
   first:   Rei 
   last:    Tōma
-published: 2019-07-02 
+published: 2019-11-05 
 goodreads: https://www.goodreads.com/book/show/43909456-the-water-dragon-s-bride-vol-11
 img:       books/water-dragons-bride-11.jpg
 status:  read
 read:   # must order recent first
-  - start: 2019-07-08  
-    end:   2019-07-08 
+  - start: 2019-11-05  
+    end:   2019-11-05 
 type: manga
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - shojo
