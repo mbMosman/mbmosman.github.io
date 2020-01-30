@@ -23,12 +23,12 @@
     {% endif %}
     {% if include.media.studio %}
     <p class="studio">
-      Producer: {{ include.media.studio }} {% if include.media.jp_studio %}({{include.media.jp_title}}){% endif %}
+      Studio: {{ include.media.studio }} {% if include.media.jp_studio %}({{include.media.jp_title}}){% endif %}
     </p>
     {% endif %}
     {% if include.media.director %}
     <p class="director">
-      Director: {{ include.media.director }} {% if include.media.jp_director %}({{include.media.jp_director}}){% endif %}
+      Director or Producer: {{ include.media.director }} {% if include.media.jp_director %}({{include.media.jp_director}}){% endif %}
     </p>
     {% endif %}
     {% if include.media.status %}

@@ -5,10 +5,10 @@ author:    Rei Tōma
 jp_author: 藤間麗
 goodreads: https://www.goodreads.com/series/161505-the-water-dragon-s-bride
 img:       https://images.gr-assets.com/books/1486521043l/31140418.jpg
-status:    on-going
+status:    Finished
 read:
-  - start: # YYYY-MM-DD 
-    end:   # YYYY-MM-DD
+  - start: 2017-07-10 
+    end:   2019-11-05
 anime: # nope
 volumes: 
   - number: 1

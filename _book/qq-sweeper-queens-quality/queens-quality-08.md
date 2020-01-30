@@ -11,10 +11,10 @@ author:
 published: 2019-06-04
 goodreads: https://www.goodreads.com/book/show/43909448-queen-s-quality-vol-8
 img:       books/queens-quality-08.jpg
-status:    to-read
-#read:   # must order recent first
-#  - start: # 2020-01-04 
-#    end:   # 2020-01-04
+status:    read
+read:   # must order recent first
+  - start:  2020-01-10 
+    end:    2020-01-10
 type: manga
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - shojo
@@ -23,4 +23,5 @@ tags: # library, own-this, scifi, fantasy, historical-fiction
   - library
 ---
 
+I'm enjoying this quite a bit. It's totally crazy - we're talking about sweepers who *clean* but then have supernatural powers to kill monsters too. Fumi's toilet cleaning brush turns into a sword. Anyhow, we get quite a dose of plot here in this volume as we flash back to the past as the spirit of Kyutaro's mother tells the story of her death and the disappearance of his father. 
 

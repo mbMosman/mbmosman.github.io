@@ -3,6 +3,8 @@ title: Watch List
 layout: page
 ---
 
+While anime makes up the vast majority of what I watch, 
+I'm trying to do better at mixing in some other things too...
 
 <section>
   <h2>Currently Watching</h2>
@@ -59,7 +61,7 @@ layout: page
 
   {% assign watchlist = site.vizmedia | where: 'status', 'finished' | sort: 'last_seen' | reverse %}
   <ul class="media-list">
-  {% for item in watchlist  limit: 5 %}
+  {% for item in watchlist  limit: 7 %}
     <li class="media-list-item">
       {% include vizmedia-info.html media=item style='link' %}
     </li>
