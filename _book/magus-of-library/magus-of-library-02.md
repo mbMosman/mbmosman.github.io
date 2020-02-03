@@ -14,11 +14,13 @@ img:       books/magus-of-library-02.jpg
 status:    current-first-read
 read:   # must order recent first
   - start: 2020-01-27 
-    end:   #2020-01-27
+    end:   2020-01-31
 type: manga
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - manga
   - fantasy
   - library
 ---
+
+The story is still going strong and the art is still amazing. I ended up getting a copy of the first volume to send to my niece Meagan for her 11th birthday. She's a voracious reader too I hear. I hope she likes it too!
 
