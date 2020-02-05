@@ -11,7 +11,7 @@ author:
 published: 2019-09-03 
 goodreads: https://www.goodreads.com/book/show/43218341-magus-of-the-library-vol-2
 img:       books/magus-of-library-02.jpg
-status:    current-first-read
+status:    read
 read:   # must order recent first
   - start: 2020-01-27 
     end:   2020-01-31
