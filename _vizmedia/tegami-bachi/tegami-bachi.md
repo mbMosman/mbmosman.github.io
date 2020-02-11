@@ -24,7 +24,7 @@ music:
   - name:   光の記憶 (Memories of the Light) 
     artist: Angelo
     used:   2nd ending theme
-status:     on-hold #current-first-time
+status:     current-first-time
 view_history:  # must order recent first
   - start: 2019-05-11 
     end:   # YYYY-MM-DD
@@ -37,3 +37,7 @@ tags:  # genre: shojo, shonen, action, slice-of-life, etc.
 ---
 
 I had started reading the manga for this a year or so ago, as it was available electronically from the library. Somewhere along the way I got distracted and quit, but then bumped into this randomly browsing through the Crunchyroll A-Z listings. I remembered the story being pretty cool, so decided to check it out & haven't been disappointed. 
+
+The story is full of a lot of heart, and a few episodes have been so sweet!!! The Letter Bee's have *dingos* or animal companions (not literal dingos) that accompany them and one episode in particular about a Bee and her companion had me in tears on the couch as the kitties were all trying to comfort me, which then only made me cry more... 
+
+I haven't been very sure how to describe things plot-wise through a good chunk of the early show, but that didn't really affect my enjoyment of it. The episodic nature of the show made it really easy to pop in and out of while busy with other things. Yet there is clearly an over-arching mysterious plot that's connecting things and I like the slow reveal and mystery of it. 
