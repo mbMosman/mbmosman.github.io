@@ -2,6 +2,7 @@
 layout: post
 title:  Trifid Presentations & Career Day
 preview: My Trifid Cohort from Prime did an amazing job with their client project presenations today. As mentioned earlier, they are smart and funny...
+category: Prime
 ---
 
 My Trifid Cohort from [Prime](https://primeacademy.io/) did an amazing job with their client project presenations today. As mentioned earlier, they are both smart... 
