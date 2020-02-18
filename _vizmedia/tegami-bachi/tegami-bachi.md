@@ -24,10 +24,10 @@ music:
   - name:   光の記憶 (Memories of the Light) 
     artist: Angelo
     used:   2nd ending theme
-status:     current-first-time
+status:     finished
 view_history:  # must order recent first
   - start: 2019-05-11 
-    end:   # YYYY-MM-DD
+    end:   2020-02-17
 manga: # {% link manga/name-of-document.html %}
 tags:  # genre: shojo, shonen, action, slice-of-life, etc.
   - shonen
