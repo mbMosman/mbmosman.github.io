@@ -23,4 +23,4 @@ tags:  # genre: shojo, shonen, action, slice-of-life, etc.
 
 > Wei Wuxian's attempts to protect the innocent members of the Wen sect from unfair persecution lead to disaster, and he goes missing in the process. Wei Wuxian reappears sixteen years later, and works together with Lan Wangji to solve a series of murder mysteries, eventually finding and defeating the true culprit.
 
-Netflix said I would like it, and while I initially found it a little hard to sort out what was going on, I'm by the second episode I was hooked. 
+Netflix said I would like it, and while I initially found it a little hard to sort out what was going on, by the second episode I was hooked. 
