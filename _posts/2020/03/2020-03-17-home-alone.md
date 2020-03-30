@@ -2,6 +2,7 @@
 layout: post
 title:  Home Alone
 preview: Well, looks like I'll be home alone for a bit. Over the weekend it was decided that we'll be doing distance learning at least through April 6th, but potentially longer depending on how the coronavirus situation evolves. Just me and the kitties... Woot?
+category: Covid-19
 ---
 
 Well, looks like I'll be home alone for a bit. Over the weekend it was decided that we'll be doing distance learning at least through April 6th, but potentially longer depending on how the coronavirus situation evolves. Just me and the kitties... Woot?
