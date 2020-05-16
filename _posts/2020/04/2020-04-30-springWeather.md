@@ -28,10 +28,4 @@ Mallard Ducks!
 
 Mom said I need to get a kiddie pool for them.
 
-Oh! And you might not have noticed, as I don't often photo myself, but I refreshed the hair a bit. It was long overdue. I had actually planned to get it professionally done, but well, covid.  So instead I once again cleaned up the roots myself and added a fresh splash of pink. Woot!  
-
-{% asset 2020/04/30/newDo.jpg alt="Freshly bleached & pinked hair" %}
-
-Fortunately I still had some bleach. That's the last of my pink though. I guess, I'll have to start looking online. Perhaps I'll consider another color for the next time...
-
 Martin is planning on coming by this weekend so he could pack up his remaining stuff, including the basement tools, and then rent a truck to cart it all off. On the one hand, this is great, as there's a pile of stuff in the middle of the basement where I'd like to finish painting. On the other hand, I'll probably be missing those tools as I get around to finishing the floor and kitchen remodel. 
