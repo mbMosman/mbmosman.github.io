@@ -2,7 +2,7 @@
 layout: post
 title:  Basement Update 
 preview: My basement family room area now has an insulated floor! Woot!  
-category: Move_2019
+category: HomeReno_2020
 ---
 
 My basement family room area now has an insulated floor! Woot! 

@@ -1,0 +1,41 @@
+---
+title: Home Reon 2020
+layout: page
+permalink: reno_2020/
+summary: >- 
+  In 2020, *our* forever home became just *my* home with my divorce. I'm not really sure about long term plans for *forever* anymore, but I've got too much vested here to just walk away from it, even though it's a huge house for just me and the cats. For now, the project work goes on. After all, what else can it do?  
+---
+
+
+<p>
+  {{ page.summary | markdownify }}
+</p>
+{% asset newHouse.jpg alt="Our new house" %}
+<p>
+  The year started with work in the basement to clean things up, put in a new subfloor, new heaters, and paint. Then with Spring the work in the kitchen began. 
+</p>
+
+<p>You can read more about our move and see pictures in the posts below.</p>
+
+
+{% assign related_posts = site.related_posts %}
+{% for category in site.categories %}
+  {% if category[0] == 'HomeReno_2020' %}
+    {% assign related_posts = category[1] %}
+  {% endif %}
+{% endfor %}
+
+
+<h2>Read More About Our Move!</h2>
+<ul class="related-posts">
+  {% for post in related_posts %}
+    {% if post.title != page.title %}
+    <li>
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+        <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
+      </a>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
