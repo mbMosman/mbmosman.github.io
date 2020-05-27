@@ -15,7 +15,7 @@ While it was grilling I tore out the old floor, which revealed the lovely old vi
 
 I spent a lot of the afternoon cleaning. There was a lot of cleaning to do in the kitchen. I've been cleaning that water spot with alcohol and that has cleared up most of the moldy mess. The wall seems fine underneath. I also spent a lot of time clearing out other stuff that could go in the dumpster. There was a lot of old stuff in the garage and basement from the last house. Even with all that, the dumpster is still only about half full. 
 
-All that took me up to time for dinner. I pulled the brisket off the grill around 4:30 to let it rest, and cranked up the temperature to roast some potatoes. I also kicked off the Instant Pot with some Sweet Potato & Black Bean Chili. It all came together around 6:30 for an amazing dinner. 
+All that took me up to time for dinner. I pulled the brisket off the grill around 4:30 to let it rest, and cranked up the temperature to roast some potatoes. I also kicked off the Instant Pot with some [Sweet Potato & Black Bean Chili](https://food52.com/recipes/20498-smoky-black-bean-and-sweet-potato-chili). It all came together around 6:30 for an amazing dinner. 
 
 {% asset 2020/05/25/brisketDinner.jpg alt="My brisket dinner." %}
 
