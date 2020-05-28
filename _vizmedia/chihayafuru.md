@@ -15,7 +15,7 @@ online:     # where can it be watched online
 #  - name:   # name
 #    artist: # artist
 #    used:   # opening/closing season
-status:       current-new-season #finished
+status:       hold-new-season #finished
 view_history:  # must order recent first
   - start: 2011-11-02 
     end:   2012-05-30

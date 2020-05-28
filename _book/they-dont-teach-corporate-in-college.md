@@ -6,7 +6,7 @@ author:
 published: 2004-09-01 
 goodreads: https://www.goodreads.com/book/show/6383192-they-don-t-teach-corporate-in-college
 img:       books/they-dont-teach-corporate-in-college.jpg
-status:    to-read
+status:    hold
 read:   # must order recent first
 #  - start: 2020-01-25 
 #    end:   2020-01-25

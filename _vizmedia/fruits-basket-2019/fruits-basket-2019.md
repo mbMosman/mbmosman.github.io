@@ -12,7 +12,7 @@ online:     # where can it be watched online
 #  - name:   # name
 #    artist: # artist
 #    used:   # opening/closing season
-status:      hold-new-season
+status:      currently-new-season
 view_history:  # must order recent first
   - start: 2019-04-13 
     end:   2019-09-29

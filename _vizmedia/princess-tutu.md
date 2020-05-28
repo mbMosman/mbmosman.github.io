@@ -12,7 +12,7 @@ img:        vizmedia/princess-tutu.jpg
 online:     # where can it be watched online
   url:      https://smile.amazon.com/Princess-Tutu-01-Duck-Prince/dp/B003B1VIXI/
   service:  Amazon Prime
-status:     current-first-time
+status:     on-hold #current-first-time
 view_history:  # must order recent first
   - start: 2019-12-18 
     end:   # YYYY-MM-DD
