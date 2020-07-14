@@ -60,6 +60,8 @@ episodes:   # episode/part number
     number:  13
 status:  finished
 view_history:  # must order recent first
+  - start: 2020-07-09 
+    end:   2020-07-12
   - start: 2018-10-22 
     end:   2019-01-21
 tags: # genre: shojo, shonen, action, slice-of-life, etc.
