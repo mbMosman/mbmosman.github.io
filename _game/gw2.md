@@ -5,8 +5,8 @@ studio:  ArenaNet
 release: 2012-08-28
 img:     games/gw2-logo.jpg
 website:     https://www.guildwars2.com/en/
-status:  current
-last_played: 2019-12-10
+status:  casual
+last_played: 2020-08-16
 tags:  # genre: mmo, action, rpg, strategy, computer, steam, ps4
   - computer
   - mmo

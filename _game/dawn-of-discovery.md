@@ -4,7 +4,7 @@ studio:  Blue Byte
 release: 2009-06-23 
 img:     games/dawn-of-discovery.jpg 
 url:     https://store.steampowered.com/sub/3047/
-status:  current
+status:  casual
 last_played: 2019-05-11
 tags:  # genre: mmo, action, rpg, strategy, computer, steam, ps4
   - strategy
