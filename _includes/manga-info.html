@@ -2,7 +2,13 @@
 <div>
   <a href="{{ include.series.url }}" title="{{include.series.title}}" class="media-container">
     <div class="media-image small">
-      {% if include.series.img %}<img src="{{include.series.img}}" alt="poster" />{% endif %}
+      {% if include.series.img %}
+      {% if include.series.img contains 'http' %}
+      <img src="{{include.series.img}}" alt="poster" />
+      {% else %}
+        {% asset {{include.series.img}} alt="poster" %}
+      {% endif %}
+      {% endif %}
     </div>
 
     <div class="media-info">
