@@ -11,10 +11,10 @@ author:
 published: 2019-05-05 
 goodreads: https://www.goodreads.com/book/show/23654840-age-of-empyre
 img:       books/age-of-empyre.jpg
-status: to-read
+status: currently-reading
 read:   # must order recent first
-#  - start: 2020-03-01 
-#    end:   2020-03-04
+  - start: 2020-11-12 
+#    end:   2020-11-14
 type: novel
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - fantasy
