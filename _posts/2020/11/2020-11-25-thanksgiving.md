@@ -28,7 +28,7 @@ Obligatory kitty picture to wow up my post...
 
 - Miyavi, who has not only brightened my life with his own music, but also made my spring/summer by sharing videos of music making with his cute daughters. OMG they are so cute!
 
-- Similarly, BTS whose music and particularly their music videos, have inspired me to get off my stay at home ass and get up and dance. They also have been a ray of sunshine through the summer, as they too seem to just be genuinely awesome people in addition to awesome artists. 
+- Similarly, BTS whose music and particularly their music videos, have inspired me to get off my stay at home ass and get up and dance. They also have been a ray of sunshine through the summer, as they too seem to just be genuinely awesome people in addition to amazingly talented artists. 
 
 - All my new friends on Tandem who are patient with my wretched Japanese & Russian, and such a joy to chat with. 
 
