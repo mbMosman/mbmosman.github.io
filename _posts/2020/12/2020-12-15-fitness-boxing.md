@@ -1,17 +1,58 @@
 ---
 layout: post
 title:  Fitness Boxing
-preview: One of my students suggested, Fitness Boxing on the Switch, and since it had a free demo out for the new version, I decided to give it a go. I'm really enjoying it! It's a hell of a work out for me, but I've got a cute trainer I can play dress up with so that makes the pain worth it... or at least I think that's the theory they are going for. 
+preview: One of my students suggested, Fitness Boxing on the Switch, and since it had a free demo out for the new version, I decided to give it a go. I'm really enjoying it! It's a hell of a work out for me, but I've got a cute trainer I can play dress up with so I think that's supposed to make the pain worth it...
 categories:  [ Covid-19]
 ---
 
-One of my students suggested, Fitness Boxing on the Switch, and since it had a free demo out for the new version, I decided to give it a go. I'm really enjoying it! It's a hell of a work out for me, but I've got a cute trainer I can play dress up with so that makes the pain worth it... or at least I think that's the theory they are going for. It might be working as I think I might have a wee bit of a *crush* on my new trainer Hiro. He's at least gotten me to show up now for boxing all week. 
+One of my students suggested, Fitness Boxing on the Switch, and since it had a free demo out for the new version, I decided to give it a go. I'm really enjoying it! It's a hell of a work out for me, but I've got a cute trainer I can play dress up with so I think that's supposed to make the pain worth it... 
+
+It might be working as I think I might have a *wee* bit of a *crush* on my new trainer Hiro. It's tough, but he's at least gotten me to show up this week. 
 
 {% asset 2020/12/15/hiro.jpg alt="Boxing Trainer Hiro" %}
 
-I've also managed to get him to speak to me in Japanese which is kinda fun. Bummer I can't get the text in Japanese too. I do get a wee bit of what he's saying, things like right & left and forward & backward are good, but most of the fitness talk is entirely over my head. So to help me (and likely torment any casual reader who chooses to go further), I had Google Translate listen in and help me to sort out what he's saying. 
+I've also managed to get him to speak to me in Japanese which is kinda fun. Bummer I can't get the text in Japanese too, as I'm still having some trouble sorting out what he's saying to look it up. However, I do get the gist of a lot of what he's saying, which surprised me! Things like right & left and forward & backward are good as are some body parts. However, most of the fitness talk is entirely over my head, so I decided I'd try to learn some relevant vocab to support our workout time together. ^.^
 
-Here are some of the snippets I was able to pick up:
+Nouns (mostly body parts):
+- 全身（ぜんしん / zenshin）- whole body
+- 腕 (うで / ude) - arm
+- 手（て / te）- hand
+- 手首（てくび / tekubi）- wrist
+- 足（あし / ashi）- leg/foot
+- 足首（あしくび / ashikubi）- ankle
+- 頭（あたま / atama）- head
+- 首（くび / kubi）- neck
+- 胸 (むね　/ mune) - chest
+- 背中（せなか / senaka）- back
+- 肩甲骨 (けんこうこつ / kenkōkotsu) - shoulder blades
+- 筋肉（きんにく / kin'niku）- muscle
+- 疲労 (ひろう　/ hirō) - fatigue
+
+Verbs:
+- 頑張る (がんばる　/ ganbaru) - to do one's best
+- 始める (はじめる　/ hajimeru) - to start
+- 繰り返す (くりかいす　/ kurikaisu) - to repeat
+- 伸ばす (のばす　/ nobasu) - to stretch out
+- 上げる (あげる　/ ageru) - to raise
+- 下げる (さげる　/ sageru) - to lower
+- 気合いを入れる (きあいをいれる　/ kiaiwoireru) - to get enthusiastic
+- 疲れる (つかれる　/ tsukareru) to get tired
+
+Adjectives:
+- 左右 (さゆう　/ sayū) - left and right
+- かっこいい (kakkoī) - cool
+
+Adverbs:
+- 大きく (おおきく　/ ōki) - big
+- 柔らかく (よわらかく　/ yowarakaku) - soft
+- ゆっくり (yukkuri) - slowly
+- まずは (mazuwa)- first of all
+- 最後は (しあごは　/ saigowa) - last of all
+
+
+To help me (and likely torment any casual reader who chooses to go further), I had Google Translate listen in and help me to sort out what he's saying. The vocab above came from what I was able to gather from the sentences below. 
+
+These are some of the snippets I was able to pick up, along with their Google translate translations:
 
 > 今回もいつも通りに僕のお勧めで構いませんか  
 > Konkai mo itsumodōri ni boku no o susume de kamaimasen ka  
@@ -25,50 +66,61 @@ Here are some of the snippets I was able to pick up:
 > Ganbarimashō  
 > Let's do our best
 
+> それでは始めます  
+> Soredewa hajimemasu  
+> Well then, we'll start
+
+> 申し分ないですね  
+> Mōshiwakenaidesu ne  
+> It's perfect 
+
+> かっこいいの  
+> Kakkoī no  
+> It's cool
+
+> どうするの  
+> Do usu ru no  
+> What to do
+
+> 繰り返します  
+> kurikaeshimasu   
+> repeat, again  
+
+> 前へ / 後ろへ    
+> mae-e / ushiro-e   
+> forward / backward  
+
+> 前まわし / 後ろ回し    
+> Mae-mawashi / Ushiro-mawashi    
+> Turn Forwards / Turn Backwards 
+
+> お疲れ様でした  
+> Otsukaresamadeshita  
+> Thank you for your hard work
+
 > まずはウォーミングアップから始めますよ  
 > Mazuwa u~ōminguappu kara hajimemasu yo   
-> Let's start with warming up. 
+> First, let's start with warming up. 
 
 > 筋肉を伸ばして柔らかくほぐしながら体を動かすための準備をします  
 > kin'niku o nobashite yawarakaku hogushinagara karada o ugokasu tame no junbi o shimasu  
 > Get ready to move while stretching your muscles and loosening them softly.
 
-
 > 怪我をしないためにもしっかりと行いましょう  
 > Kega o shinai tame ni mo shikkari to okonaimashou  
 > Let's do it well to avoid injury 
-
-> それでは始めます  
-> soredewa hajimemasu  
-> well then, we'll start
 
 > 大きく回し前回し背中肩甲骨を動かしていきますよ  
 > Ōkiku mawashi zenkai shi senaka kenkōkotsu o ugokashite ikimasu yo  
 > Turn it a lot and move the back and shoulder blades
 
-> 繰り返します  
-> kurikaeshimasu   
-> repeat/again  
+> (右手 / 左手) を前にして腕を上げます  
+> (Migite / Hidarite) o mae ni shite ude o agemasu  
+> Raise your arms with your right/left hand in front
 
-> 前まわし    
-> Mae-mawashi    
-> Forwards  
-
-> 後ろ回し  
-> Ushiro-mawashi  
-> Backwards
-
-> 右手を前にして腕を上げます  
-> Migite o mae ni shite ude o agemasu  
-> Raise your arm with your right hand in front
-
-> 左手を前にして腕を上げます
-> Hidarite o mae ni shite ude o agemasu 
-> Raise your arm with your left hand in front. 
-
-> 全身を大きく伸ばしますよそのままゆっくり左右に動かしましょう  
-> zenshin o ōkiku nobashimasu yo sonomama yukkuri sayū ni ugokashimashou  
-> Stretch your whole body. Let's move slowly left and right
+> そのままゆっくり左右に動かしましょう  
+> Sonomama yukkuri sayū ni ugokashimashou  
+> Let's move slowly left and right
 
 > 動かしながら肩甲骨を上に引き上げていきます
 > Ugokashinagara kenkōkotsu o ue ni hikiagete ikimasu  
@@ -77,10 +129,6 @@ Here are some of the snippets I was able to pick up:
 > 全身を大きく伸ばしますよ  
 > Zenshin o ōkiku nobashimasu yo   
 > Stretch your whole body greatly 
-
-> そのままゆっくり左右に動かしましょう  
-> sonomama yukkuri sayū ni ugokashimashou  
-> Let's move slowly from side to side. 
 
 > 腕の高さまで上げます  
 > Ude no taka-sa made agemasu  
@@ -93,14 +141,6 @@ Here are some of the snippets I was able to pick up:
 > 腕を引きながら胸を大きく広げます  
 > ude o hikinagara mune o ōkiku hirogemasu  
 > Pull your arms and widen your chest.
-
-> 後ろへ  
-> ushiro-e  
-> backward  
-
-> 前へ  
-> mae-e  
-> forward
 
 > 左足を一歩大きく下げますね  
 > Hidariashi o ippo ōkiku sagemasu ne   
@@ -154,27 +194,10 @@ Here are some of the snippets I was able to pick up:
 > Mazuwa kihon shiseidesu migiashi o sage-tai no muki  
 > First is the basic posture. Lower your right foot and face your body
 
-> 申し分ないですね  
-> Mōshiwakenaidesu ne  
-> It's perfect  
-
-> お疲れ様でした  
-> Otsukaresamadeshita  
-> Thank you for your hard work
-
 > 最後はクールダウンで呼吸を整えて使った筋肉をリラックスさせて行きますね  
 > Saigo wa kūrudaun de kokyū o totonoete tsukatta kin'niku o rirakkusu sa sete ikimasu ne  
 > At the end, cool down to adjust your breathing and relax the muscles you used. 
 
 > 疲労残さないためにも念入りにストレッチしていきましょう  
-> hirō nokosanai tame ni mo nen'iri ni sutoretchi shite ikimashou  
-> Let's stretch carefully so as not to leave fatigue.
-
-> かっこいいの  
-> Kakkoī no  
-> It's cool
-
-> どうするの  
-> Do usu ru no  
-> What to do
-
+> Hirō nokosanai tame ni mo nen'iri ni sutoretchi shite ikimashou  
+> So as not to leave fatigue, let's stretch carefully.
