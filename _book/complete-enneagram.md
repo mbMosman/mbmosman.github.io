@@ -1,5 +1,4 @@
 ---
-output: false # Don't show this template
 title:     "The Complete Enneagram: 27 Paths to Greater Self-Knowledge"
 author: 
   first:   Beatrice
