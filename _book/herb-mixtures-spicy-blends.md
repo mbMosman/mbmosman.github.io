@@ -11,7 +11,7 @@ status:    read
 read:   # must order recent first
   - start: 2020-10-10 
     end:   2020-10-12
-type: # for goal count: manga, graphic_novel, novel, non-fiction, other
+type: non-fiction
 tags: # library, own-this, scifi, fantasy, historical-fiction
   - food
   - herbs
