@@ -2,7 +2,7 @@
 layout: post
 title:  Fitness Boxing
 preview: One of my students suggested, Fitness Boxing on the Switch, and since it had a free demo out for the new version, I decided to give it a go. I'm really enjoying it! It's a hell of a work out for me, but I've got a cute trainer I can play dress up with so I think that's supposed to make the pain worth it...
-categories:  [ Covid-19]
+categories:  [ Covid-19 ]
 ---
 
 One of my students suggested, Fitness Boxing on the Switch, and since it had a free demo out for the new version, I decided to give it a go. I'm really enjoying it! It's a hell of a work out for me, but I've got a cute trainer I can play dress up with so I think that's supposed to make the pain worth it... 
