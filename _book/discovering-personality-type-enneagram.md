@@ -1,12 +1,12 @@
 ---
-title:     Discovering Your Personality Type: The Essential Introduction to the Enneagram, Revised and Expanded
+title:     "Discovering Your Personality Type: The Essential Introduction to the Enneagram, Revised and Expanded"
 author: 
   first:   Don Richard Riso
   middle:  Russ Hudson
   last:    # last name
 published: 1992-12-01 
 goodreads: https://www.goodreads.com/book/show/311057.Discovering_Your_Personality_Type
-img: # Full URL to Goodreads or other image (unless local)
+img:       books/discovering-personality-type-enneagram.jpg
 status: read
 read:   # must order recent first
   - start: 2020-12-28 
