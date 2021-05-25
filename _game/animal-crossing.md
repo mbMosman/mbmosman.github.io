@@ -4,7 +4,7 @@ studio:  Nintendo
 release: 2020-03-20
 img:     games/animal-crossing-nh.jpg  
 url:     https://www.nintendo.com/games/detail/animal-crossing-new-horizons-switch/
-status:  current
+status:  casual
 tags:  # genre: mmo, action, rpg, strategy, computer, steam, ps4
   - switch
   - social-sim
