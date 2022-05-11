@@ -1,75 +1,196 @@
----
-layout: default
-title: My Blog
----
+<!DOCTYPE html>
+<html lang="en">
 
-<section>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>
+      
+        Mary Mosman &middot; My Blog
+      
+    </title>
+  
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Simonetta:regular,italic,black|Noto+Serif+JP|Open+Sans|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/style-311325357597a8bf132589c67b56acc9df8cb621557574ddbb4cb0767595805f.css">
+    <link href="/feed.xml" type="application/rss+xml" rel="alternate" title=" RSS Feed" />
+
+  </head>
+  
+
+  <body>
+    <div class="header-container">
+  <header>
+    <h1 class="site-title">
+    
+      <a href="/" title="Home">Mary Mosman</a>
+    
+      <small>Software Engineer, Instructor, & Curriculum Designer</small>
+    </h1>
+  </header>
+
+  
+</div>
+
+    <main>
+      <section>
   <div class="posts">
-    {% for post in paginator.posts %}
-      {% if forloop.index == 1 %}
+    
+      
         <h2>My Latest Adventure</h1>
         <article class="post">
           <h1 class="post-title">
-            <a href="{{ site.baseurl }}{{ post.url }}">
-              {{ post.title }}
+            <a href="/covid-19/2021/08/02/new-job/">
+              New Job!
             </a>
           </h1>
 
-          <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+          <time datetime="2021-08-02T00:00:00-05:00" class="post-date">02 Aug 2021</time>
 
-          {{ post.content }}
+          <p>I’ve had a nice month or so off, but today I got off to a great new start with <a href="https://www.techelevator.com/">Tech Elevator</a>. Looking forward to being part of their National Live Remote program. Woot for remote work &amp; remote learning!</p>
+
+<p>I’m pretty uncommitted to this blog at this point, so I’ll be taking a hiatus as I sort out my new job, a new relationship, and all sorts of future plans.</p>
+
+
         </article>
-      {% elsif forloop.index == 2 %}
+      
+
+      
+      
+      
+    
+      
         <h2>Previous Adventures</h2>
         <ul>
-      {% endif %}
+      
 
-      {% if forloop.index > 1 %}
+      
         <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-          <div>{% if post.preview %} 
-            <p>{{ post.preview }}</p>
-          {% else %} 
-            {{ post.excerpt }}
-          {% endif %}
+          <a href="/prime/covid-19/2021/07/09/fortunate-graduation/">Fortunate Graduation!!!</a>
+          <div> 
+            <p>My beloved Fortunate cohort graduated today! Dope Woot!</p>
+          
           </div>
         </li>
-      {% endif %}
       
-      {% if forloop.last %}
+      
+      
+    
+      
+
+      
+        <li>
+          <a href="/covid-19/2021/05/25/end-may/">End of May?!!</a>
+          <div> 
+            <p>So it's pretty much the end of May and I'm just kinda getting things together here to post again. I'm no gonna lie, for some reason this has been a tough month. The bathroom is still where it was at the end of April, and many little goals are still dangling out there just out of reach...</p>
+          
+          </div>
+        </li>
+      
+      
+      
+    
+      
+
+      
+        <li>
+          <a href="/covid-19/2021/05/04/spring/">Spring!</a>
+          <div> 
+            <p>It's been a nice weekend, and I finally got myself outdoors to enjoy breakfast on the deck. The goal was to do some work on the blog, but I ended up not getting very far as it started raining on me before I finished my tea!</p>
+          
+          </div>
+        </li>
+      
+      
+      
+    
+      
+
+      
+        <li>
+          <a href="/homereno_2020_2021/covid-19/2021/04/30/bathroom-almost-finished/">Bathroom Almost Finished</a>
+          <div> 
+            <p>So April is done, and the bathroom is mostly there. I managed to wrap-up the floor install, got the doors out & painted & back in. Then I decided to grout the floor too because I didn't like the way it felt on my bare feet. It was a lot of work, but I'm really happy with the outcome.</p>
+          
+          </div>
+        </li>
+      
+      
+      
+    
+      
+
+      
+        <li>
+          <a href="/prime/covid-19/2021/04/05/welcome-fortunate/">Welcome Fortunate</a>
+          <div> 
+            <p>My 10th Prime cohort kicked off their full-time classroom work this week. Woot! I'm so excited! 10 is a big number!!! They feel extra special because we're all decimal based and all - not to mention they are called Fortunate!!!</p>
+          
+          </div>
+        </li>
+      
+      
+      
+    
+      
+
+      
+        <li>
+          <a href="/homereno_2020_2021/covid-19/2021/04/05/april/">April...</a>
+          <div> 
+            <p>Well, somehow April is here. The weather has been nicer, and while it's rained a lot lately, it's making it pretty and green faster. Woot! Even though the weather is warmer, I still haven't been out much. I've been working on fixing up the bathroom so it isn't the sore spot of my upstairs. It's been an adventure.</p>
+          
+          </div>
+        </li>
+      
+      
+      
+    
+      
+
+      
+        <li>
+          <a href="/covid-19/2021/03/05/march/">Spring in the air!</a>
+          <div> 
+            <p>The weather has been great the last week. Spring is in the air, at least for now. We all know it'll likely disappear any moment, so we're making the most of it while we can.</p>
+          
+          </div>
+        </li>
+      
+      
+      
         </ul>
-      {% endif %}
-    {% endfor %}
+      
+    
   </div>
   
   <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">
-        {% include svg-icon.html icon="arrow-left" %} Older Posts
+    
+      <a class="pagination-item older" href="/blog/page/2/">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-left">
+  <use href="/assets/arrow-left-3fbaf3633c5b37e961028aa1ab5a308806edebadcfc1f9f0b30bcf35c3a4fb8c.svg#icon-arrow-left" xlink:href="/assets/arrow-left-3fbaf3633c5b37e961028aa1ab5a308806edebadcfc1f9f0b30bcf35c3a4fb8c.svg#icon-arrow-left"></use>
+</svg>
+ Older Posts
       </a>
-    {% endif %}
-    {% if paginator.previous_page %}
-      <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
-        Newer Posts {% include svg-icon.html icon="arrow-right" %}
-      </a>
-    {% endif %}
+    
+    
   </div>
 
   <div>
     <h2>Categories</h2>
     <ul>
       <li>
-        <a href="{% link blog/reno_2020.html %}">
+        <a href="/reno_2020/">
           Home Reno 2020-21
         </a>
       </li>
       <li>
-        <a href="{% link blog/move_2019.html %}">
+        <a href="/move_2019/">
           Move 2019
         </a>
       </li>
       <li>
-        <a href="{% link blog/prime.html %}">
+        <a href="/prime_cohorts/">
           Prime Cohorts
         </a>
       </li>
@@ -77,3 +198,61 @@ title: My Blog
   </div>
 
 </section>
+
+    </main>
+
+    <footer class="footer">
+      <ul class="footer-links">
+  
+    <li>
+      <a href="https://github.com/mbmosman" rel="noreferrer noopener" target="_blank" title="GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-github">
+  <use href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github" xlink:href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github"></use>
+</svg>
+
+      </a>
+    </li>
+  
+  
+    <li>
+      <a href="https://www.linkedin.com/in/mary-mosman" rel="noreferrer noopener" target="_blank" title="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-linkedin">
+  <use href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin" xlink:href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin"></use>
+</svg>
+
+      </a>
+    </li>
+  
+  
+    <li>
+      <a href="https://twitter.com/mbmosman" rel="noreferrer noopener" target="_blank" title="Twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-twitter">
+  <use href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter" xlink:href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter"></use>
+</svg>
+
+      </a>
+    </li>
+  
+  
+  
+  
+  
+    <li>
+      <a href="https://steamcommunity.com/id/cuteChickiboo" rel="noreferrer noopener" target="_blank" title="Steam">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-steam">
+  <use href="/assets/steam-5a64f30e6aeb1131fff4031b3a8eaaead4db848a4dd9df5cfaf5fe625dc68585.svg#icon-steam" xlink:href="/assets/steam-5a64f30e6aeb1131fff4031b3a8eaaead4db848a4dd9df5cfaf5fe625dc68585.svg#icon-steam"></use>
+</svg>
+
+      </a>
+    </li>
+  
+  
+  
+</ul>
+
+<small>
+  &copy; <time datetime="2022-05-11T16:34:18-05:00">2022</time> All rights reserved.
+</small>
+    </footer>
+  </body>
+</html>

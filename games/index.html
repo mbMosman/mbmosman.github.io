@@ -1,18 +1,108 @@
----
-title: Games
-layout: page
----
+<!DOCTYPE html>
+<html lang="en">
 
-<section>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>
+      
+        Mary Mosman &middot; Games
+      
+    </title>
+  
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Simonetta:regular,italic,black|Noto+Serif+JP|Open+Sans|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/style-311325357597a8bf132589c67b56acc9df8cb621557574ddbb4cb0767595805f.css">
+    <link href="/feed.xml" type="application/rss+xml" rel="alternate" title=" RSS Feed" />
+
+  </head>
+  
+
+  <body>
+    <div class="header-container">
+  <header>
+    <h1 class="site-title">
+    
+      <a href="/" title="Home">Mary Mosman</a>
+    
+      <small>Software Engineer, Instructor, & Curriculum Designer</small>
+    </h1>
+  </header>
+
+  
+</div>
+
+    <main>
+      <article class="page">
+  <h1 class="page-title">Games</h1>
+  <section>
   <h2>Recent Games</h2>
 
-  {% assign list = site.game | where_exp: 'item', "item.status contains 'current'"  %}
+  
   <ul class="game-list">
-  {% for item in list %}
+  
     <li class="game-list-item">
-      {% include game-info.html game=item style='link' %}
+      
+<div>
+  <a href="/game/emperor-rise-of-the-middle-kingdom" title="Emperor: Rise of the Middle Kingdom" class="game-container">
+    <div class="game-image small">
+      
+        
+          <img alt="Emperor: Rise of the Middle Kingdom" src="/assets/games/emperor-21b7cc61a652b9bab6b296d27932c21d5851394a77341487239b0c66fee64c58.jpg">
+        
+      
+    </div>
+    <div class="game-info">
+      <h3>
+        Emperor: Rise of the Middle Kingdom
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+      </h3>
+      <p class="status"> 
+         
+        Currently playing. 
+        
+      
+      </p>
+    </div>
+  </a>
+</div>
+
     </li>
-  {% endfor %}
+  
+    <li class="game-list-item">
+      
+<div>
+  <a href="/game/romancing-saga-2" title="Romancing SaGa 2" class="game-container">
+    <div class="game-image small">
+      
+        
+          <img alt="Romancing SaGa 2" src="/assets/games/romancing-saga-2-1601a94c5e88cf06cd621da085ab31b432d02f1321d6cd6bd8d8bd45088fc9b5.jpg">
+        
+      
+    </div>
+    <div class="game-info">
+      <h3>
+        Romancing SaGa 2
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+      </h3>
+      <p class="status"> 
+         
+        Currently playing. 
+        
+      
+      </p>
+    </div>
+  </a>
+</div>
+
+    </li>
+  
   </ul>
 </section>
 
@@ -20,14 +110,160 @@ layout: page
   
   <h2>Other Games in the Library</h2>
 
-  {% assign list = site.game | where_exp: 'item', "item.status contains 'casual'" | sort: 'last_played' | reverse %}
+  
   <ul class="game-list">
-  {% for item in list  limit: 5 %}
+  
     <li class="game-list-item">
-      {% include game-info.html game=item style='link' %}
+      
+<div>
+  <a href="/game/dawn-of-discovery" title="Dawn of Discovery" class="game-container">
+    <div class="game-image small">
+      
+        
+          <img alt="Dawn of Discovery" src="/assets/games/dawn-of-discovery-3add3e508952451719318167d100762b0d064b654a9934d20e9f63146ea2f40e.jpg">
+        
+      
+    </div>
+    <div class="game-info">
+      <h3>
+        Dawn of Discovery
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+      </h3>
+      <p class="status"> 
+      
+        Occassionally play.
+      
+      </p>
+    </div>
+  </a>
+</div>
+
     </li>
-  {% endfor %}
+  
+    <li class="game-list-item">
+      
+<div>
+  <a href="/game/railway-empire" title="Railway Empire" class="game-container">
+    <div class="game-image small">
+      
+        
+          <img alt="Railway Empire" src="/assets/games/railway-empire-95eaac7d71a4bc410ce4e52b4f987ca2e38522ad7f78cece016f0315de22125e.jpg">
+        
+      
+    </div>
+    <div class="game-info">
+      <h3>
+        Railway Empire
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+      </h3>
+      <p class="status"> 
+      
+        Occassionally play.
+      
+      </p>
+    </div>
+  </a>
+</div>
+
+    </li>
+  
+    <li class="game-list-item">
+      
+<div>
+  <a href="/game/animal-crossing" title="Animal Crossing" class="game-container">
+    <div class="game-image small">
+      
+        
+          <img alt="Animal Crossing" src="/assets/games/animal-crossing-nh-c9186469ca773215b176586c70cf4b6aaad428f371a3de304e4b8ac2aaa84e65.jpg">
+        
+      
+    </div>
+    <div class="game-info">
+      <h3>
+        Animal Crossing
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+      </h3>
+      <p class="status"> 
+      
+        Occassionally play.
+      
+      </p>
+    </div>
+  </a>
+</div>
+
+    </li>
+  
   </ul>
 </section>
 
 
+
+</article>
+
+    </main>
+
+    <footer class="footer">
+      <ul class="footer-links">
+  
+    <li>
+      <a href="https://github.com/mbmosman" rel="noreferrer noopener" target="_blank" title="GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-github">
+  <use href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github" xlink:href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github"></use>
+</svg>
+
+      </a>
+    </li>
+  
+  
+    <li>
+      <a href="https://www.linkedin.com/in/mary-mosman" rel="noreferrer noopener" target="_blank" title="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-linkedin">
+  <use href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin" xlink:href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin"></use>
+</svg>
+
+      </a>
+    </li>
+  
+  
+    <li>
+      <a href="https://twitter.com/mbmosman" rel="noreferrer noopener" target="_blank" title="Twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-twitter">
+  <use href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter" xlink:href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter"></use>
+</svg>
+
+      </a>
+    </li>
+  
+  
+  
+  
+  
+    <li>
+      <a href="https://steamcommunity.com/id/cuteChickiboo" rel="noreferrer noopener" target="_blank" title="Steam">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-steam">
+  <use href="/assets/steam-5a64f30e6aeb1131fff4031b3a8eaaead4db848a4dd9df5cfaf5fe625dc68585.svg#icon-steam" xlink:href="/assets/steam-5a64f30e6aeb1131fff4031b3a8eaaead4db848a4dd9df5cfaf5fe625dc68585.svg#icon-steam"></use>
+</svg>
+
+      </a>
+    </li>
+  
+  
+  
+</ul>
+
+<small>
+  &copy; <time datetime="2022-05-11T16:34:18-05:00">2022</time> All rights reserved.
+</small>
+    </footer>
+  </body>
+</html>

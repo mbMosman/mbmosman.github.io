@@ -1,13 +1,54 @@
----
-title: Home
-layout: page
----
+<!DOCTYPE html>
+<html lang="en">
 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>
+      
+        Mary Mosman &middot; Software Engineer, Instructor, & Curriculum Designer
+      
+    </title>
+  
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Simonetta:regular,italic,black|Noto+Serif+JP|Open+Sans|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/style-311325357597a8bf132589c67b56acc9df8cb621557574ddbb4cb0767595805f.css">
+    <link href="/feed.xml" type="application/rss+xml" rel="alternate" title=" RSS Feed" />
 
+  </head>
+  
 
-<section id="about">
+  <body>
+    <div class="header-container">
+  <header>
+    <h1 class="site-title">
+    
+      Mary Mosman 
+    
+      <small>Software Engineer, Instructor, & Curriculum Designer</small>
+    </h1>
+  </header>
+
+  
+    <nav>
+    <ul>
+      <li>
+        <a href="\blog"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-pencil">
+  <use href="/assets/pencil-132ce7d2d70ce1c41c47dc33a29b2b02ce35670640ae5b679bb4bab1c28a341e.svg#icon-pencil" xlink:href="/assets/pencil-132ce7d2d70ce1c41c47dc33a29b2b02ce35670640ae5b679bb4bab1c28a341e.svg#icon-pencil"></use>
+</svg>
+ Old Blog (not updating)</a>
+      </li>
+    </ul>
+  </nav>
+  
+</div>
+
+    <main>
+      <article class="page">
+  
+  <section id="about">
   <figure class="text-center">
-    <img class="round" src="{% asset 'mary2020_sm.jpg' @path %}" alt="Mary Mosman" />
+    <img class="round" src="/assets/mary2020_sm-6e713d35fd8648fe487677435266160e2b4e12ce3e1f99028f4f72de520b92f7.jpg" alt="Mary Mosman" />
     <figcaption>
       <strong>Mary Mosman</strong>
     </figcaption>
@@ -29,22 +70,34 @@ layout: page
   <h2>Learn More</h2>
   <ul class="page-list">
     <li class="page-list-item">
-      <a href="{{ 'blog' | relative_url }}" title="My Blog">
+      <a href="/blog" title="My Blog">
         <h3>
-            {% include svg-icon.html icon="pencil" %}
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-pencil">
+  <use href="/assets/pencil-132ce7d2d70ce1c41c47dc33a29b2b02ce35670640ae5b679bb4bab1c28a341e.svg#icon-pencil" xlink:href="/assets/pencil-132ce7d2d70ce1c41c47dc33a29b2b02ce35670640ae5b679bb4bab1c28a341e.svg#icon-pencil"></use>
+</svg>
+
             My Blog 
-            {% include svg-icon.html icon="arrow-right" %}
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
           </h3>
       </a>
       <p>Curious what I've been up to? Check out my blog!</p>
     </li>
     
     <li class="page-list-item">
-      <a href="{{ 'books' | relative_url }}" title="Reading">
+      <a href="/books" title="Reading">
         <h3>
-          {% include svg-icon.html icon="books" %}
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-books">
+  <use href="/assets/books-fb6d30a0d20fe1b1fa7977001b7aa59f2dcf3494fffd058f110e04b4c60dfff0.svg#icon-books" xlink:href="/assets/books-fb6d30a0d20fe1b1fa7977001b7aa59f2dcf3494fffd058f110e04b4c60dfff0.svg#icon-books"></use>
+</svg>
+
           Books 
-          {% include svg-icon.html icon="arrow-right" %}
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
         </h3>
         <p>
           I read a lot - mostly manga & fantasy novels. Wonder what I'm reading? Check out my book list.
@@ -53,11 +106,17 @@ layout: page
     </li>
       
     <li class="page-list-item">
-      <a href="{{ 'watch' | relative_url }}" title="Watch List">
+      <a href="/watch" title="Watch List">
         <h3>
-            {% include svg-icon.html icon="video-camera" %}
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-video-camera">
+  <use href="/assets/video-camera-01b0d182f76169e9f83a8d0f2937770823bddb4c023eec34ca34550be71acab3.svg#icon-video-camera" xlink:href="/assets/video-camera-01b0d182f76169e9f83a8d0f2937770823bddb4c023eec34ca34550be71acab3.svg#icon-video-camera"></use>
+</svg>
+
             Watch List 
-            {% include svg-icon.html icon="arrow-right" %}
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
           </h3>
         <p>
           I watch a good amount of anime, but I've recently started watching more Korean drama, 
@@ -68,11 +127,17 @@ layout: page
     </li>
 
     <li class="page-list-item">
-      <a href="{{ 'games' | relative_url }}" title="Games">
+      <a href="/games" title="Games">
         <h3>
-            {% include svg-icon.html icon="dice" %}
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-dice">
+  <use href="/assets/dice-3d4d0ae7207820c7db966fb7aa53dd70c99c6850ddcf7726f2ccb406eb5f24aa.svg#icon-dice" xlink:href="/assets/dice-3d4d0ae7207820c7db966fb7aa53dd70c99c6850ddcf7726f2ccb406eb5f24aa.svg#icon-dice"></use>
+</svg>
+
             Games
-            {% include svg-icon.html icon="arrow-right" %}
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
           </h3>
         <p>
           Stuff about games that I am currently playing or have previously played. 
@@ -81,11 +146,17 @@ layout: page
     </li>
 
     <li class="page-list-item">
-      <a href="{{ 'worldbuilding' | relative_url }}" title="World Building">
+      <a href="/worldbuilding" title="World Building">
         <h3>
-            {% include svg-icon.html icon="leaf" %}
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-leaf">
+  <use href="/assets/leaf-0c2ad99e962f96fe4d73e5a2191c2bed726be999b56c6b0bae704808855f076d.svg#icon-leaf" xlink:href="/assets/leaf-0c2ad99e962f96fe4d73e5a2191c2bed726be999b56c6b0bae704808855f076d.svg#icon-leaf"></use>
+</svg>
+
             World Building 
-            {% include svg-icon.html icon="arrow-right" %}
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
           </h3>
         <p>
           Tag along on my world building adventure!  
@@ -94,3 +165,62 @@ layout: page
     </li>
   </ul>
 </section> -->
+</article>
+
+    </main>
+
+    <footer class="footer">
+      <ul class="footer-links">
+  
+    <li>
+      <a href="https://github.com/mbmosman" rel="noreferrer noopener" target="_blank" title="GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-github">
+  <use href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github" xlink:href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github"></use>
+</svg>
+
+      </a>
+    </li>
+  
+  
+    <li>
+      <a href="https://www.linkedin.com/in/mary-mosman" rel="noreferrer noopener" target="_blank" title="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-linkedin">
+  <use href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin" xlink:href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin"></use>
+</svg>
+
+      </a>
+    </li>
+  
+  
+    <li>
+      <a href="https://twitter.com/mbmosman" rel="noreferrer noopener" target="_blank" title="Twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-twitter">
+  <use href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter" xlink:href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter"></use>
+</svg>
+
+      </a>
+    </li>
+  
+  
+  
+  
+  
+    <li>
+      <a href="https://steamcommunity.com/id/cuteChickiboo" rel="noreferrer noopener" target="_blank" title="Steam">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-steam">
+  <use href="/assets/steam-5a64f30e6aeb1131fff4031b3a8eaaead4db848a4dd9df5cfaf5fe625dc68585.svg#icon-steam" xlink:href="/assets/steam-5a64f30e6aeb1131fff4031b3a8eaaead4db848a4dd9df5cfaf5fe625dc68585.svg#icon-steam"></use>
+</svg>
+
+      </a>
+    </li>
+  
+  
+  
+</ul>
+
+<small>
+  &copy; <time datetime="2022-05-11T16:34:18-05:00">2022</time> All rights reserved.
+</small>
+    </footer>
+  </body>
+</html>

@@ -1,73 +1,613 @@
----
-title: Books
-layout: page
----
+<!DOCTYPE html>
+<html lang="en">
 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>
+      
+        Mary Mosman &middot; Books
+      
+    </title>
+  
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Simonetta:regular,italic,black|Noto+Serif+JP|Open+Sans|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/style-311325357597a8bf132589c67b56acc9df8cb621557574ddbb4cb0767595805f.css">
+    <link href="/feed.xml" type="application/rss+xml" rel="alternate" title=" RSS Feed" />
 
-<section>
+  </head>
+  
+
+  <body>
+    <div class="header-container">
+  <header>
+    <h1 class="site-title">
+    
+      <a href="/" title="Home">Mary Mosman</a>
+    
+      <small>Software Engineer, Instructor, & Curriculum Designer</small>
+    </h1>
+  </header>
+
+  
+</div>
+
+    <main>
+      <article class="page">
+  <h1 class="page-title">Books</h1>
+  <section>
   <h2>Current Reads</h2>
 
-  {% assign booklist = site.book | where_exp: 'item', "item.status contains 'current'"  %}
+  
   <ul class="book-list">
-  {% for item in booklist %}
+  
     <li class="book-list-item">
-      {% include book-info.html book=item style='link' %}
+       
+
+<div>
+  
+  <a href="https://www.goodreads.com/book/show/48847746-burnout" title="Burnout: The Secret to Unlocking the Stress Cycle" class="book-container" target="_blank">
+  
+    <div class="book-image small">
+      
+      
+        <img alt="book cover" src="/assets/books/burnout-unlocking-stress-cycle-4cc7650450ba1a23aa4f9c315a8ded2298cd781bcb1d2e3cca4b19df69446b94.jpg">
+      
+    
+    </div>
+    <div class="book-info">
+      <h3>
+        Burnout: The Secret to Unlocking the Stress Cycle
+        <small class="author">by Emily & Amelia Nagoski</small>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+      </h3>
+      
+      <p class="status"> 
+         
+          
+        
+          Started on April 18, 2021.
+        
+      
+    </p>
+    </div>
+  </a>
+</div>
+
     </li>
-  {% endfor %}
+  
+    <li class="book-list-item">
+       
+
+<div>
+  
+  <a href="https://www.goodreads.com/book/show/18234540-the-complete-enneagram" title="The Complete Enneagram: 27 Paths to Greater Self-Knowledge" class="book-container" target="_blank">
+  
+    <div class="book-image small">
+      
+      
+        <img alt="book cover" src="/assets/books/complete-enneagram-6f7d4cd858ed0456ecc4e170668cd003da3258d9fe34a7bf76f7c951475fa9b1.jpg">
+      
+    
+    </div>
+    <div class="book-info">
+      <h3>
+        The Complete Enneagram: 27 Paths to Greater Self-Knowledge
+        <small class="author">by Beatrice Chestnut</small>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+      </h3>
+      
+      <p class="status"> 
+         
+          
+        
+          Started on December 11, 2020.
+        
+      
+    </p>
+    </div>
+  </a>
+</div>
+
+    </li>
+  
   </ul>
 </section>
 
-{% assign booklist = site.book | where_exp: 'item', "item.status contains 'to-read'"  %}
-{% if booklist.size > 0 %}
+
+
 <section>
   <h2>Next Up</h2>
 
   <ul class="book-list">
-  {% for item in booklist limit: 5%}
+  
     <li class="book-list-item">
-      {% include book-info.html book=item style='link' %}
+       
+
+<div>
+  
+  <a href="/book/magus-of-library-03" title="The Magus of the Library" class="book-container">
+  
+    <div class="book-image small">
+      
+      
+        <img alt="book cover" src="/assets/books/magus-of-library-03-3921d26478d2626337e2a70bcbff979980873cf1c1a2fec6fe713df9c169c649.jpg">
+      
+    
+    </div>
+    <div class="book-info">
+      <h3>
+        The Magus of the Library
+        <small class="author">by Mitsu Izumi</small>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+      </h3>
+      
+      <p class="series">
+          The Magus of the Library
+           #3
+      </p>
+      
+      <p class="status"> 
+      
+        Want to Read
+      
+    </p>
+    </div>
+  </a>
+</div>
+
     </li>
-  {% endfor %}
+  
+    <li class="book-list-item">
+       
+
+<div>
+  
+  <a href="/book/purple-hibiscus" title="Purple Hibiscus" class="book-container">
+  
+    <div class="book-image small">
+      
+      
+        <img alt="book cover" src="/assets/books/purple-hibiscus-dad20aec1656c923b23a443802aaa364291b4f2b09d138c57db3daa14e8774a6.jpg">
+      
+    
+    </div>
+    <div class="book-info">
+      <h3>
+        Purple Hibiscus
+        <small class="author">by Chimamanda Ngozi Adichie</small>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+      </h3>
+      
+      <p class="status"> 
+         
+          
+        
+      
+    </p>
+    </div>
+  </a>
+</div>
+
+    </li>
+  
   </ul>
 </section>
-{% endif %}
+
 
 
 <section>
   
   <h2>Recent Reads</h2>
 
-  {% assign booklist = site.book | where: 'status', 'read' | sort: 'last_read' | reverse %}
+  
   <ul class="book-list">
-  {% for item in booklist  limit: 7 %}
+  
     <li class="book-list-item">
-      {% include book-info.html book=item style='link' %}
+       
+
+<div>
+  
+  <a href="/book/complete-cities-ancient-egypt" title="The Complete Cities of Ancient Egypt" class="book-container">
+  
+    <div class="book-image small">
+      
+      
+        <img alt="book cover" src="/assets/books/complete-cities-ancient-egypt-888cab64c3b0f4c5179d42e1ca8de6d139eda7c6413d455fe022d73c420ca2d5.jpg">
+      
+    
+    </div>
+    <div class="book-info">
+      <h3>
+        The Complete Cities of Ancient Egypt
+        <small class="author">by Steven Snape</small>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+      </h3>
+      
+      <p class="status"> 
+         
+          
+        
+          Last read April 10, 2021 to April 18, 2021.
+        
+      
+    </p>
+    </div>
+  </a>
+</div>
+
     </li>
-  {% endfor %}
+  
+    <li class="book-list-item">
+       
+
+<div>
+  
+  <a href="/book/yona-of-the-dawn-29" title="Yona of the Dawn" class="book-container">
+  
+    <div class="book-image small">
+      
+      
+        <img alt="book cover" src="/assets/books/yona-of-the-dawn-29-bd70bec79a8198cc1408077a074a235cb5e986e7145378b965cc666aa91a4c50.jpg">
+      
+    
+    </div>
+    <div class="book-info">
+      <h3>
+        Yona of the Dawn
+        <small class="author">by Mizuho Kusanagi</small>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+      </h3>
+      
+      <p class="series">
+          Yona of the Dawn
+           #29
+      </p>
+      
+      <p class="status"> 
+         
+          
+        
+          Last read April 10, 2021 to April 11, 2021.
+        
+      
+    </p>
+    </div>
+  </a>
+</div>
+
+    </li>
+  
+    <li class="book-list-item">
+       
+
+<div>
+  
+  <a href="/book/yona-of-the-dawn-28" title="Yona of the Dawn" class="book-container">
+  
+    <div class="book-image small">
+      
+      
+        <img alt="book cover" src="/assets/books/yona-of-the-dawn-28-01ab53bb7eb77449c41dc3e5952f076746d9c6fc39264aefd203ccf0581c2a24.jpg">
+      
+    
+    </div>
+    <div class="book-info">
+      <h3>
+        Yona of the Dawn
+        <small class="author">by Mizuho Kusanagi</small>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+      </h3>
+      
+      <p class="series">
+          Yona of the Dawn
+           #28
+      </p>
+      
+      <p class="status"> 
+         
+          
+        
+          Last read on February  5, 2021.
+        
+      
+    </p>
+    </div>
+  </a>
+</div>
+
+    </li>
+  
+    <li class="book-list-item">
+       
+
+<div>
+  
+  <a href="/book/eidolon" title="Eidolon" class="book-container">
+  
+    <div class="book-image small">
+      
+      
+        <img alt="book cover" src="/assets/books/eidolon-b47cf4b92016ae4b37c283247698548bc76338ce4fc7f07553b4bfcd4f087f25.jpg">
+      
+    
+    </div>
+    <div class="book-info">
+      <h3>
+        Eidolon
+        <small class="author">by Grace Draven</small>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+      </h3>
+      
+      <p class="series">
+          Wraithe Kings
+           #2
+      </p>
+      
+      <p class="status"> 
+         
+          
+        
+          Last read December 28, 2020 to December 30, 2020.
+        
+      
+    </p>
+    </div>
+  </a>
+</div>
+
+    </li>
+  
+    <li class="book-list-item">
+       
+
+<div>
+  
+  <a href="/book/discovering-personality-type-enneagram" title="Discovering Your Personality Type: The Essential Introduction to the Enneagram, Revised and Expanded" class="book-container">
+  
+    <div class="book-image small">
+      
+      
+        <img alt="book cover" src="/assets/books/discovering-personality-type-enneagram-1aaa5218883f3f899ccf8d9ccdf5fc035906798da8f1d826b67cd80a809fd32e.jpg">
+      
+    
+    </div>
+    <div class="book-info">
+      <h3>
+        Discovering Your Personality Type: The Essential Introduction to the Enneagram, Revised and Expanded
+        <small class="author">by Don Richard Riso Russ Hudson</small>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+      </h3>
+      
+      <p class="status"> 
+         
+          
+        
+          Last read on December 28, 2020.
+        
+      
+    </p>
+    </div>
+  </a>
+</div>
+
+    </li>
+  
+    <li class="book-list-item">
+       
+
+<div>
+  
+  <a href="/book/woman-in-the-moonlight" title="The Woman in the Moonlight" class="book-container">
+  
+    <div class="book-image small">
+      
+      
+        <img alt="book cover" src="/assets/books/woman-in-the-moonlight-37116e06b565dbdbc098f572c73fc6baf70cfe22f2b9e6ee5f2764325ad50435.jpg">
+      
+    
+    </div>
+    <div class="book-info">
+      <h3>
+        The Woman in the Moonlight
+        <small class="author">by Patricia Morrisroe</small>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+      </h3>
+      
+      <p class="status"> 
+         
+          
+        
+          Last read December 24, 2020 to December 26, 2020.
+        
+      
+    </p>
+    </div>
+  </a>
+</div>
+
+    </li>
+  
+    <li class="book-list-item">
+       
+
+<div>
+  
+  <a href="/book/radiance" title="Radiance" class="book-container">
+  
+    <div class="book-image small">
+      
+      
+        <img alt="book cover" src="/assets/books/radiance-25b8e50068eb761b723c6901bf8be13af8a6b8860b6564cac243985f3b24ffc1.jpg">
+      
+    
+    </div>
+    <div class="book-info">
+      <h3>
+        Radiance
+        <small class="author">by Grace Draven</small>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+      </h3>
+      
+      <p class="series">
+          Wraithe Kings
+           #1
+      </p>
+      
+      <p class="status"> 
+         
+          
+        
+          Last read on December 24, 2020.
+        
+      
+    </p>
+    </div>
+  </a>
+</div>
+
+    </li>
+  
   </ul>
 </section>
 
 
-{% assign yearPages = site.pages | where: "category", "Books For Year" | sort:"year" | reverse %}
+
 <section>
     <h2>More...</h2>
   
     <nav class="books-nav">
       <ul>
         <li>
-          <a href="{% link books/manga.html %}">Manga</a>
+          <a href="/books/manga/">Manga</a>
         </li>
         <li>
-          <a href="{% link books/byTitle.html %}">Books by Title</a>
+          <a href="/books/byTitle/">Books by Title</a>
         </li>
         <li>
-          <a href="{% link books/byAuthor.html %}">Books by Author</a>
+          <a href="/books/byAuthor/">Books by Author</a>
         </li>
-        {% for page in yearPages %}
+        
           <li>
-            <a href="{{ page.url }}">{{ page.year }}</a>
+            <a href="/books/2021/">2021</a>
           </li>
-        {% endfor %}
+        
+          <li>
+            <a href="/books/2020/">2020</a>
+          </li>
+        
+          <li>
+            <a href="/books/2019/">2019</a>
+          </li>
+        
+          <li>
+            <a href="/books/2018/">2018</a>
+          </li>
+        
+          <li>
+            <a href="/books/2017/">2017</a>
+          </li>
+        
+          <li>
+            <a href="/books/2016/">2016</a>
+          </li>
+        
+          <li>
+            <a href="/books/2015/">2015</a>
+          </li>
+        
       </ul>
     </nav>
   </section>
+</article>
+
+    </main>
+
+    <footer class="footer">
+      <ul class="footer-links">
+  
+    <li>
+      <a href="https://github.com/mbmosman" rel="noreferrer noopener" target="_blank" title="GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-github">
+  <use href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github" xlink:href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github"></use>
+</svg>
+
+      </a>
+    </li>
+  
+  
+    <li>
+      <a href="https://www.linkedin.com/in/mary-mosman" rel="noreferrer noopener" target="_blank" title="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-linkedin">
+  <use href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin" xlink:href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin"></use>
+</svg>
+
+      </a>
+    </li>
+  
+  
+    <li>
+      <a href="https://twitter.com/mbmosman" rel="noreferrer noopener" target="_blank" title="Twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-twitter">
+  <use href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter" xlink:href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter"></use>
+</svg>
+
+      </a>
+    </li>
+  
+  
+  
+  
+  
+    <li>
+      <a href="https://steamcommunity.com/id/cuteChickiboo" rel="noreferrer noopener" target="_blank" title="Steam">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-steam">
+  <use href="/assets/steam-5a64f30e6aeb1131fff4031b3a8eaaead4db848a4dd9df5cfaf5fe625dc68585.svg#icon-steam" xlink:href="/assets/steam-5a64f30e6aeb1131fff4031b3a8eaaead4db848a4dd9df5cfaf5fe625dc68585.svg#icon-steam"></use>
+</svg>
+
+      </a>
+    </li>
+  
+  
+  
+</ul>
+
+<small>
+  &copy; <time datetime="2022-05-11T16:34:18-05:00">2022</time> All rights reserved.
+</small>
+    </footer>
+  </body>
+</html>
