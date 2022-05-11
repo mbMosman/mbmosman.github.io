@@ -10,23 +10,11 @@
     </h1>
   </header>
 
-  {% if page.title != "Home" %}
-  <nav>
+  {% if page.title == "Home" %}
+    <nav>
     <ul>
       <li>
-        <a href="{{base_url}}\blog">{% include svg-icon.html icon="pencil" %} Blog</a>
-      </li>
-      <li>
-        <a href="{{base_url}}\books">{% include svg-icon.html icon="books" %} Books</a>
-      </li>
-      <li>
-        <a href="{{base_url}}\watch">{% include svg-icon.html icon="video-camera" %} Watch List</a>
-      </li>
-      <li>
-        <a href="{{base_url}}\games">{% include svg-icon.html icon="dice" %} Games</a>
-      </li>
-      <li>
-        <a href="{{base_url}}\worldbuilding">{% include svg-icon.html icon="leaf" %} World Building</a>
+        <a href="{{base_url}}\blog">{% include svg-icon.html icon="pencil" %} Old Blog (not updating)</a>
       </li>
     </ul>
   </nav>
