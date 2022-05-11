@@ -2,7 +2,7 @@
 layout: post
 title:  Bathroom Almost Finished
 preview: So April is done, and the bathroom is mostly there. I managed to wrap-up the floor install, got the doors out & painted & back in. Then I decided to grout the floor too because I didn't like the way it felt on my bare feet. It was a lot of work, but I'm really happy with the outcome.
-categories:  [ HomeReno-2021, Covid-19 ]
+categories:  [ HomeReno_2020_2021, Covid-19 ]
 ---
 
 So April is done, and the bathroom is mostly there. I managed to wrap-up the floor install, got the doors out & painted & back in. Then I decided to grout the floor too because I didn't like the way it felt on my bare feet. It was a lot of work, but I'm really happy with the outcome.

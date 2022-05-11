@@ -2,7 +2,7 @@
 layout: post
 title:  Finally! A New Fridge
 preview: The big event of this week was the arrival of my new fridge. Considering it was around Memorial Day when I ordered it, and after Labor Day when it finally arrived, I was happy to have it here at last. Woot!
-categories:  [HomeReno_2020, Covid-19]
+categories:  [HomeReno_2020_2021, Covid-19]
 ---
 
 The big event of this week was the arrival of my new fridge. Considering it was around Memorial Day when I ordered it, and after Labor Day when it finally arrived, I was happy to have it here at last. Woot!

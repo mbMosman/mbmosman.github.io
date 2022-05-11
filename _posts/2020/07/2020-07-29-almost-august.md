@@ -2,7 +2,7 @@
 layout: post
 title:  Almost August?!
 preview: I've had a pretty quiet few weeks here...
-categories:  [HomeReno_2020, Covid-19]
+categories:  [HomeReno_2020_2021, Covid-19]
 ---
 
 I've had a pretty quiet few weeks here...

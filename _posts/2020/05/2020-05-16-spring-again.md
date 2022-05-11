@@ -2,7 +2,7 @@
 layout: post
 title:  New Obsession
 preview: I have a new beauty product obsession - these amazing Lapcos Korean sheet masks from Costo. I am not really one for beauty products, but I've been super stressed and I was all in for a way to kick back and relax. I was a bit skeptical, but it was so amazing. It was cool and refreshing, and I could just feel the stress melting away. 
-categories: [HomeReno_2020, Covid-19]
+categories: [HomeReno_2020_2021, Covid-19]
 ---
 
 I have a new beauty product obsession - these amazing Lapcos Korean sheet masks from Costo. 

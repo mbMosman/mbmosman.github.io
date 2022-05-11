@@ -2,7 +2,7 @@
 layout: post
 title:  Week 2 Wrapup
 preview: I've been hanging in there through 2 weeks of remote work, and it's certainly had its ups and downs. It takes a little getting used to, though I think we've been amazingly successful teaching remotely. Woot! I've also got some solid home progress to share.
-categories: [HomeReno_2020, Covid-19]
+categories: [HomeReno_2020_2021, Covid-19]
 ---
 
 I've been hanging in there through 2 weeks of remote work, and it's certainly had its ups and downs. It takes a little getting used to, though I think we've been amazingly successful teaching remotely. Of course it helps when your fellow staff and also your students are all universally awesome. ^.^

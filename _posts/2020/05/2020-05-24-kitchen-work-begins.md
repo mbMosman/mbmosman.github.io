@@ -2,7 +2,7 @@
 layout: post
 title:  Kitchen Work Begins
 preview: So, the cabinet install was scheduled for the Tuesday & Wednesday following Memorial Day. That means the holiday weekend was really kitchen tear-out and repair weekend for me.  
-categories: [HomeReno_2020, Covid-19]
+categories: [HomeReno_2020_2021, Covid-19]
 ---
 
 So, the cabinet install was scheduled for the Tuesday & Wednesday following Memorial Day. That means the holiday weekend was really kitchen tear-out and repair weekend for me. 

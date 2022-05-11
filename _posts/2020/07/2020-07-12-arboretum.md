@@ -2,7 +2,7 @@
 layout: post
 title:  Arboretum Visit
 preview: Saturday I paid a visit to the MN Landscape Arboretum with Richard. It was only partially open, but we had a good time. I've also got my kitchen sink back! Woot!!!
-categories:  [HomeReno_2020, Covid-19]
+categories:  [HomeReno_2020_2021, Covid-19]
 ---
 
 Saturday I paid a visit to the [MN Landscape Arboretum](http://arb.umn.edu/) with Richard. It was only partially open, but we had a good time. I've also got my kitchen sink back! Woot!!!

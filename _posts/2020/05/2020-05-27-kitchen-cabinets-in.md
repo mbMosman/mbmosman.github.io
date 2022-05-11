@@ -2,7 +2,7 @@
 layout: post
 title:  Kitchen Cabinets In!
 preview: The cabinets are really in now. I'm happy that work at least is all done! I can move my dishes and pantry things back into the kitchen and now I have more space to store things! Woot! 
-categories: [HomeReno_2020, Covid-19]
+categories: [HomeReno_2020_2021, Covid-19]
 ---
 
 The cabinets are __*really*__ in now. I'm happy that work at least is all done! I can move my dishes and pantry things back into the kitchen, and now I have more space to store things! Woot! 

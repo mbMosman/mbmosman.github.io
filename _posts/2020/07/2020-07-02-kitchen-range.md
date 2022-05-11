@@ -2,7 +2,7 @@
 layout: post
 title:  New Appliances! Half of them anyway...
 preview: Two steps forward and one back. The new range and dishwasher are here. Woot!!! However the new fridge and microwave that should have been here today are still backordered through the end of July.
-categories:  [HomeReno_2020, Covid-19]
+categories:  [HomeReno_2020_2021, Covid-19]
 ---
 
 Two steps forward and one back. The new range and dishwasher are here. Woot!!! However the new fridge and microwave that should have been here today are still backordered through the end of July. 

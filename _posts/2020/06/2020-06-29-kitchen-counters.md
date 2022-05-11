@@ -2,7 +2,7 @@
 layout: post
 title:  The Kitchen Has Countertops!
 preview: The kitchen is another step closer! My new countertops were installed today! Woot!!!
-categories:  [HomeReno_2020, Covid-19]
+categories:  [HomeReno_2020_2021, Covid-19]
 ---
 
 The kitchen is another step closer! My new countertops were installed today! Woot!!!

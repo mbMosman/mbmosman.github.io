@@ -2,7 +2,7 @@
 layout: post
 title:  Kitchen Cabinets
 preview: Woot! The cabinets are in!!!
-categories: [HomeReno_2020, Covid-19]
+categories: [HomeReno_2020_2021, Covid-19]
 ---
 
 Woot! The cabinets are in!!! (mostly...)

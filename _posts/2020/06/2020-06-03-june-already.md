@@ -2,7 +2,7 @@
 layout: post
 title:  June Already?!
 preview: So it's June... Not sure how that happened, but this starts the 12th week that I've been more or less entirely at home. Things of late have been pretty crazy with the protests, riots & curfews that have filled the cities since the [death of George Floyd at the hands of Mpls Police.
-categories: [HomeReno_2020, Covid-19]
+categories: [HomeReno_2020_2021, Covid-19]
 ---
 
 So it's June... Not sure how that happened, but this starts the 12th week that I've been more or less entirely at home. Things of late have been pretty crazy with the protests, riots & curfews that have filled the cities since the [death of George Floyd at the hands of Mpls Police](https://www.mprnews.org/crime-law-and-justice/killing-of-george-floyd).

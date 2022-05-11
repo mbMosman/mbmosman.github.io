@@ -2,7 +2,7 @@
 layout: post
 title:  Happy Independence Day!
 preview: With the holiday, my vacation week is coming to an end, but it's been a great week. My kitchen is not quite where I had hoped, but it is a good deal further along. The more important thing is that I've had some time to rest and rejuvenate a bit.
-categories:  [HomeReno_2020, Covid-19]
+categories:  [HomeReno_2020_2021, Covid-19]
 ---
 
 With the holiday, my vacation week is coming to an end, but it's been a great week. My kitchen is not quite where I had hoped, but it is a good deal further along. The more important thing is that I've had some time to rest and rejuvenate a bit.
